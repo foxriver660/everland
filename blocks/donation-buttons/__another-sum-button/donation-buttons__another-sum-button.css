@@ -1,0 +1,39 @@
+.donation-buttons__another-sum-button {
+  padding: 0;
+  background: #FFFFFF;
+  border-radius: 10px;
+  min-width: 211px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%;
+  color: #333333;
+  border: none;
+  font-family: 'Raleway';
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.donation-buttons__another-sum-button:hover {
+  color: #00275C;
+}
+.donation-buttons__another-sum-button:focus {
+  color: #0C4BA0;
+}
+
+
+@media screen and (max-width: 1439px) {
+  .donation-buttons__another-sum-button {
+    font-size: 16px;
+    height: 44px;
+    min-width: 135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-buttons__another-sum-button {
+    font-size: 14px;
+    grid-area: 3 / 1 / 3 / span 2;
+    min-width: 260px;
+  }
+}
