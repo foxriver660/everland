@@ -1,2 +1,20 @@
+@import url(../vendor/normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 @import url(../blocks/page/page.css);
+
+/*AREAS-OF-WORK*/
+@import url(../blocks/areas-of-work/areas-of-work.css);
+@import url(../blocks/areas-of-work/areas-of-work__card-list/areas-of-work__card-list.css);
+
+
+/*BUTTON*/
+@import url(../blocks/button/button.css);
+
+/*CARD*/
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__text/card__text.css);
+
+/*HEADING*/
+@import url(../blocks/heading/);
+@import url(../blocks/heading/);
+@import url(../blocks/heading/);
