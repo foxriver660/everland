@@ -1,0 +1,15 @@
+.card_order_outrunning {
+  order: 1;
+}
+
+@media screen and (max-width: 1439px) {
+  .card_order_outrunning {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_order_outrunning {
+    order: 1;
+  }
+}

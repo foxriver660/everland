@@ -1,0 +1,19 @@
+.card_type_area-of-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-height: 428px;
+}
+
+@media screen and (max-width: 1439px) {
+  .card_type_area-of-work {
+    min-height: 294px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card_type_area-of-work {
+    min-height:auto;
+  }
+}

@@ -1,3 +1,23 @@
 .areas-of-work__card-list {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .areas-of-work__card-list {
+    max-width: 688px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .areas-of-work__card-list {
+    max-width: 300px;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }

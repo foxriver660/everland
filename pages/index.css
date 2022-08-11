@@ -4,13 +4,18 @@
 
 /*BUTTON*/
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_more.css);
 
 /*CARD*/
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/_type/card_type_area-of-work.css);
 @import url(../blocks/card/_color/card_color_blue.css);
 @import url(../blocks/card/_color/card_color_green.css);
 @import url(../blocks/card/_color/card_color_orange.css);
+@import url(../blocks/card/_order/card_order_lagging.css);
+@import url(../blocks/card/_order/card_order_last.css);
+@import url(../blocks/card/_order/card_order_outrunning.css);
 
 /*HEADING*/
 @import url(../blocks/heading/heading.css);
