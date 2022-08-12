@@ -1,32 +1,24 @@
-.donation-buttons__support-button {
+.button_type_support {
   background: #0C4BA0;
   color: #FFFFFF;
-  min-width: 179px;
-  height: 48px;
-  border-radius: 10px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   border: none;
   grid-area: 1 / 7 / 1 / 7;
 }
 
-.donation-buttons__support-button:hover {
+.button_type_support:hover {
   background: #4183DC;
 }
 
 @media screen and (max-width: 1439px) {
-  .donation-buttons__support-button {
+  .button_type_support {
     font-size: 16px;
     height: 44px;
-    min-width: 143px;
-
   }
 }
 
 @media screen and (max-width: 767px) {
-  .donation-buttons__support-button {
+  .button_type_support {
     font-size: 14px;
     grid-area: 5 / 1 / 5 / span 2;
   }
