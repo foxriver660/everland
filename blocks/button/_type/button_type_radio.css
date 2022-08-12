@@ -17,6 +17,7 @@
   box-sizing: border-box;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .button_type_radio input[type=radio]:checked+label {
