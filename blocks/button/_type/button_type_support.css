@@ -1,0 +1,25 @@
+.button_type_support {
+  background: #0C4BA0;
+  color: #FFFFFF;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  border: none;
+  grid-area: 1 / 7 / 1 / 7;
+}
+
+.button_type_support:hover {
+  background: #4183DC;
+}
+
+@media screen and (max-width: 1439px) {
+  .button_type_support {
+    font-size: 16px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button_type_support {
+    font-size: 14px;
+    grid-area: 5 / 1 / 5 / span 2;
+  }
+}

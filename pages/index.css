@@ -5,6 +5,10 @@
 /*BUTTON*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_more.css);
+@import url(../blocks/button/_type/button_type_amount.css);
+@import url(../blocks/button/_type/button_type_other-sum.css);
+@import url(../blocks/button/_type/button_type_support.css);
+@import url(../blocks/button/_type/button_type_radio.css);
 
 /*CARD*/
 @import url(../blocks/card/card.css);
@@ -25,4 +29,9 @@
 /*AREAS-OF-WORK*/
 @import url(../blocks/areas-of-work/areas-of-work.css);
 @import url(../blocks/areas-of-work/areas-of-work__card-list/areas-of-work__card-list.css);
+
+/*donation-buttons*/
+@import url(../blocks/donation-buttons/donation-buttons.css);
+@import url(../blocks/donation-buttons/__list/donation-buttons__list.css);
+
 

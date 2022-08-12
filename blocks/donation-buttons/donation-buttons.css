@@ -1,0 +1,22 @@
+.donation-buttons {
+  margin: 0 auto;
+  padding: 58px 54px 58px 30px;
+  box-sizing:border-box;
+  max-width: 1360px;
+  background: #E7F0FF;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donation-buttons {
+    max-width: 688px;
+    padding: 32px 24px 36px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donation-buttons {
+    max-width: 300px;
+    padding: 32px 20px;
+  }
+}
