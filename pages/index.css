@@ -32,6 +32,7 @@
 
 /*donation-buttons*/
 @import url(../blocks/donation-buttons/donation-buttons.css);
+@import url(../blocks/donation-buttons/__container/donation-buttons__container.css);
 @import url(../blocks/donation-buttons/__list/donation-buttons__list.css);
 
 
