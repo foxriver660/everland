@@ -1,0 +1,11 @@
+.form__hide-radio {
+  display: none;
+}
+
+.form__hide-radio:checked +.form__pseudo-radio  {
+  border-color: #0C4BA0;
+}
+.form__hide-radio:disabled + .form__pseudo-radio  {
+  border-color: #C4C4C4;
+  color: #C4C4C4;
+}

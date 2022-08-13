@@ -1,0 +1,8 @@
+.form__user-input_type_mail {
+  margin: 0 0 39px 0;
+}
+@media screen and (max-width: 764px) {
+  .form__user-input_type_mail {
+    margin: 0 0 24px 0;
+  }
+}
