@@ -1,0 +1,6 @@
+.header__buttons-container {
+  min-width: 376px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}

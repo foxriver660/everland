@@ -1,0 +1,27 @@
+.button_color_white-blue {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #0C4BA0;
+  box-sizing: border-box;
+  border: 1px solid #0C4BA0;
+  border-radius: 10px;
+}
+
+.button_color_white-blue:hover {
+  color: #00275C;
+  border: 1px solid #00275C;
+}
+
+.button_color_white-blue:active {
+  background-color: #00275C;
+  border: none;
+  color: #FFFFFF;
+}
+
+.button_color_white-blue:disabled {
+   background-color: #F5F5F5;
+  border: 2px solid #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+}

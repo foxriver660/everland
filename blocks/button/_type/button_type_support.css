@@ -1,0 +1,27 @@
+.button_type_support {
+  max-width: 180px;
+  padding: 12px 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #0C4BA0;
+  color: #FFFFFF;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.button_type_support:hover {
+  background-color: #4183DC;
+}
+
+.button_type_support:active {
+  background-color: #00275C;
+}
+
+.button_type_support:disabled {
+  background-color: #F5F5F5;
+  border: 2px solid #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+}
