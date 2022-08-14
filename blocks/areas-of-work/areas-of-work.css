@@ -1,17 +1,19 @@
 .areas-of-work {
-  padding: 50px 0 0 0;
+  padding: 100px 0 0 0;
   margin: 0 auto;
   max-width: 1360px;
 }
 
 @media screen and (max-width: 1439px) {
   .areas-of-work {
+    padding: 50px 0 0 0;
     max-width: 688px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .areas-of-work {
+    padding: 32px 0 0 0;
     max-width: 300px;
   }
 }
