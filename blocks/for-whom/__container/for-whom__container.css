@@ -7,12 +7,17 @@
 
 @media screen and (max-width: 1439px) {
   .for-whom__container  {
-    max-width: 688px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding: 50px 159px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .for-whom__container  {
-    max-width: 300px;
+    padding: 32px 10px;
+    max-width: 320px;
   }
 }

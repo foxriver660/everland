@@ -4,19 +4,29 @@
 
 /*BUTTON*/
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/__arrow/button__arrow.css);
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/_type/button_type_amount.css);
 @import url(../blocks/button/_type/button_type_other-sum.css);
 @import url(../blocks/button/_type/button_type_support.css);
 @import url(../blocks/button/_type/button_type_radio.css);
+@import url(../blocks/button/_color/button_color_black-white.css);
+@import url(../blocks/button/_color/button_color_blue.css);
+@import url(../blocks/button/_color/button_color_green.css);
+@import url(../blocks/button/_color/button_color_orange.css);
+@import url(../blocks/button/_order/button_order_third.css);
+@import url(../blocks/button/_order/button_oder_fourth.css);
 
 /*CARD*/
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/_type/card_type_area-of-work.css);
+@import url(../blocks/card/_type/card_type_for-whom.css);
 @import url(../blocks/card/_color/card_color_blue.css);
 @import url(../blocks/card/_color/card_color_green.css);
 @import url(../blocks/card/_color/card_color_orange.css);
+@import url(../blocks/card/_color/card_color_white.css);
 @import url(../blocks/card/_order/card_order_lagging.css);
 @import url(../blocks/card/_order/card_order_last.css);
 @import url(../blocks/card/_order/card_order_outrunning.css);
@@ -25,13 +35,23 @@
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
 @import url(../blocks/heading/_type/heading_type_section.css);
+@import url(../blocks/heading/_justify/heading_justify_center.css);
 
 /*AREAS-OF-WORK*/
 @import url(../blocks/areas-of-work/areas-of-work.css);
 @import url(../blocks/areas-of-work/areas-of-work__card-list/areas-of-work__card-list.css);
 
-/*donation-buttons*/
+/*DONATION-BUTTONS*/
 @import url(../blocks/donation-buttons/donation-buttons.css);
 @import url(../blocks/donation-buttons/__list/donation-buttons__list.css);
+
+/*FOR-WHOM*/
+@import url(../blocks/for-whom/for-whom.css);
+@import url(../blocks/for-whom/__container/for-whom__container.css);
+@import url(../blocks/for-whom/__card-list/for-whom__card-list.css);
+@import url(../blocks/for-whom/__icon/for-whom__icon.css);
+@import url(../blocks/for-whom/__icon/_type/for-whom__icon_type_csr.css);
+@import url(../blocks/for-whom/__icon/_type/for-whom__icon_type_disabled.css);
+@import url(../blocks/for-whom/__icon/_type/for-whom__icon_type_employer.css);
 
 

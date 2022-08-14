@@ -9,15 +9,13 @@
 
 @media screen and (max-width: 1439px) {
   .for-whom__card-list {
-    max-width: 688px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 767px) {
   .for-whom__card-list {
     max-width: 300px;
-    grid-template-columns: 1fr;
     gap: 16px;
   }
 }

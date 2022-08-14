@@ -5,7 +5,17 @@
   padding: 16px;
   box-sizing: border-box;
   margin: 0 0 40px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 32px, 32px, cover;
-  background-position: center;
 }
+
+@media screen and (max-width: 1439px) {
+  .for-whom__icon {
+    height: 48px;
+    width: 48px;
+    background-size: 24px, 24px, cover;
+    margin: 0 0 20px;
+  }
+}
+
