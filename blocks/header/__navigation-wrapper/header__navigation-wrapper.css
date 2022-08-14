@@ -1,0 +1,7 @@
+.header__navigation-wrapper {
+  margin-left: 410px;
+}
+
+.header__navigation-wrapper:hover .header__navigation {
+  display: flex;
+}
