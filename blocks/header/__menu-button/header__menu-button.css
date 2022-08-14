@@ -1,0 +1,7 @@
+.header__menu-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}

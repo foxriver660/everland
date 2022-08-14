@@ -21,7 +21,13 @@
 }
 
 .button_color_white-blue:disabled {
-   background-color: #F5F5F5;
+  background-color: #F5F5F5;
   border: 2px solid #C4C4C4;
   color: rgba(38, 38, 38, 0.5);
+}
+
+@media screen and (max-width: 1439px) {
+  .button_color_white-blue {
+    font-size: 16px;
+  }
 }

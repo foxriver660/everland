@@ -3,9 +3,11 @@
   padding-bottom: 105px;
   padding-left: 39px;
   padding-right: 39px;
-  background-color: #FFFFFF;;
+  /* background-color: #FFFFFF; */
+  background-color: goldenrod;
   min-width: 1282px;
   display: none;
+  flex-wrap: wrap;
   justify-content: space-between;
   position: absolute;
   top: 65px;
@@ -23,3 +25,10 @@
   height: 30px;
 }
 
+@media screen and (max-width: 1439px) {
+  .header__navigation {
+    min-width: 0;
+    max-width: 688px;
+    padding-bottom: 54px;
+  }
+}

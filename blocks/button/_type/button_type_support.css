@@ -25,3 +25,11 @@
   border: 2px solid #C4C4C4;
   color: rgba(38, 38, 38, 0.5);
 }
+
+@media screen and (max-width: 1439px) {
+  .button_type_support {
+    max-width: 134px;
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+}

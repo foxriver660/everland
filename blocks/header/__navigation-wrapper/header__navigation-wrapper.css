@@ -1,7 +1,12 @@
-.header__navigation-wrapper {
-  margin-left: 410px;
-}
-
 .header__navigation-wrapper:hover .header__navigation {
   display: flex;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__navigation-wrapper {
+    order: 2;
+  }
+  .header__navigation-wrapper:hover .header__navigation {
+    display: none;
+  }
 }

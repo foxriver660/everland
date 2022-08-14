@@ -2,3 +2,9 @@
   margin-top: 0;
   margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1439px) {
+  .header__navigation-title {
+    margin-bottom: 24px;
+  }
+}
