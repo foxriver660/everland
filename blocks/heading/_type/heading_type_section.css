@@ -4,12 +4,15 @@
   line-height: 120%;
   color: #333333;
   letter-spacing: -0.01em;
+  
 }
 
 @media screen and (max-width: 1439px) {
   .heading_type_section {
     padding: 0 0 32px 0;
     font-size: 36px;
+    width: 688px;
+    justify-self: center;
   }
 }
 
@@ -17,5 +20,6 @@
   .heading_type_section {
     padding: 0 0 24px 0;
     font-size: 26px;
+    width: 300px;
   }
 }

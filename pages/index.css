@@ -67,3 +67,14 @@
 @import url(../blocks/form/__btn-rewind/form__btn-rewind.css);
 @import url(../blocks/form/__hide-radio/form__hide-radio.css);
 @import url(../blocks/form/__pseudo-radio/form__pseudo-radio.css);
+
+/* NEWS */
+@import url(../blocks/news/news.css);
+@import url(../blocks/button/_type/button_type_news.css);
+@import url(../blocks/news/__container/news__container.css);
+@import url(../blocks/news-cell/news-cell.css);
+@import url(../blocks/news-cell/__heading/news-cell__heading.css);
+@import url(../blocks/news-cell/__image/news-cell__image.css);
+@import url(../blocks/news-cell/__title/news-cell__title.css);
+@import url(../blocks/news-cell/__text/news-cell__text.css);
+@import url(../blocks/news-cell/__time/news-cell__time.css);

@@ -1,352 +1,445 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Everland</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Everland</title>
-  <link rel="stylesheet" href="pages/index.css">
-</head>
-
-<body class="page">
-  <header></header>
-  <main>
-    <!-- AREAS-OF-WORK -->
-    <section class="areas-of-work">
-      <h2 class="heading heading_type_section">Наши направления</h2>
-      <ul class="areas-of-work__card-list">
-        <li class="card card_type_area-of-work card_color_orange">
-          <div class="card__description">
-            <h4 class="heading heading_type_card">Доступность услуг DisQuestion</h4>
-            <p class="card__text">Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов ―
-              контракты с крупнейшими компаниями в России</p>
-          </div>
-          <a href="#" class="button button_type_more">Подробнее</a>
-        </li>
-        <li class="card card_type_area-of-work card_color_blue">
-          <div class="card__description">
-            <h4 class="heading heading_type_card">Трудоустройство </h4>
-            <p class="card__text">Решение социальной проблемы с использованием предпринимательских инструментов:
-              оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью
-            </p>
-          </div>
-          <a href="#" class="button button_type_more">Подробнее</a>
-        </li>
-        <li class="card card_type_area-of-work card_color_green card_order_outrunning">
-          <div class="card__description">
-            <h4 class="heading heading_type_card">Биржа проектов и&nbsp;готовые решения</h4>
-            <p class="card__text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью в качестве
-              самозанятых и в рамках трудоустройства в другие компании</p>
-          </div>
-          <a href="#" class="button button_type_more">Подробнее</a>
-        </li>
-        <li class="card card_type_area-of-work card_color_blue card_order_lagging">
-          <div class="card__description">
-            <h4 class="heading heading_type_card">Агентство</h4>
-            <p class="card__text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и
-              другие)</p>
-          </div>
-          <a href="#" class="button button_type_more">Подробнее</a>
-        </li>
-        <li class="card card_type_area-of-work card_color_green card_oder_last">
-          <div class="card__description">
-            <h4 class="heading heading_type_card">Коворкинг</h4>
-            <p class="card__text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и
-              офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в
-              команде</p>
-          </div>
-          <a href="#" class="button button_type_more">Подробнее</a>
-        </li>
-        <li class="card card_type_area-of-work card_color_orange card_oder_last">
-          <div class="card__description">
-            <h4 class="heading heading_type_card">Для людей с&nbsp;инвалидностью</h4>
-            <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-          </div>
-          <a href="#" class="button button_type_more">Подробнее</a>
-        </li>
-      </ul>
-    </section>
-    <!-- SUPPORT -->
-    <section class="support">
-      <h2 class="support__title">Поддержите нас</h2>
-      <div class="support__container">
-        <form name="payment-form" class="form">
-          <!-- ВЕРХНИЕ ДВЕ КНОПКИ -->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_period"
-          >
-            <div class="form__radio form__radio_type_period">
-              <input
-                class="form__hide-radio"
-                id="radio-period-1"
-                type="radio"
-                name="period"
-                value="1"
-                checked
-              /><label class="form__pseudo-radio" for="radio-period-1"
-                >Ежемесячно<a href="#" class="form__question"></a
-              ></label>
-            </div>
-            <div class="form__radio form__radio_type_period">
-              <input
-                class="form__hide-radio"
-                id="radio-period-2"
-                type="radio"
-                name="period"
-                value="2"
-              /><label class="form__pseudo-radio" for="radio-period-2"
-                >Разово</label
-              >
-            </div>
-          </fieldset>
-          <!-- РАЗМЕР ПОЖЕРТВОВАНИЯ -->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_amount"
-          >
-            <h3 class="form__subtitle">Размер пожертвования</h3>
-            <ul class="form__radio-btns-container">
-              <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-1"
-                  type="radio"
-                  name="amount"
-                  value="1"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-1"
-                  >250 &#8381;</label
-                >
-              </li>
-
-              <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-2"
-                  type="radio"
-                  name="amount"
-                  value="2"
-                  checked
-                />
-                <label class="form__pseudo-radio" for="radio-amount-2"
-                  >500 &#8381;</label
-                >
-              </li>
-              <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-3"
-                  type="radio"
-                  name="amount"
-                  value="3"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-3"
-                  >750 &#8381;</label
-                >
-              </li>
-              <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-4"
-                  type="radio"
-                  name="amount"
-                  value="4"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-4"
-                  >1000 &#8381;</label
-                >
-              </li>
-              <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-5"
-                  type="radio"
-                  name="amount"
-                  value="5"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-5"
-                  >Другая сумма</label
-                >
-              </li>
-            </ul>
-            <p class="form__amount-description">
-              Регулярные пожертвования очень важны для Everland. Это то, что
-              помогает нашим программам работать бесперебойно, что открывает
-              новые востребованные проекты, что максимально эффективно решает
-              социальную задачу. Если вы захотите поддерживать наши программы
-              постоянно, то каждый месяц с вашей карты будет списываться
-              указанная вами сумма.
-            </p>
-          </fieldset>
-          <!-- СПОСОБ ОПЛАТЫ ЛИШНИЕ КЛАССЫ У ЛЕЙБЛ-->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_payment"
-          >
-            <h3 class="form__subtitle">Способ оплаты</h3>
-            <ul class="form__radio-btns-container">
-              <li
-                class="form__radio form__radio_type_payment form__radio_el_cards"
-              >
-                <input
-                  class="form__hide-radio"
-                  id="radio-payment-1"
-                  type="radio"
-                  name="payment"
-                  value="1"
-                  checked
-                />
-                <label for="radio-payment-1" class="form__pseudo-radio"></label>
-              </li>
-              <li
-                class="form__radio form__radio_type_payment form__radio_el_ymoney"
-              >
-                <input
-                  class="form__hide-radio"
-                  id="radio-payment-2"
-                  type="radio"
-                  name="payment"
-                  value="2"
-                />
-                <label for="radio-payment-2" class="form__pseudo-radio"></label>
-              </li>
-              <li
-                class="form__radio form__radio_type_payment form__radio_el_webmoney"
-              >
-                <input
-                  class="form__hide-radio"
-                  id="radio-payment-3"
-                  type="radio"
-                  name="payment"
-                  value="3"
-                />
-                <label for="radio-payment-3" class="form__pseudo-radio"></label>
-              </li>
-              <li><button class="form__btn-rewind"></button></li>
-            </ul>
-          </fieldset>
-          <!-- ДАННЫЕ ПОЛЬЗОВАТЕЛЯ -->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_profile"
-          >
-            <h3 class="form__subtitle">Ваши данные</h3>
-            <input
-              name="user-name"
-              type="text"
-              class="form__user-input form__user-input_type_name"
-              placeholder="Иван Иванов"
-              value=""
-            />
-            <input
-              name="user-mail"
-              type="email"
-              class="form__user-input form__user-input_type_mail"
-              placeholder="myemail@example.com"
-              value=""
-            />
-            <!-- ЧЕБОКСЫ -->
-            <div class="form__checkboxs-container">
-              <label for="offer">
-                <input
-                  type="checkbox"
-                  name="option"
-                  id="offer"
-                  class="form__checkbox"
-                  value="bold-heading"
-                />
-                <span class="form__checkbox form__checkbox_visible"></span>
-                <span class="form__checkbox-text"
-                  >Соглашаюсь с <a href="#">офетой</a></span
-                >
-              </label>
-              <label for="personal">
-                <input
-                  type="checkbox"
-                  name="option"
-                  id="personal"
-                  class="form__checkbox"
-                  value="bold-heading"
-                /><span class="form__checkbox form__checkbox_visible"> </span>
-                <span class="form__checkbox-text"
-                  >Соглашаюсь на
-                  <a href="#">обработку моих персональных данных</a></span
-                >
-              </label>
-            </div>
-          </fieldset>
-          <button type="submit" class="button button__submit">
-            Поддержать
-          </button>
-        </form>
-        <!-- СЛЕДУЮЩИЙ РАЗДЕЛ -->
-        <div class="donat">
-          <h4 class="donat__title">
-            Everland создается силами многих. Мы благодарны каждому за
-            поддержку!
-          </h4>
-          <ul class="donat__list">
-            <li class="donat__item">
-              <p class="donat__item-user">Аноним</p>
-              <div class="donat__container">
-                <p class="donat__amount">500 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-            <li class="donat__item">
-              <p class="donat__item-user">Аноним</p>
-              <div class="donat__container">
-                <p class="donat__amount">600 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-            <li class="donat__item">
-              <p class="donat__item-user">Аноним</p>
-              <div class="donat__container">
-                <p class="donat__amount">700 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-            <li class="donat__item">
-              <p class="donat__item-user">Аноним</p>
-              <div class="donat__container">
-                <p class="donat__amount">800 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-            <li class="donat__item">
-              <p class="donat__item-user">Аноним</p>
-              <div class="donat__container">
-                <p class="donat__amount">500 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-            <li class="donat__item">
-              <p class="donat__item-user">Аноним</p>
-              <div class="donat__container">
-                <p class="donat__amount">500 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-            <li class="donat__item">
-              <p class="donat__item-user">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+  <body class="page">
+    <header></header>
+    <main>
+      <!-- AREAS-OF-WORK -->
+      <section class="areas-of-work">
+        <h2 class="heading heading_type_section">Наши направления</h2>
+        <ul class="areas-of-work__card-list">
+          <li class="card card_type_area-of-work card_color_orange">
+            <div class="card__description">
+              <h4 class="heading heading_type_card">
+                Доступность услуг DisQuestion
+              </h4>
+              <p class="card__text">
+                Сервисы для бизнеса по повышению доступности услуг для
+                маломобильных клиентов ― контракты с крупнейшими компаниями в
+                России
               </p>
-              <div class="donat__container">
-                <p class="donat__amount">500 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-            <li class="donat__item">
-              <p class="donat__item-user">Аноним</p>
-              <div class="donat__container">
-                <p class="donat__amount">500 &#8381;</p>
-                <p class="donat__time">2 часа назад</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer></footer>
-</body>
+            </div>
+            <a href="#" class="button button_type_more">Подробнее</a>
+          </li>
+          <li class="card card_type_area-of-work card_color_blue">
+            <div class="card__description">
+              <h4 class="heading heading_type_card">Трудоустройство</h4>
+              <p class="card__text">
+                Решение социальной проблемы с использованием предпринимательских
+                инструментов: оказываем услуги разным компаниям и НКО, таким
+                образом зарабатываем и даем работу людям с инвалидностью
+              </p>
+            </div>
+            <a href="#" class="button button_type_more">Подробнее</a>
+          </li>
+          <li
+            class="card card_type_area-of-work card_color_green card_order_outrunning"
+          >
+            <div class="card__description">
+              <h4 class="heading heading_type_card">
+                Биржа проектов и&nbsp;готовые решения
+              </h4>
+              <p class="card__text">
+                ИТ-система для интеграции в открытый рынок труда людей с
+                инвалидностью в качестве самозанятых и в рамках трудоустройства
+                в другие компании
+              </p>
+            </div>
+            <a href="#" class="button button_type_more">Подробнее</a>
+          </li>
+          <li
+            class="card card_type_area-of-work card_color_blue card_order_lagging"
+          >
+            <div class="card__description">
+              <h4 class="heading heading_type_card">Агентство</h4>
+              <p class="card__text">
+                Услуги специалистов с инвалидностью для крупных компаний
+                (дизайн, право, контент и другие)
+              </p>
+            </div>
+            <a href="#" class="button button_type_more">Подробнее</a>
+          </li>
+          <li
+            class="card card_type_area-of-work card_color_green card_oder_last"
+          >
+            <div class="card__description">
+              <h4 class="heading heading_type_card">Коворкинг</h4>
+              <p class="card__text">
+                Уникальное пространство, в котором специалисты с инвалидностью
+                могут работать и офлайн – приходить, участвовать в
+                образовательных мероприятиях, встречаться с заказчиками,
+                работать в команде
+              </p>
+            </div>
+            <a href="#" class="button button_type_more">Подробнее</a>
+          </li>
+          <li
+            class="card card_type_area-of-work card_color_orange card_oder_last"
+          >
+            <div class="card__description">
+              <h4 class="heading heading_type_card">
+                Для людей с&nbsp;инвалидностью
+              </h4>
+              <p class="card__text">
+                Помогаем найти работу, пройти обучение, предоставляем разные
+                виды поддержки
+              </p>
+            </div>
+            <a href="#" class="button button_type_more">Подробнее</a>
+          </li>
+        </ul>
+      </section>
+      <!-- NEWS -->
+      <section class="news">
+        <h2 class="heading heading_type_section">Новости</h2>
+        <button class="button button_type_news">Все новости</button>
+        <div class="news__container">
+          <article class="news-cell">
+            <p class="news-cell__heading">Тема</p>
+            <img
+              class="news-cell__image"
+              src="./images/news-image2.jpg"
+              alt=""
+            />
+            <h3 class="news-cell__title">Ура! Новое партнерство — с PepsiCo</h3>
+            <p class="news-cell__text">
+              Everland совместно с PepsiCo приняли участие в акции
+              «Благотворительность вместо сувениров»
+            </p>
+            <p class="news-cell__time">20 сентября 2021</p>
+          </article>
 
+          <article class="news-cell card_color_green">
+            <p class="news-cell__heading">Тема</p>
+            <h3 class="news-cell__title">
+              Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
+              строить эффективные программы»
+            </h3>
+            <p class="news-cell__text">
+              Эксперты с инвалидностью, представители бизнеса и некоммерческих
+              организаций поговорили о том, что такое инклюзия, рассмотрели
+              подходы к трудоустройству людей с инвалидностью, обсудили
+              проблемы, к которым нужно быть готовым, и поделились успешными
+              кейсами
+            </p>
+            <p class="news-cell__time">20 сентября 2021</p>
+          </article>
+
+          <article class="news-cell">
+            <p class="news-cell__heading">Тема</p>
+            <h3 class="news-cell__title">
+              Тестируем супермаркеты на доступность
+            </h3>
+            <p class="news-cell__text">
+              Everland совместно с торговой сетью «Перекресток» провели аудит
+              продуктовых магазинов на доступность для людей с разными видами
+              инвалидности
+            </p>
+
+            <img
+              class="news-cell__image"
+              src="./images/news-image.jpg"
+              alt=""
+            />
+            <p class="news-cell__time">20 сентября 2021</p>
+          </article>
+        </div>
+      </section>
+      <!-- SUPPORT -->
+      <section class="support">
+        <h2 class="support__title">Поддержите нас</h2>
+        <div class="support__container">
+          <form name="payment-form" class="form">
+            <!-- ВЕРХНИЕ ДВЕ КНОПКИ -->
+            <fieldset
+              class="form__fieldset-container form__fieldset-container_el_period"
+            >
+              <div class="form__radio form__radio_type_period">
+                <input
+                  class="form__hide-radio"
+                  id="radio-period-1"
+                  type="radio"
+                  name="period"
+                  value="1"
+                  checked
+                /><label class="form__pseudo-radio" for="radio-period-1"
+                  >Ежемесячно<a href="#" class="form__question"></a
+                ></label>
+              </div>
+              <div class="form__radio form__radio_type_period">
+                <input
+                  class="form__hide-radio"
+                  id="radio-period-2"
+                  type="radio"
+                  name="period"
+                  value="2"
+                /><label class="form__pseudo-radio" for="radio-period-2"
+                  >Разово</label
+                >
+              </div>
+            </fieldset>
+            <!-- РАЗМЕР ПОЖЕРТВОВАНИЯ -->
+            <fieldset
+              class="form__fieldset-container form__fieldset-container_el_amount"
+            >
+              <h3 class="form__subtitle">Размер пожертвования</h3>
+              <ul class="form__radio-btns-container">
+                <li class="form__radio form__radio_type_amount">
+                  <input
+                    class="form__hide-radio"
+                    id="radio-amount-1"
+                    type="radio"
+                    name="amount"
+                    value="1"
+                  />
+                  <label class="form__pseudo-radio" for="radio-amount-1"
+                    >250 &#8381;</label
+                  >
+                </li>
+
+                <li class="form__radio form__radio_type_amount">
+                  <input
+                    class="form__hide-radio"
+                    id="radio-amount-2"
+                    type="radio"
+                    name="amount"
+                    value="2"
+                    checked
+                  />
+                  <label class="form__pseudo-radio" for="radio-amount-2"
+                    >500 &#8381;</label
+                  >
+                </li>
+                <li class="form__radio form__radio_type_amount">
+                  <input
+                    class="form__hide-radio"
+                    id="radio-amount-3"
+                    type="radio"
+                    name="amount"
+                    value="3"
+                  />
+                  <label class="form__pseudo-radio" for="radio-amount-3"
+                    >750 &#8381;</label
+                  >
+                </li>
+                <li class="form__radio form__radio_type_amount">
+                  <input
+                    class="form__hide-radio"
+                    id="radio-amount-4"
+                    type="radio"
+                    name="amount"
+                    value="4"
+                  />
+                  <label class="form__pseudo-radio" for="radio-amount-4"
+                    >1000 &#8381;</label
+                  >
+                </li>
+                <li class="form__radio form__radio_type_amount">
+                  <input
+                    class="form__hide-radio"
+                    id="radio-amount-5"
+                    type="radio"
+                    name="amount"
+                    value="5"
+                  />
+                  <label class="form__pseudo-radio" for="radio-amount-5"
+                    >Другая сумма</label
+                  >
+                </li>
+              </ul>
+              <p class="form__amount-description">
+                Регулярные пожертвования очень важны для Everland. Это то, что
+                помогает нашим программам работать бесперебойно, что открывает
+                новые востребованные проекты, что максимально эффективно решает
+                социальную задачу. Если вы захотите поддерживать наши программы
+                постоянно, то каждый месяц с вашей карты будет списываться
+                указанная вами сумма.
+              </p>
+            </fieldset>
+            <!-- СПОСОБ ОПЛАТЫ-->
+            <fieldset
+              class="form__fieldset-container form__fieldset-container_el_payment"
+            >
+              <h3 class="form__subtitle">Способ оплаты</h3>
+              <ul class="form__radio-btns-container">
+                <li
+                  class="form__radio form__radio_type_payment form__radio_el_cards"
+                >
+                  <input
+                    class="form__hide-radio"
+                    id="radio-payment-1"
+                    type="radio"
+                    name="payment"
+                    value="1"
+                    checked
+                  />
+                  <label
+                    for="radio-payment-1"
+                    class="form__pseudo-radio"
+                  ></label>
+                </li>
+                <li
+                  class="form__radio form__radio_type_payment form__radio_el_ymoney"
+                >
+                  <input
+                    class="form__hide-radio"
+                    id="radio-payment-2"
+                    type="radio"
+                    name="payment"
+                    value="2"
+                  />
+                  <label
+                    for="radio-payment-2"
+                    class="form__pseudo-radio"
+                  ></label>
+                </li>
+                <li
+                  class="form__radio form__radio_type_payment form__radio_el_webmoney"
+                >
+                  <input
+                    class="form__hide-radio"
+                    id="radio-payment-3"
+                    type="radio"
+                    name="payment"
+                    value="3"
+                  />
+                  <label
+                    for="radio-payment-3"
+                    class="form__pseudo-radio"
+                  ></label>
+                </li>
+                <li><button class="form__btn-rewind"></button></li>
+              </ul>
+            </fieldset>
+            <!-- ДАННЫЕ ПОЛЬЗОВАТЕЛЯ -->
+            <fieldset
+              class="form__fieldset-container form__fieldset-container_el_profile"
+            >
+              <h3 class="form__subtitle">Ваши данные</h3>
+              <input
+                name="user-name"
+                type="text"
+                class="form__user-input form__user-input_type_name"
+                placeholder="Иван Иванов"
+                value=""
+              />
+              <input
+                name="user-mail"
+                type="email"
+                class="form__user-input form__user-input_type_mail"
+                placeholder="myemail@example.com"
+                value=""
+              />
+              <!-- ЧЕБОКСЫ -->
+              <div class="form__checkboxs-container">
+                <label for="offer">
+                  <input
+                    type="checkbox"
+                    name="option"
+                    id="offer"
+                    class="form__checkbox"
+                    value="bold-heading"
+                  />
+                  <span class="form__checkbox form__checkbox_visible"></span>
+                  <span class="form__checkbox-text"
+                    >Соглашаюсь с <a href="#">офетой</a></span
+                  >
+                </label>
+                <label for="personal">
+                  <input
+                    type="checkbox"
+                    name="option"
+                    id="personal"
+                    class="form__checkbox"
+                    value="bold-heading"
+                  /><span class="form__checkbox form__checkbox_visible"> </span>
+                  <span class="form__checkbox-text"
+                    >Соглашаюсь на
+                    <a href="#">обработку моих персональных данных</a></span
+                  >
+                </label>
+              </div>
+            </fieldset>
+            <button type="submit" class="button button__submit">
+              Поддержать
+            </button>
+          </form>
+          <!-- СЛЕДУЮЩИЙ РАЗДЕЛ -->
+          <div class="donat">
+            <h4 class="donat__title">
+              Everland создается силами многих. Мы благодарны каждому за
+              поддержку!
+            </h4>
+            <ul class="donat__list">
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">600 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">700 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">800 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
