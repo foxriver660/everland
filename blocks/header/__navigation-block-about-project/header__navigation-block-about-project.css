@@ -1,9 +1,0 @@
-.header__navigation-block-about-project {
-  max-width: 259px;
-}
-
-@media screen and (max-width: 1439px) {
-  .header__navigation-block-about-project {
-    max-width: 186px;
-  }
-}

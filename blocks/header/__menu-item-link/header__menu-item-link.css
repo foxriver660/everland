@@ -1,4 +1,5 @@
-.header__navigation-title-link {
+.header__menu-item-link {
+  display: inline-block;
   font-weight: 700;
   font-size: 34px;
   line-height: 1.2;
@@ -7,8 +8,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .header__navigation-title-link {
+  .header__menu-item-link {
     font-size: 20px;
   }
 }
 
+@media screen and (max-width: 767px) {
+  .header__menu-item-link {
+    font-size: 18px;
+  }
+}

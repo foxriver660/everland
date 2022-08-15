@@ -32,24 +32,23 @@
 @import url(../blocks/header/__menu-button/header__menu-button.css);
 @import url(../blocks/header/__menu-button-image/header__menu-button-image.css);
 @import url(../blocks/header/__menu-button-title/header__menu-button-title.css);
-
-
 @import url(../blocks/header/__buttons-container/header__buttons-container.css);
 @import url(../blocks/header/__link-platform/header__link-platform.css);
 @import url(../blocks/button/_color/button_color_white-blue.css);
 @import url(../blocks/button/_type/button_type_support.css);
-@import url(../blocks/header/__navigation-wrapper/header__navigation-wrapper.css);
-@import url(../blocks/header/__navigation/header__navigation.css);
-@import url(../blocks/header/__navigation-title/header__navigation-title.css);
-@import url(../blocks/header/__navigation-list/header__navigation-list.css);
-@import url(../blocks/header/__navigation-item/header__navigation-item.css);
-@import url(../blocks/header/__navigation-title-link/header__navigation-title-link.css);
-@import url(../blocks/header/__navigation-block-additionally/header__navigation-block-additionally.css);
-@import url(../blocks/header/__navigation-additionally-title/header__navigation-additionally-title.css);
-@import url(../blocks/header/__navigation-item-link/header__navigation-item-link.css);
-@import url(../blocks/header/__navigation-block-about-project/header__navigation-block-about-project.css);
-@import url(../blocks/header/__navigation-block-invalid/header__navigation-block-invalid.css);
-@import url(../blocks/header/__navigation-block-services/header__navigation-block-services.css);
+
+/* DROPDOWN MENU */
+@import url(../blocks/header/__menu-wrapper/header__menu-wrapper.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-about-project/header__menu-about-project.css);
+@import url(../blocks/header/__menu-to-disabled/header__menu-to-disabled.css);
+@import url(../blocks/header/__menu-services/header__menu-services.css);
+@import url(../blocks/header/__menu-etc/header__menu-etc.css);
+@import url(../blocks/header/__menu-item-link/header__menu-item-link.css);
+@import url(../blocks/header/__submenu-list/header__submenu-list.css);
+@import url(../blocks/header/__submenu-item-link/header__submenu-item-link.css);
+
+
 
 /*NAVIGATION*/
 @import url(../blocks/navigation/navigation.css);
