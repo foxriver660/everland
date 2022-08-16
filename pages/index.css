@@ -78,3 +78,13 @@
 @import url(../blocks/news-cell/__title/news-cell__title.css);
 @import url(../blocks/news-cell/__text/news-cell__text.css);
 @import url(../blocks/news-cell/__time/news-cell__time.css);
+
+/* AGENCY */
+@import url(../blocks/heading/__subtitle/heading__subtitle.css);
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/agency/__container/agency__container.css);
+@import url(../blocks/agency-cell/agency-cell.css);
+@import url(../blocks/agency-cell/__image/agency-cell__image.css);
+@import url(../blocks/agency-cell/__text/agency-cell__text.css);
+@import url(../blocks/heading/__subtitle/heading__subtitle.css);
+@import url(../blocks/button/_type/button_type_agency.css);
