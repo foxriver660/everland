@@ -4,6 +4,7 @@
   margin-right: 96px;
   padding: 0;
   list-style-type: none;
+  position: relative;
 }
 
 @media screen and (max-width: 1439px) {
@@ -15,6 +16,6 @@
 
 @media screen and (max-width: 767px) {
   .header__menu-services {
-    max-width: 100%;
+    min-width: 100%;
   }
 }

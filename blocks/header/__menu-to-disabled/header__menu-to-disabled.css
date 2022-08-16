@@ -4,6 +4,7 @@
   margin-right: 55px;
   padding: 0;
   list-style-type: none;
+  position: relative;
 }
 
 @media screen and (max-width: 1439px) {
@@ -15,6 +16,7 @@
 
 @media screen and (max-width: 767px) {
   .header__menu-to-disabled {
-    max-width: 100%;
+    min-width: 100%;
+    margin-right: 0;
   }
 }

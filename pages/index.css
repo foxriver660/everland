@@ -47,6 +47,10 @@
 @import url(../blocks/header/__menu-item-link/header__menu-item-link.css);
 @import url(../blocks/header/__submenu-list/header__submenu-list.css);
 @import url(../blocks/header/__submenu-item-link/header__submenu-item-link.css);
+@import url(../blocks/header/__menu-button-wrapper/header__menu-button-wrapper.css);
+@import url(../blocks/header/__submenu-button/header__submenu-button.css);
+@import url(../blocks/header/__menu-opened/header__menu-opened);
+@import url(../blocks/header/__submenu-button_active/header__submenu-button_active.css);
 
 
 
