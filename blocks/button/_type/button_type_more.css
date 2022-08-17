@@ -5,18 +5,19 @@
   align-content: center;
   max-width: 165px;
   box-sizing: border-box;
-  /* display: grid;
-  grid-template-columns: repeat (2, min-content);
-  gap: 10px; */
-  display: flex;
+  display: grid;
+  grid-template-columns: 111px 16px;
+  gap: 14px;
+  /* display: flex; */
   align-items: center;
-  justify-items: space-between;
+  /* justify-items: space-between; */
 }
 
 @media screen and (max-width: 1439px) {
   .button_type_more {
     max-width: 139px;
-    background-size: 13px, 13px, cover;
+    grid-template-columns: 78px 12px;
+    gap: 13px;
   }
 }
 

@@ -3,7 +3,7 @@
   color: #FFFFFF;
   font-feature-settings: 'pnum' on, 'lnum' on;
   border: none;
-  grid-area: 1 / 7 / 1 / 7;
+  width: 100%;
 }
 
 .button_type_support:hover {
@@ -20,6 +20,5 @@
 @media screen and (max-width: 767px) {
   .button_type_support {
     font-size: 14px;
-    grid-area: 5 / 1 / 5 / span 2;
   }
 }

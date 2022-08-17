@@ -1,0 +1,14 @@
+.button_order_last {
+  border: none;
+  grid-area: 1 / 7 / 1 / 7;
+}
+
+@media screen and (max-width: 1439px) {
+  .button_order_last {}
+}
+
+@media screen and (max-width: 767px) {
+  .button_order_last {
+    grid-area: 5 / 1 / 5 / span 2;
+  }
+}
