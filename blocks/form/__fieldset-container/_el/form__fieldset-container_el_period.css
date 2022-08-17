@@ -1,0 +1,21 @@
+.form__fieldset-container_el_period {
+  margin: 0 0 23px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (max-width: 1279px) {
+  .form__fieldset-container_el_period {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .form__fieldset-container_el_period {
+    margin: 0 0 32px 0;
+  }
+}
+@media screen and (max-width: 764px) {
+  .form__fieldset-container_el_period {
+    margin: 0 0 49px 0;
+  }
+}

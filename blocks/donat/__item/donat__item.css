@@ -1,0 +1,17 @@
+.donat__item {
+  list-style-type: none;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+font-feature-settings: 'pnum' on, 'lnum' on;
+z-index: 1;
+}
+@media screen and (max-width: 764px) {
+  .donat__item {
+    font-size: 14px;
+  }
+}

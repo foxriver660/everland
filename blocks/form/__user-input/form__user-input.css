@@ -1,0 +1,33 @@
+.form__user-input {
+  max-width: 455px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 11px 20px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.form__user-input::placeholder {
+  font-family: inherit;
+}
+
+@media screen and (max-width: 1264px) {
+  .form__user-input {
+    min-width: 260px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    padding: 13px 20px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .form__user-input {
+    min-width: 260px;
+    width: 100%;
+  }
+}

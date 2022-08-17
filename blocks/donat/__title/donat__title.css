@@ -1,0 +1,14 @@
+.donat__title {
+  margin: 0;
+  font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 120%;
+text-align: center;
+
+}
+@media screen and (max-width: 764px) {
+  .donat__title {
+    font-size: 18px;
+  }
+}

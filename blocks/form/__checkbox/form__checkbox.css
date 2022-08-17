@@ -1,0 +1,13 @@
+.form__checkbox {
+  display: none;
+  }
+
+.form__checkbox:checked + .form__checkbox_visible {
+  background: url(../../../images/Icon_check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #dadada;
+  
+}
+
+

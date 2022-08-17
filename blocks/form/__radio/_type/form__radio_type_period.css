@@ -1,0 +1,25 @@
+.form__radio_type_period {
+  max-width: 316px;
+  width: 100%;
+  }
+  .form__radio_type_period:last-of-type {
+    max-width: 315px;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1279px) {
+    .form__radio_type_period:last-of-type {
+      width: 296px;
+    }
+  }
+  @media screen and (max-width: 764px) {
+    .form__radio_type_period {
+      min-width: 122px;
+    }
+    .form__radio_type_period:last-of-type {
+      min-width: 122px;
+      width: 100%;
+    }
+  
+  }
+

@@ -1,0 +1,11 @@
+.form__checkboxs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+@media screen and (max-width: 764px) {
+  .form__checkboxs-container {
+    gap: 12px;
+  }
+}

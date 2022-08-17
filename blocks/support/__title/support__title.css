@@ -1,0 +1,19 @@
+.support__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+
+@media screen and (max-width: 1279px) {
+  .support__title{ 
+    font-size: 36px;
+  text-align: center;}
+}
+@media screen and (max-width: 764px) {
+  .support__title{ 
+    font-size: 26px;
+  }
+}

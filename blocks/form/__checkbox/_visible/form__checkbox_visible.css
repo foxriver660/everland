@@ -1,0 +1,16 @@
+.form__checkbox_visible {
+  display: inline-flex;
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #dadada;
+  vertical-align: middle;
+  cursor: pointer;
+ 
+}
+
+@media screen and (max-width: 764px) {
+  .form__checkbox_visible{ width: 24px;
+  height: 24px;}
+}

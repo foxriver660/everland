@@ -1,0 +1,19 @@
+.form__radio {
+  border-radius: 6px;
+  user-select: none;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+.form__radio:active {
+  background-color: #00275C;
+border-color: #00275C;
+color: #fff;
+}
+.form__pseudo-radio:hover {
+  border-color: #00275C;
+}

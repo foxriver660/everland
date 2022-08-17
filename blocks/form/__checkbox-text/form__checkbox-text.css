@@ -1,0 +1,25 @@
+.form__checkbox-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  padding-left: 6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1279px) {
+  .form__checkbox-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .form__checkbox-text {
+    max-width: 200px;
+  }
+}
