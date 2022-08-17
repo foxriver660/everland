@@ -38,8 +38,8 @@
 @import url(../blocks/button/_type/button_type_support.css);
 
 /* DROPDOWN MENU */
-@import url(../blocks/header/__menu-wrapper/header__menu-wrapper.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-wrapper/header__menu-wrapper.css);
 @import url(../blocks/header/__menu-about-project/header__menu-about-project.css);
 @import url(../blocks/header/__menu-to-disabled/header__menu-to-disabled.css);
 @import url(../blocks/header/__menu-services/header__menu-services.css);
