@@ -1,0 +1,26 @@
+.social-project__slider-num {
+  margin: 0;
+  padding: 0 10px 0 11px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  max-width: fit-content;
+  align-self: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .social-project__slider-num  {
+    font-size: 16px;
+    line-height: 120%;
+    transition: 0.1s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-project__slider-num  {
+    font-size: 14px;
+    padding: 0 12px 0 11px;
+  }
+}

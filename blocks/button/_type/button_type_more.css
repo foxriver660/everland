@@ -5,8 +5,12 @@
   align-content: center;
   max-width: 165px;
   box-sizing: border-box;
+  /* display: grid;
+  grid-template-columns: repeat (2, min-content);
+  gap: 10px; */
   display: flex;
   align-items: center;
+  justify-items: space-between;
 }
 
 @media screen and (max-width: 1439px) {

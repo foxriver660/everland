@@ -4,17 +4,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1439px) {
-  .page {
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page {
-  }
-}
-/*
-* {
+/* * {
   border: red 1px solid;
 } */
 

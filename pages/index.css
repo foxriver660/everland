@@ -10,6 +10,8 @@
 @import url(../blocks/button/_type/button_type_other-sum.css);
 @import url(../blocks/button/_type/button_type_support.css);
 @import url(../blocks/button/_type/button_type_radio.css);
+@import url(../blocks/button/_type/button_type_left-arrow.css);
+@import url(../blocks/button/_type/button_type_right-arrow.css);
 @import url(../blocks/button/_color/button_color_black-white.css);
 @import url(../blocks/button/_color/button_color_blue.css);
 @import url(../blocks/button/_color/button_color_green.css);
@@ -33,9 +35,24 @@
 
 /*HEADING*/
 @import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/_type/heading_type_page.css);
+@import url(../blocks/heading/_color/heading_color_blue.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
 @import url(../blocks/heading/_type/heading_type_section.css);
 @import url(../blocks/heading/_justify/heading_justify_center.css);
+
+/*SOCIAL-PROJECT*/
+@import url(../blocks/social-project/social-project.css);
+@import url(../blocks/social-project/__text/social-project__text.css);
+@import url(../blocks/social-project/__slider-num/social-project__slider-num.css);
+@import url(../blocks/social-project/__arrow-buttons/social-project__arrow-buttons.css);
+@import url(../blocks/social-project/__img/social-project__img.css);
+@import url(../blocks/social-project/__img/_order/social-project__img_order_first.css);
+@import url(../blocks/social-project/__img/_order/social-project__img_order_second.css);
+@import url(../blocks/social-project/__slide/social-project__slide.css);
+@import url(../blocks/social-project/__container/social-project__container.css);
+
+
 
 /*AREAS-OF-WORK*/
 @import url(../blocks/areas-of-work/areas-of-work.css);
