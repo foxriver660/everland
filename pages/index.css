@@ -170,7 +170,6 @@
 
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/project-card/project-card.css);
-@import url(../blocks/title/_place/title_place_special-projects.css);
 @import url(../blocks/project-card/__content/project-card__content.css);
 @import url(../blocks/project-card/__text/project-card__text.css);
 @import url(../blocks/project-card/__caption/project-card__caption.css);
