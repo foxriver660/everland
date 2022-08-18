@@ -7,7 +7,7 @@
   font-size: 0;
 }
 
-@media screen and (max-width: 1439px) {
+/* @media screen and (max-width: 1439px) {
   .page {
     max-width: 768px;
   }
@@ -17,4 +17,4 @@
   .page {
     max-width: 320px;
   }
-}
+} */
