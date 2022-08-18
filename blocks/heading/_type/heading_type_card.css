@@ -1,0 +1,20 @@
+.heading_type_card {
+    padding: 0 0 20px 0;
+    font-size: 34px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+}
+
+@media screen and (max-width: 1439px) {
+.heading_type_card {
+    padding: 0 0 10px 0;
+    font-size: 26px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.heading_type_card {
+    font-size: 18px;
+}
+}

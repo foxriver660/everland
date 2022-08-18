@@ -1,0 +1,10 @@
+.numbers__row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media screen and (max-width: 767px) {
+    .numbers__row {
+        flex-direction: column;
+    }
+}

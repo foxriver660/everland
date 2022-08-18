@@ -1,0 +1,18 @@
+.numbers__table-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  margin: 0;
+}
+@media screen and (max-width: 1439px) {
+  .numbers__table-text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:767px) {
+  .numbers__table-text {
+    font-size: 14px;
+  }
+}

@@ -1,2 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 @import url(../blocks/page/page.css);
+@import url(../blocks/main-work/main-work.css);
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/_type/heading_type_section.css);
+@import url(../blocks/heading/_type/heading_type_section-margin.css);
+@import url(../blocks/heading/_type/heading_type_card.css);
+
+@import url(../blocks/accordions/accordions.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
+@import url(../blocks/accordion/__input/accordion__input.css);
+@import url(../blocks/accordion/__text/accordion__text.css);
+
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__content/numbers__content.css);
+@import url(../blocks/numbers/__image/numbers__image.css);
+@import url(../blocks/numbers/__table/numbers__table.css);
+@import url(../blocks/numbers/__row/numbers__row.css);
+@import url(../blocks/numbers/__table-cell/numbers__table-cell.css);
+@import url(../blocks/numbers/__span-accent/numbers__span-accent.css);
+@import url(../blocks/numbers/__table-text/numbers__table-text.css);
+
+@import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/project-card/project-card.css);
+@import url(../blocks/title/_place/title_place_special-projects.css);
+@import url(../blocks/project-card/__content/project-card__content.css);
+@import url(../blocks/project-card/__text/project-card__text.css);
+@import url(../blocks/project-card/__caption/project-card__caption.css);
+@import url(../blocks/project-card/__paragraph/project-card__paragraph.css);
+@import url(../blocks/project-card/__image/project-card__image.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_watch.css);
+@import url(../blocks/button/_type/button_type_slider-left.css);
+@import url(../blocks/button/_type/button_type_slider-right.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__track/slider__track.css);

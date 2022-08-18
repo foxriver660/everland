@@ -1,0 +1,26 @@
+.project-card__paragraph {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  margin: 0 0 22px;
+  max-width: 427px;
+  min-height: 107px;
+}
+@media screen and (max-width: 1439px) {
+  .project-card__paragraph {
+    font-size: 16px;
+    max-width: 315px;
+    min-height: 76px;
+    margin: 0 0 37px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project-card__paragraph {
+    font-size: 14px;
+    margin: 0 0 20px;
+    
+    min-height: 68px;
+  }
+}
