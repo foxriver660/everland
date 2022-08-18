@@ -8,9 +8,7 @@
   display: grid;
   grid-template-columns: 111px 16px;
   gap: 14px;
-  /* display: flex; */
   align-items: center;
-  /* justify-items: space-between; */
 }
 
 @media screen and (max-width: 1439px) {
