@@ -29,4 +29,4 @@ const changeSlide = (direction) => {
 rightBtn.addEventListener("click", () => changeSlide("right"));
 leftBtn.addEventListener("click", () => changeSlide("left"));
 console.log(`${activeIdx + 1}`);
-const myTimer = setInterval(() => changeSlide("right"), 10000);
+// const myTimer = setInterval(() => changeSlide("right"), 10000);
