@@ -9,8 +9,89 @@
 </head>
 
 <body class="page">
-  <header></header>
+  <!-- HEADER -->
+  <header class="header">
+    <a class="header__logo" href="#"></a>
+    <div class="header__menu-wrapper">
+      <button class="header__menu-button" type="button">
+        <div class="header__menu-button-image"></div><span class="header__menu-button-title">Меню</span>
+      </button>
+      <!--DROPDOWN MENU-->
+      <nav class="header__menu">
+        <ul class="header__menu-about-project">
+          <li class="header__menu-item"><a class="header__menu-item-link" href="#">О проекте</a><button
+              class="header__submenu-button"></button>
+
+            <!-- SUBMENU -->
+            <ul class="header__submenu-list">
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">АНО Пространство равных
+                  возможностей</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Новости</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Сотрудничество</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Инклюзия</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Учебным заведениям</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Годовые отчеты</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="header__menu-to-disabled">
+          <li class="header__menu-item"><a class="header__menu-item-link" href="#">Людям с инвалидностью</a><button
+              class="header__submenu-button"></button>
+
+            <!-- SUBMENU -->
+            <ul class="header__submenu-list">
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Платформа</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Курсы</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Everland Profi</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Бесплатное такси</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="header__menu-services">
+          <li class="header__menu-item"><a class="header__menu-item-link" href="#">Услуги</a><button
+              class="header__submenu-button"></button>
+
+            <!-- SUBMENU -->
+            <ul class="header__submenu-list">
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Услуги агентства</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Готовые сайты</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Доступность для людей с
+                  инвалидностью</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Работодателям</a></li>
+              <li class="header__submenu-item"><a class="header__submenu-item-link" href="#">Портфолио</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="header__menu-etc">
+          <li class="header__menu-item"><a class="header__menu-item-link" href="#">Мы благодарим</a></li>
+          <li class="header__menu-item"><a class="header__menu-item-link" href="#">Программы</a></li>
+          <li class="header__menu-item"><a class="header__menu-item-link" href="#">Наставникам</a></li>
+          <li class="header__menu-item"><a class="header__menu-item-link" href="#">Помочь</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__buttons-container">
+      <a class="header__link-platform button_color_white-blue" href="#">Платформа</a>
+      <a class="button_type_support" href="#">Поддержать</a>
+    </div>
+  </header>
+
+  <!-- MAIN PAGE -->
   <main>
+    <!-- NAVIGATION -->
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Для кого</a></li>
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Направления работы</a></li>
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Преимущества</a></li>
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Основные цифры</a></li>
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Спецпроекты</a></li>
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Истории</a></li>
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Агентство</a></li>
+        <li class="navigation__list-item"><a class="navigation__list-link" href="#">Новости</a></li>
+      </ul>
+    </nav>
+
     <!-- SOCIAL-PROJECT -->
     <section class="social-project">
       <div class="social-project__container">
@@ -113,7 +194,8 @@
             <input id="radio-other-amount" type="radio" name="sum-amount">
             <label for="radio-other-amount">Другая сумма</label>
           </li>
-          <li class="button button_order_last"><button class="button button_type_support" type="button">Поддержать</button></li>
+          <li class="button button_order_last"><button class="button button_type_support"
+              type="button">Поддержать</button></li>
         </ul>
       </div>
     </section>
@@ -249,100 +331,41 @@
       <div class="support__container">
         <form name="payment-form" class="form">
           <!-- ВЕРХНИЕ ДВЕ КНОПКИ -->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_period"
-          >
+          <fieldset class="form__fieldset-container form__fieldset-container_el_period">
             <div class="form__radio form__radio_type_period">
-              <input
-                class="form__hide-radio"
-                id="radio-period-1"
-                type="radio"
-                name="period"
-                value="1"
-                checked
-              /><label class="form__pseudo-radio" for="radio-period-1"
-                >Ежемесячно<a href="#" class="form__question"></a
-              ></label>
+              <input class="form__hide-radio" id="radio-period-1" type="radio" name="period" value="1" checked /><label
+                class="form__pseudo-radio" for="radio-period-1">Ежемесячно<a href="#"
+                  class="form__question"></a></label>
             </div>
             <div class="form__radio form__radio_type_period">
-              <input
-                class="form__hide-radio"
-                id="radio-period-2"
-                type="radio"
-                name="period"
-                value="2"
-              /><label class="form__pseudo-radio" for="radio-period-2"
-                >Разово</label
-              >
+              <input class="form__hide-radio" id="radio-period-2" type="radio" name="period" value="2" /><label
+                class="form__pseudo-radio" for="radio-period-2">Разово</label>
             </div>
           </fieldset>
           <!-- РАЗМЕР ПОЖЕРТВОВАНИЯ -->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_amount"
-          >
+          <fieldset class="form__fieldset-container form__fieldset-container_el_amount">
             <h3 class="form__subtitle">Размер пожертвования</h3>
             <ul class="form__radio-btns-container">
               <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-1"
-                  type="radio"
-                  name="amount"
-                  value="1"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-1"
-                  >250 &#8381;</label
-                >
+                <input class="form__hide-radio" id="radio-amount-1" type="radio" name="amount" value="1" />
+                <label class="form__pseudo-radio" for="radio-amount-1">250 &#8381;</label>
               </li>
 
               <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-2"
-                  type="radio"
-                  name="amount"
-                  value="2"
-                  checked
-                />
-                <label class="form__pseudo-radio" for="radio-amount-2"
-                  >500 &#8381;</label
-                >
+                <input class="form__hide-radio" id="radio-amount-2" type="radio" name="amount" value="2" checked />
+                <label class="form__pseudo-radio" for="radio-amount-2">500 &#8381;</label>
               </li>
               <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-3"
-                  type="radio"
-                  name="amount"
-                  value="3"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-3"
-                  >750 &#8381;</label
-                >
+                <input class="form__hide-radio" id="radio-amount-3" type="radio" name="amount" value="3" />
+                <label class="form__pseudo-radio" for="radio-amount-3">750 &#8381;</label>
               </li>
               <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-4"
-                  type="radio"
-                  name="amount"
-                  value="4"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-4"
-                  >1000 &#8381;</label
-                >
+                <input class="form__hide-radio" id="radio-amount-4" type="radio" name="amount" value="4" />
+                <label class="form__pseudo-radio" for="radio-amount-4">1000 &#8381;</label>
               </li>
               <li class="form__radio form__radio_type_amount">
-                <input
-                  class="form__hide-radio"
-                  id="radio-amount-5"
-                  type="radio"
-                  name="amount"
-                  value="5"
-                />
-                <label class="form__pseudo-radio" for="radio-amount-5"
-                  >Другая сумма</label
-                >
+                <input class="form__hide-radio" id="radio-amount-5" type="radio" name="amount" value="5" />
+                <label class="form__pseudo-radio" for="radio-amount-5">Другая сумма</label>
               </li>
             </ul>
             <p class="form__amount-description">
@@ -355,97 +378,43 @@
             </p>
           </fieldset>
           <!-- СПОСОБ ОПЛАТЫ ЛИШНИЕ КЛАССЫ У ЛЕЙБЛ-->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_payment"
-          >
+          <fieldset class="form__fieldset-container form__fieldset-container_el_payment">
             <h3 class="form__subtitle">Способ оплаты</h3>
             <ul class="form__radio-btns-container">
-              <li
-                class="form__radio form__radio_type_payment form__radio_el_cards"
-              >
-                <input
-                  class="form__hide-radio"
-                  id="radio-payment-1"
-                  type="radio"
-                  name="payment"
-                  value="1"
-                  checked
-                />
+              <li class="form__radio form__radio_type_payment form__radio_el_cards">
+                <input class="form__hide-radio" id="radio-payment-1" type="radio" name="payment" value="1" checked />
                 <label for="radio-payment-1" class="form__pseudo-radio"></label>
               </li>
-              <li
-                class="form__radio form__radio_type_payment form__radio_el_ymoney"
-              >
-                <input
-                  class="form__hide-radio"
-                  id="radio-payment-2"
-                  type="radio"
-                  name="payment"
-                  value="2"
-                />
+              <li class="form__radio form__radio_type_payment form__radio_el_ymoney">
+                <input class="form__hide-radio" id="radio-payment-2" type="radio" name="payment" value="2" />
                 <label for="radio-payment-2" class="form__pseudo-radio"></label>
               </li>
-              <li
-                class="form__radio form__radio_type_payment form__radio_el_webmoney"
-              >
-                <input
-                  class="form__hide-radio"
-                  id="radio-payment-3"
-                  type="radio"
-                  name="payment"
-                  value="3"
-                />
+              <li class="form__radio form__radio_type_payment form__radio_el_webmoney">
+                <input class="form__hide-radio" id="radio-payment-3" type="radio" name="payment" value="3" />
                 <label for="radio-payment-3" class="form__pseudo-radio"></label>
               </li>
               <li><button class="form__btn-rewind"></button></li>
             </ul>
           </fieldset>
           <!-- ДАННЫЕ ПОЛЬЗОВАТЕЛЯ -->
-          <fieldset
-            class="form__fieldset-container form__fieldset-container_el_profile"
-          >
+          <fieldset class="form__fieldset-container form__fieldset-container_el_profile">
             <h3 class="form__subtitle">Ваши данные</h3>
-            <input
-              name="user-name"
-              type="text"
-              class="form__user-input form__user-input_type_name"
-              placeholder="Иван Иванов"
-              value=""
-            />
-            <input
-              name="user-mail"
-              type="email"
-              class="form__user-input form__user-input_type_mail"
-              placeholder="myemail@example.com"
-              value=""
-            />
+            <input name="user-name" type="text" class="form__user-input form__user-input_type_name"
+              placeholder="Иван Иванов" value="" />
+            <input name="user-mail" type="email" class="form__user-input form__user-input_type_mail"
+              placeholder="myemail@example.com" value="" />
             <!-- ЧЕБОКСЫ -->
             <div class="form__checkboxs-container">
               <label for="offer">
-                <input
-                  type="checkbox"
-                  name="option"
-                  id="offer"
-                  class="form__checkbox"
-                  value="bold-heading"
-                />
+                <input type="checkbox" name="option" id="offer" class="form__checkbox" value="bold-heading" />
                 <span class="form__checkbox form__checkbox_visible"></span>
-                <span class="form__checkbox-text"
-                  >Соглашаюсь с <a href="#">офетой</a></span
-                >
+                <span class="form__checkbox-text">Соглашаюсь с <a href="#">офетой</a></span>
               </label>
               <label for="personal">
-                <input
-                  type="checkbox"
-                  name="option"
-                  id="personal"
-                  class="form__checkbox"
-                  value="bold-heading"
-                /><span class="form__checkbox form__checkbox_visible"> </span>
-                <span class="form__checkbox-text"
-                  >Соглашаюсь на
-                  <a href="#">обработку моих персональных данных</a></span
-                >
+                <input type="checkbox" name="option" id="personal" class="form__checkbox" value="bold-heading" /><span
+                  class="form__checkbox form__checkbox_visible"> </span>
+                <span class="form__checkbox-text">Соглашаюсь на
+                  <a href="#">обработку моих персональных данных</a></span>
               </label>
             </div>
           </fieldset>
@@ -524,7 +493,7 @@
     </section>
   </main>
   <footer></footer>
-  <script src="pages/index.js"></script>
+  <script src="./pages/index.js"></script>
 </body>
 
 </html>
