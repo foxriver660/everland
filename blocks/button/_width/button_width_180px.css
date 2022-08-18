@@ -1,0 +1,9 @@
+.button_width_180px {
+  min-width: 180px;
+}
+
+@media screen and (max-width: 1439px) {
+  .button_width_180px {
+    min-width: 134px;
+  }
+}

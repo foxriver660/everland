@@ -2,7 +2,9 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #0C4BA0;
   color: #FFFFFF;
   text-decoration: none;

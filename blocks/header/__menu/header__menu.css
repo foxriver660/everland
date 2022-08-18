@@ -9,6 +9,7 @@
   top: 80px;
   display: none;
   flex-wrap: wrap;
+  z-index: 3;
 }
 
 @media screen and (max-width: 1439px) {

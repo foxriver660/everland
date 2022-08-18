@@ -69,6 +69,7 @@
 @import url(../blocks/header/__link-platform/header__link-platform.css);
 @import url(../blocks/button/_color/button_color_white-blue.css);
 @import url(../blocks/button/_type/button_type_support.css);
+@import url(../blocks/button/_width/button_width_180px.css);
 
 /* DROPDOWN MENU */
 @import url(../blocks/header/__menu/header__menu.css);
