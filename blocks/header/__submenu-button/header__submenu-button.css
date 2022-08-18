@@ -1,0 +1,20 @@
+.header__submenu-button {
+  width: 24px;
+  height: 24px;
+  display: none;
+  background-color: inherit;
+  background-image: url(../../../images/header_submenu_shevron.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  border: none;
+  position: absolute;
+  top: 0px;
+  left: 275px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__submenu-button {
+    display: block;
+  }
+}

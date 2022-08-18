@@ -1,0 +1,22 @@
+.header__menu-item-link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #333333;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-item-link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-item-link {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,22 @@
+.header__menu-about-project {
+  max-width: 259px;
+  margin: 0;
+  margin-right: 86px;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-about-project {
+    max-width: 186px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-about-project {
+    min-width: 100%;
+    margin-right: 0;
+  }
+}
