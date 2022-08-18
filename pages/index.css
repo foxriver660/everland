@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/main-work/main-work.css);
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/_type/heading_type_section.css);
