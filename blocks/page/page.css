@@ -1,12 +1,11 @@
 .page {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   min-width: 320px;
   max-width: 1440px;
   max-height: min-content;
   margin: 0 auto;
   font-size: 0;
 }
-
 @media screen and (max-width: 1439px) {
   .page {
     max-width: 768px;
