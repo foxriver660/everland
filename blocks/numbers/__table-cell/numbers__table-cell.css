@@ -1,0 +1,8 @@
+.numbers__table-cell {
+  list-style-type: none;
+  max-width: 325px;
+  margin-right: 20px;
+}
+.numbers__table-cell:nth-child(2n) {
+    margin-right: 0;
+}

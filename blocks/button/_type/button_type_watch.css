@@ -1,0 +1,25 @@
+.button_type_watch {
+  width: 194px;
+  border: 1px solid #333333;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  background: none;
+  font-family: "Raleway", sans-serif;
+}
+.button_type_watch:hover {
+  border: 2px solid #333333;
+}
+.button_type_watch:active {
+  background: #333333;
+  color: #ffffff;
+}
+@media screen and (max-width: 1439px) {
+  .button_type_watch {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .button_type_watch {
+    width: 250px;
+  }
+}

@@ -1,0 +1,21 @@
+.numbers__table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    max-width: 670px;
+    gap: 30px;
+}
+@media screen and (max-width:1439px ) {
+    .numbers__table {
+        max-width: 688px;
+        gap: 33px;
+    }
+}
+@media screen and (max-width:767px ) {
+    .numbers__table {
+        max-width: 300px;
+        gap: 16px;
+    }
+}

@@ -1,0 +1,44 @@
+.accordion__title {
+  display: block;
+  cursor: pointer;
+  padding: 29.5px 0 29.5px 20px;
+}
+
+.accordion__title::after {
+  position: absolute;
+  top: 27.5px;
+  right: 20px;
+  content: "";
+  background: url(../../../images/blue-plus.svg) no-repeat center;
+  background-color: rgba(231, 240, 255, 1);
+  background-size: 21px 21px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordion__title {
+    font-size: 26px;
+    padding: 20.5px 0 20.5px 20px;
+
+  }
+  .accordion__title::after {
+    width: 32px;
+    height: 32px;
+    background-size: 15px 15px;
+    top: 20px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion__title {
+    font-size: 18px;
+    padding: 18px 0 18px 16px;
+    max-width: 212px;
+  }
+  .accordion__title::after {
+    top: 12px;
+  }
+
+}
