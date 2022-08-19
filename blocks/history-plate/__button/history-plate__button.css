@@ -1,0 +1,21 @@
+.history-plate__button {
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+font-feature-settings: 'pnum' on, 'lnum' on;
+  align-self: flex-end;
+   background: transparent;
+  text-align: start;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .history-plate__button {font-size: 16px;line-height: 120%;}
+}
+@media screen and (max-width: 767px) {
+  .history-plate__button {font-size: 12px;font-weight: 500;}
+}

@@ -1,0 +1,21 @@
+.history-plate__quotes {
+  grid-row: 1/4;
+  width: 60px;
+  height: 60px;
+ 
+}
+
+@media screen and (max-width: 1439px) {
+  .history-plate__quotes {
+    width: 28px;
+    height: 28px;
+    
+  }
+}
+@media screen and (max-width: 767px) {
+  .history-plate__quotes {
+    width: 24px;
+    height: 24px;
+    
+  }
+}

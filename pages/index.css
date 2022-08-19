@@ -25,6 +25,9 @@
 @import url(../blocks/button/_order/button_order_fourth.css);
 @import url(../blocks/button/_order/button_order_last.css);
 @import url(../blocks/button/_width/button_width_180px.css);
+@import url(../blocks/button/__section/button__section.css);
+@import url(../blocks/button/__section/_place/button__section_place_history.css);
+@import url(../blocks/button/__section/_place/button__section_place_news.css);
 
 /*CARD*/
 @import url(../blocks/card/card.css);
@@ -206,3 +209,21 @@
 /* SLIDER */
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/slider/__track/slider__track.css);
+
+/* HISTORY */
+@import url(../blocks/history/history.css);
+@import url(../blocks/history-plate/history-plate.css);
+@import url(../blocks/history-plate/__image/history-plate__image.css);
+@import url(../blocks/history-plate/__container/history-plate__container.css);
+@import url(../blocks/history-plate/__quotes/history-plate__quotes.css);
+@import url(../blocks/history-plate/__title/history-plate__title.css);
+@import url(../blocks/history-plate/__text/history-plate__text.css);
+@import url(../blocks/button/_type/button_type_history.css);
+@import url(../blocks/history-plate/__short-story/history-plate__short-story.css);
+@import url(../blocks/history-plate/__image/_place/history-plate__image_place_short-story.css);
+@import url(../blocks/history-plate/__heading/history-plate__heading.css);
+@import url(../blocks/history-plate/__button/history-plate__button.css);
+
+/* HISTORY-PLATE */
+@import url(../blocks/history-plate/__audio/history-plate__audio.css);
+
