@@ -1,0 +1,51 @@
+.accordion {
+  position: relative;
+  max-width: 664px;
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.accordion:hover .accordion__title::after {
+  content:"";
+  background: url(../../images/white-plus.svg) no-repeat center;
+  background-color: rgba(12, 75, 160, 1);
+}
+.accordion[open] .accordion__title::after {
+  content: "";
+  top: 20px;
+  background: url(../../images/white-cross.svg) no-repeat center;
+  background-color: rgba(12, 75, 160, 1);
+}
+.accordion[open] .accordion__title {
+  content:"";
+  font-size: 36px;
+  padding: 21.5px 20px 11.5px;
+}
+@media screen and (max-width:1439px) {
+  .accordion[open] .accordion__title {
+    font-size: 26px;
+    padding: 30.5px 20px 20.5px;
+  }
+  .accordion[open] .accordion__title::after {
+    content: "";
+    top: 30px;
+  }
+  .accordion:hover .accordion__title::after {
+    background-size: 15px 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion {
+    border-radius: 15px;
+  }
+  .accordion[open] .accordion__title {
+    padding: 17px 16px 17px;
+    font-size: 18px;
+  }
+  .accordion[open] .accordion__title::after {
+    content: "";
+    top: 16px;
+    right: 15px;
+  }
+}

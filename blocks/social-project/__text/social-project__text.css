@@ -1,0 +1,24 @@
+.social-project__text {
+  margin: 0;
+  padding: 0 0 173px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  max-width: 543px;
+}
+
+@media screen and (max-width: 1439px) {
+  .social-project__text {
+    font-size: 16px;
+    line-height: 120%;
+    max-width: 401px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-project__text {
+    font-size: 14px;
+  }
+}

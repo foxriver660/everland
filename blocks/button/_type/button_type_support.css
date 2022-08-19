@@ -1,0 +1,35 @@
+.button_type_support {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0C4BA0;
+  color: #FFFFFF;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 100%;
+  border:none;
+}
+
+.button_type_support:hover {
+  background-color: #4183DC;
+}
+
+.button_type_support:active {
+  background-color: #00275C;
+}
+
+.button_type_support:disabled {
+  background-color: #F5F5F5;
+  border: 2px solid #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+@media screen and (max-width: 1439px) {
+  .button_type_support {
+    font-size: 16px;
+  }
+}

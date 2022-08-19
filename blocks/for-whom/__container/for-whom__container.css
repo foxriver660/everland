@@ -1,0 +1,23 @@
+.for-whom__container {
+  padding: 100px 40px;
+  margin: 0 auto;
+  max-width: 1440px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .for-whom__container  {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding: 50px 159px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .for-whom__container  {
+    padding: 32px 10px;
+    max-width: 320px;
+  }
+}

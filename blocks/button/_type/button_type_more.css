@@ -1,22 +1,21 @@
 .button_type_more {
+  position: relative;
   padding: 0 10px 0 10px;
   text-decoration: none;
-  color: #333333;
   align-content: center;
   max-width: 165px;
   box-sizing: border-box;
-  display: flex;
-  background-color: #FFFFFF;
-  background-image: url(../../../images/arrow_forward.svg);
-  background-position: top 16px right 14px;
-  background-repeat: no-repeat;
-  background-size: 16px, 16px, cover;
+  display: grid;
+  grid-template-columns: 111px 16px;
+  gap: 14px;
   align-items: center;
 }
+
 @media screen and (max-width: 1439px) {
   .button_type_more {
     max-width: 139px;
-    background-size: 13px, 13px, cover;
+    grid-template-columns: 78px 12px;
+    gap: 13px;
   }
 }
 

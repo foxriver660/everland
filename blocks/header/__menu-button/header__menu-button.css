@@ -1,0 +1,13 @@
+.header__menu-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-button {
+    padding: 0;
+  }
+}

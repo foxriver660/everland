@@ -1,0 +1,20 @@
+.social-project__arrow-buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 42px;
+  position: absolute;
+  bottom: 0px;
+}
+
+@media screen and (max-width: 1439px) {
+  .social-project__arrow-buttons {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .social-project__arrow-buttons {
+    left: 50%;
+    transform: translateX(-47px);
+  }
+}

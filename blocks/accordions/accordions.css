@@ -1,0 +1,14 @@
+.accordions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* box-sizing: border-box; */
+  /* row-gap: 20px; */
+  /* justify-content: center; */
+}
+@media screen and (max-width: 767px) {
+  .accordions {
+    gap: 16px;
+  }
+}

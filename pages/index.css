@@ -1,36 +1,118 @@
 @import url(../vendor/normalize.css);
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap");
 @import url(../blocks/page/page.css);
 
 /*BUTTON*/
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/__arrow/button__arrow.css);
+@import url(../blocks/button/__submit/button__submit.css); /* TODO try to combine with button_type_support */
 @import url(../blocks/button/_type/button_type_more.css);
+@import url(../blocks/button/_type/button_type_amount.css);
+@import url(../blocks/button/_type/button_type_other-sum.css);
+@import url(../blocks/button/_type/button_type_support.css);
+@import url(../blocks/button/_type/button_type_radio.css);
+@import url(../blocks/button/_type/button_type_left-arrow.css);
+@import url(../blocks/button/_type/button_type_right-arrow.css);
+@import url(../blocks/button/_type/button_type_watch.css);
+@import url(../blocks/button/_type/button_type_slider-left.css);
+@import url(../blocks/button/_type/button_type_slider-right.css);
+@import url(../blocks/button/_color/button_color_black-white.css);
+@import url(../blocks/button/_color/button_color_blue.css);
+@import url(../blocks/button/_color/button_color_green.css);
+@import url(../blocks/button/_color/button_color_orange.css);
+@import url(../blocks/button/_color/button_color_white-blue.css);
+@import url(../blocks/button/_order/button_order_third.css);
+@import url(../blocks/button/_order/button_order_fourth.css);
+@import url(../blocks/button/_order/button_order_last.css);
+@import url(../blocks/button/_width/button_width_180px.css);
 
 /*CARD*/
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/_type/card_type_area-of-work.css);
+@import url(../blocks/card/_type/card_type_for-whom.css);
 @import url(../blocks/card/_color/card_color_blue.css);
 @import url(../blocks/card/_color/card_color_green.css);
 @import url(../blocks/card/_color/card_color_orange.css);
+@import url(../blocks/card/_color/card_color_white.css);
 @import url(../blocks/card/_order/card_order_lagging.css);
 @import url(../blocks/card/_order/card_order_last.css);
 @import url(../blocks/card/_order/card_order_outrunning.css);
 
 /*HEADING*/
 @import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/_type/heading_type_page.css);
+@import url(../blocks/heading/_color/heading_color_blue.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
 @import url(../blocks/heading/_type/heading_type_section.css);
+@import url(../blocks/heading/_justify/heading_justify_center.css);
+@import url(../blocks/heading/_type/heading_type_section-margin.css);
 
 /*AREAS-OF-WORK*/
 @import url(../blocks/areas-of-work/areas-of-work.css);
 @import url(../blocks/areas-of-work/areas-of-work__card-list/areas-of-work__card-list.css);
 
+/*SOCIAL-PROJECT*/
+@import url(../blocks/social-project/social-project.css);
+@import url(../blocks/social-project/__text/social-project__text.css);
+@import url(../blocks/social-project/__slider-num/social-project__slider-num.css);
+@import url(../blocks/social-project/__arrow-buttons/social-project__arrow-buttons.css);
+@import url(../blocks/social-project/__img/social-project__img.css);
+@import url(../blocks/social-project/__img/_order/social-project__img_order_first.css);
+@import url(../blocks/social-project/__img/_order/social-project__img_order_second.css);
+@import url(../blocks/social-project/__slide/social-project__slide.css);
+@import url(../blocks/social-project/__container/social-project__container.css);
+
+/*HEADER*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu-button/header__menu-button.css);
+@import url(../blocks/header/__menu-button-image/header__menu-button-image.css);
+@import url(../blocks/header/__menu-button-title/header__menu-button-title.css);
+@import url(../blocks/header/__buttons-container/header__buttons-container.css);
+@import url(../blocks/header/__link-platform/header__link-platform.css);
+
+/* DROPDOWN MENU */
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-wrapper/header__menu-wrapper.css);
+@import url(../blocks/header/__menu-about-project/header__menu-about-project.css);
+@import url(../blocks/header/__menu-to-disabled/header__menu-to-disabled.css);
+@import url(../blocks/header/__menu-services/header__menu-services.css);
+@import url(../blocks/header/__menu-etc/header__menu-etc.css);
+@import url(../blocks/header/__menu-item-link/header__menu-item-link.css);
+@import url(../blocks/header/__submenu-list/header__submenu-list.css);
+@import url(../blocks/header/__submenu-item-link/header__submenu-item-link.css);
+@import url(../blocks/header/__menu-button-wrapper/header__menu-button-wrapper.css);
+@import url(../blocks/header/__submenu-button/header__submenu-button.css);
+@import url(../blocks/header/__menu-opened/header__menu-opened);
+@import url(../blocks/header/__submenu-button_active/header__submenu-button_active.css);
+
+/*NAVIGATION*/
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/navigation/__list-link/navigation__list-link.css);
+
+/*DONATION-BUTTONS*/
+@import url(../blocks/donation-buttons/donation-buttons.css);
+@import url(../blocks/donation-buttons/__container/donation-buttons__container.css);
+@import url(../blocks/donation-buttons/__list/donation-buttons__list.css);
+
+/*FOR-WHOM*/
+@import url(../blocks/for-whom/for-whom.css);
+@import url(../blocks/for-whom/__container/for-whom__container.css);
+@import url(../blocks/for-whom/__card-list/for-whom__card-list.css);
+@import url(../blocks/for-whom/__icon/for-whom__icon.css);
+@import url(../blocks/for-whom/__icon/_type/for-whom__icon_type_csr.css);
+@import url(../blocks/for-whom/__icon/_type/for-whom__icon_type_disabled.css);
+@import url(../blocks/for-whom/__icon/_type/for-whom__icon_type_employer.css);
+
 /* SUPPORT */
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__title/support__title.css);
 @import url(../blocks/support/__container/support__container.css);
-@import url(../blocks/form/form.css);
+
+/* DONAT */
 @import url(../blocks/donat/donat.css);
 @import url(../blocks/donat/__item/donat__item.css);
 @import url(../blocks/donat/__list/donat__list.css);
@@ -39,6 +121,9 @@
 @import url(../blocks/donat/__container/donat__container.css);
 @import url(../blocks/donat/__item-user/donat__item-user.css);
 @import url(../blocks/donat/__time/donat__time.css);
+
+/* FORM */
+@import url(../blocks/form/form.css);
 @import url(../blocks/form/__fieldset-container/form__fieldset-container.css);
 @import url(../blocks/form/__fieldset-container/_el/form__fieldset-container_el_amount.css);
 @import url(../blocks/form/__fieldset-container/_el/form__fieldset-container_el_payment.css);
@@ -54,8 +139,6 @@
 @import url(../blocks/form/__radio/_el/form__radio_el_webmoney.css);
 @import url(../blocks/form/__radio/_el/form__radio_el_ymoney.css);
 @import url(../blocks/form/__checkboxs-container/form__checkboxs-container.css);
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/__submit/button__submit.css);
 @import url(../blocks/form/__user-input/form__user-input.css);
 @import url(../blocks/form/__user-input/_type/form__user-input_type_mail.css);
 @import url(../blocks/form/__user-input/_type/form__user-input_type_name.css);
@@ -88,3 +171,38 @@
 @import url(../blocks/agency-cell/__text/agency-cell__text.css);
 @import url(../blocks/heading/__subtitle/heading__subtitle.css);
 @import url(../blocks/button/_type/button_type_agency.css);
+
+/* MAIN-WORK */
+@import url(../blocks/main-work/main-work.css);
+
+/* ACCORDION */
+@import url(../blocks/accordions/accordions.css);
+@import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordion/__title/accordion__title.css);
+@import url(../blocks/accordion/__input/accordion__input.css);
+@import url(../blocks/accordion/__text/accordion__text.css);
+
+/* NUMBERS */
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__content/numbers__content.css);
+@import url(../blocks/numbers/__image/numbers__image.css);
+@import url(../blocks/numbers/__table/numbers__table.css);
+@import url(../blocks/numbers/__row/numbers__row.css);
+@import url(../blocks/numbers/__table-cell/numbers__table-cell.css);
+@import url(../blocks/numbers/__span-accent/numbers__span-accent.css);
+@import url(../blocks/numbers/__table-text/numbers__table-text.css);
+
+/* SPECIAL-PROJECTS */
+@import url(../blocks/special-projects/special-projects.css);
+
+/* PROJECT CARD */
+@import url(../blocks/project-card/project-card.css);
+@import url(../blocks/project-card/__content/project-card__content.css);
+@import url(../blocks/project-card/__text/project-card__text.css);
+@import url(../blocks/project-card/__caption/project-card__caption.css);
+@import url(../blocks/project-card/__paragraph/project-card__paragraph.css);
+@import url(../blocks/project-card/__image/project-card__image.css);
+
+/* SLIDER */
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__track/slider__track.css);

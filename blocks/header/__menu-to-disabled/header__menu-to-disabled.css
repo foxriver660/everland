@@ -1,0 +1,22 @@
+.header__menu-to-disabled {
+  max-width: 320px;
+  margin: 0;
+  margin-right: 35px;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-to-disabled {
+    max-width: 217px;
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-to-disabled {
+    min-width: 100%;
+    margin-right: 0;
+  }
+}

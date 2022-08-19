@@ -1,0 +1,25 @@
+.heading_type_page {
+  padding: 0 0 20px 0;
+  font-size: 72px;
+  line-height: 120%;
+  color: #333333;
+  letter-spacing: -0.02em;
+  max-width: 826px;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading_type_page {
+    font-size: 38px;
+    max-width: 424px;
+    letter-spacing: -0.03em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_type_page {
+    padding: 0 0 16px 0;
+    font-size: 28px;
+    letter-spacing: -0.035em;
+    max-width: 304px;
+  }
+}

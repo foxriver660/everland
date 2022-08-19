@@ -1,0 +1,15 @@
+.heading_justify_center {
+
+}
+
+@media screen and (max-width: 1439px) {
+  .heading_justify_center {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_justify_center {
+    text-align:unset;
+  }
+}
