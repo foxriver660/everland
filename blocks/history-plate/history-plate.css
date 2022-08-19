@@ -1,0 +1,26 @@
+.history-plate {
+ display: flex;
+  padding: 51px 0;
+  grid-column: 1/3;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.history-plate:last-of-type {
+  margin: 49px 0 0 0;
+}
+@media screen and (max-width: 1439px) {
+  .history-plate {
+    padding: 0;
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .history-plate {
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .history-plate:last-of-type {
+    margin: 0;
+  }
+}

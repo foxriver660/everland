@@ -1,0 +1,27 @@
+.history-plate__short-story {
+  box-sizing: border-box;
+  
+  display: grid;
+  grid-template-columns: 1fr minmax(100px,366px);
+  grid-template-rows: 26px 1fr;
+  padding: 30px;
+  column-gap: 20px;
+  row-gap: 20px;
+  border-radius: 30px;
+  background: #EAE6FF;
+  justify-items: start;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 1279px) {
+  .history-plate__short-story {
+    padding: 25px 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .history-plate__short-story {
+   justify-content: center;
+   column-gap: 16px;
+   row-gap: 4px;
+  }
+}

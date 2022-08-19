@@ -88,3 +88,22 @@
 @import url(../blocks/agency-cell/__text/agency-cell__text.css);
 @import url(../blocks/heading/__subtitle/heading__subtitle.css);
 @import url(../blocks/button/_type/button_type_agency.css);
+
+/* HISTORY */
+@import url(../blocks/history/history.css);
+@import url(../blocks/history-plate/history-plate.css);
+@import url(../blocks/history-plate/__image/history-plate__image.css);
+@import url(../blocks/history-plate/__container/history-plate__container.css);
+@import url(../blocks/history-plate/__quotes/history-plate__quotes.css);
+@import url(../blocks/history-plate/__title/history-plate__title.css);
+@import url(../blocks/history-plate/__text/history-plate__text.css);
+@import url(../blocks/button/_type/button_type_history.css);
+@import url(../blocks/history-plate/__short-story/history-plate__short-story.css);
+@import url(../blocks/history-plate/__image/_place/history-plate__image_place_short-story.css);
+@import url(../blocks/history-plate/__heading/history-plate__heading.css);
+@import url(../blocks/history-plate/__button/history-plate__button.css);
+
+@import url(../blocks/button/__section/button__section.css);
+@import url(../blocks/button/__section/_place/button__section_place_history.css);
+@import url(../blocks/button/__section/_place/button__section_place_news.css);
+@import url(../blocks/history-plate/__audio/history-plate__audio.css);

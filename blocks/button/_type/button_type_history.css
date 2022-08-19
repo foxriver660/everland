@@ -1,0 +1,24 @@
+.button_type_history {
+  max-width: 229px;
+  width: 100%;
+  background: #E7F0FF;
+  border: none;
+  color: #0C4BA0;
+  background-image: url(../../../images/Frame\ 469.svg);
+  background-position: top 14px right 8px;
+  background-repeat: no-repeat;
+  background-size: 16px, 16px, cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+@media screen  and (max-width: 1439px) {
+  .button_type_history {
+    max-width: 190px;
+  }
+}
+@media screen  and (max-width: 767px) {
+  .button_type_history {
+    max-width: 173px;
+  }
+}
