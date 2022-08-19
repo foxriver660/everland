@@ -1,0 +1,18 @@
+.history-plate__container {
+    display: grid;
+  grid-template-columns: 60px 977px;
+  column-gap: 19px;
+  row-gap: 20px;
+
+}
+@media screen and (max-width: 1439px) {
+  .history-plate__container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 767px) {
+  .history-plate__container {
+   
+  row-gap: 16px;
+  }
+}
