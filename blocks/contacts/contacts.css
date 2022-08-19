@@ -1,0 +1,15 @@
+.contacts{
+    display: grid;
+    grid-template-columns: 151px 313px;
+    grid-template-rows: 1fr;
+    column-gap: 53px;
+}
+
+@media screen and (max-width: 1439px) {
+.contacts  {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    }
+}
+

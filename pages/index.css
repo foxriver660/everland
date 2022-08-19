@@ -227,3 +227,30 @@
 /* HISTORY-PLATE */
 @import url(../blocks/history-plate/__audio/history-plate__audio.css);
 
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/brand/brand.css);
+@import url(../blocks/brand/__container/brand__container.css);
+@import url(../blocks/brand/__logo/brand__logo.css);
+@import url(../blocks/brand/__logo/_2/brand__logo_2.css);
+@import url(../blocks/brand/__text/brand__text.css);
+@import url(../blocks/links/links.css);
+@import url(../blocks/links/__list/links__list.css);
+@import url(../blocks/links/__list/_item/links__list_item.css);
+@import url(../blocks/links/__list/_link/links__list_link.css);
+@import url(../blocks/heading/__footer/heading__footer.css);
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__beeline/support__beeline.css);
+@import url(../blocks/support/__fond/support__fond.css);
+@import url(../blocks/social/social.css);
+@import url(../blocks/copywright/copywright.css);
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__telephone/contacts__telephone.css);
+@import url(../blocks/contacts/__telephone/_num/contacts__telephone_num.css);
+@import url(../blocks/contacts/__address/contacts__address.css);
+@import url(../blocks/praktikum/praktikum.css);
+@import url(../blocks/praktikum/__logo/praktikum__logo.css);
+@import url(../blocks/praktikum/__text/praktikum__text.css);
+
+
