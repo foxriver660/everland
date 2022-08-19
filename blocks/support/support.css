@@ -1,8 +1,8 @@
 .support {
   padding: 100px 104px 100px 40px;
   
-  background-color: #E7F0FF;
- z-index: 0;
+  background-color: #E7F0FF; 
+
   
   display: flex;
   flex-direction: column;

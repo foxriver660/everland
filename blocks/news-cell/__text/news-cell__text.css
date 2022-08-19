@@ -1,0 +1,21 @@
+.news-cell__text {
+  margin: 0;
+  flex: 1;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+font-feature-settings: 'pnum' on, 'lnum' on;
+}
+@media screen  and (max-width:1279px) {
+  .news-cell__text {
+    font-size: 16px;
+line-height: 120%;
+  }
+}
+@media screen  and (max-width:767px) {
+  .news-cell__text {
+    font-size: 14px;
+    flex: 0;
+  }
+}

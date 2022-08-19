@@ -1,0 +1,17 @@
+.agency-cell {
+ 
+  background: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 440px;
+}
+@media screen  and (max-width: 1279px) {
+  .agency-cell:last-of-type { display: none;}
+}
+
+@media screen  and (max-width: 767px) {
+  .agency-cell:last-of-type { display: flex;}
+  .agency-cell {align-items: center;
+  gap: 16px}
+}

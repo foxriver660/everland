@@ -8,12 +8,15 @@
   flex-direction: column;
   gap: 28px;
  background-image: linear-gradient( rgba(255,255,255,0), rgba(231, 240, 255, 1));
-    font-style: normal;
+  
+ font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
     font-feature-settings: 'pnum' on, 'lnum' on;
+    
 }
+
 
 @media screen and (max-width:764px) {
   .donat__list {

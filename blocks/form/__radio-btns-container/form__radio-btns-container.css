@@ -29,6 +29,7 @@
   }
   .form__radio-btns-container:last-child{
     justify-content:center;
+    flex-direction: column;
     gap: 16px
   }
 }
