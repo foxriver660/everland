@@ -1,0 +1,9 @@
+.brand {
+    max-width: 483px;
+}
+
+@media screen and (max-width: 1439px) {
+.brand {
+    max-width: 294px;
+}
+}
