@@ -1,0 +1,6 @@
+.support {
+        display: flex;
+        column-gap: 50px;
+        padding: 21px 0 0 0;
+        height: 50px;
+}
