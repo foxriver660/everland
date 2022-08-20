@@ -1,4 +1,4 @@
-.support__beeline{
+.footer__sponsors_beeline{
     width: 100px;
     display:flex;
     background-image: url('../../../images/bilain_1.png');
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-    .support__beeline {
+    .footer__sponsors_beeline {
         width: 55px;
         background-image:url('../../../images/bilain_1tabl.jpg');
     }

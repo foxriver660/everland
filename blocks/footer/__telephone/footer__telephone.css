@@ -1,11 +1,11 @@
-.contacts__telephone {
+.footer__telephone {
     width: fit-content;
     padding: 0;
     margin: 0;
 }
 
 @media screen and (max-width: 767px) {
-    .contacts__telephone {
+    .footer__telephone {
         display: flex;
 }
 }

@@ -1,15 +1,15 @@
-.contacts__telephone_num{
+.footer__telephone_num{
     margin: 0;
 }
 
 @media screen and (max-width: 1439px) {
-.contacts__telephone_num {
+.footer__telephone_num {
     margin: 0 0 16px 0;
 }
 }
 
 @media screen and (max-width: 767px) {
-.contacts__telephone_num {
+.footer__telephone_num {
     margin: 0 16px 0 0;   
     font-family: 'Raleway';
     font-style: normal;

@@ -1,4 +1,4 @@
-.copywright {
+.footer__copyright {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 767px) {
-.copywright {  
+.footer__copyright {  
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 500; 
