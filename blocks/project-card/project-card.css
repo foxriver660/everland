@@ -13,12 +13,14 @@
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
-  /* position: absolute; */
+  position: relative;
+  overflow: hidden;
 }
 @media screen and (max-width: 1439px) {
   .project-card {
     max-width: 688px;
     min-height: 344px;
+    border-radius: 20px;
   }
 }
 @media screen and (max-width: 767px) {

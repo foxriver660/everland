@@ -1,8 +1,21 @@
 .numbers__table-cell {
   list-style-type: none;
   max-width: 325px;
-  margin-right: 20px;
 }
-.numbers__table-cell:nth-child(2n) {
-    margin-right: 0;
+@media screen and (max-width: 1439px) {
+  .numbers__table-cell {
+  max-width: 333px;
+  min-height: 79px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .numbers__table-cell {
+  max-width: 300px;
+  }
+  .numbers__table-cell:nth-of-type(2) {
+    order: 2;
+  }
+  .numbers__table-cell:nth-child(4) {
+    order: 2;
+  }
 }
