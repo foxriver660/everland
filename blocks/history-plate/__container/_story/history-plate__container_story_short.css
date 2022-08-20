@@ -1,0 +1,20 @@
+.history-plate__container_story_short {
+  grid-template-columns: 1fr;
+  grid-template-rows: 26px 125px 40px;
+  gap: 17px;
+}
+
+@media screen and (max-width: 1439px) {
+  .history-plate__container_story_short {
+    align-self: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px max-content 28px;
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history-plate__container_story_short {
+    row-gap: 16px;
+  }
+}

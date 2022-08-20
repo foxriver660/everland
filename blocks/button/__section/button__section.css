@@ -1,26 +1,26 @@
 .button__section {
   border: 1px solid #0C4BA0;
-  
   font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-background-color: #fff;
-color: #0C4BA0;
-max-width: 204px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  background-color: #fff;
+  color: #0C4BA0;
+  max-width: 204px;
+}
 
+@media screen and (max-width: 1279px) {
+  .button__section {
+    grid-row: 3;
+    width: 200px;
+    justify-self: center;
+  }
 }
-@media screen  and (max-width: 1279px) {
-  .button__section {grid-row: 3;
-  width: 200px;
-justify-self: center;
 
-
-}
-}
-@media screen  and (max-width: 767px) {
-  .button__section {grid-row: 3;
-  width: 100%;
-max-width: 100%;
-}
+@media screen and (max-width: 767px) {
+  .button__section {
+    grid-row: 3;
+    width: 100%;
+    max-width: 100%;
+  }
 }

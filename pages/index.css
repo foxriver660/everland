@@ -46,11 +46,12 @@
 /*HEADING*/
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/_type/heading_type_page.css);
-@import url(../blocks/heading/_color/heading_color_blue.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
 @import url(../blocks/heading/_type/heading_type_section.css);
-@import url(../blocks/heading/_justify/heading_justify_center.css);
 @import url(../blocks/heading/_type/heading_type_section-margin.css);
+@import url(../blocks/heading/__footer/heading__footer.css); /* TODO refactor name & location to heading_type_footer */
+@import url(../blocks/heading/_color/heading_color_blue.css);
+@import url(../blocks/heading/_justify/heading_justify_center.css);
 
 /*AREAS-OF-WORK*/
 @import url(../blocks/areas-of-work/areas-of-work.css);
@@ -212,9 +213,12 @@
 
 /* HISTORY */
 @import url(../blocks/history/history.css);
+
+/* HISTORY-PLATE */
 @import url(../blocks/history-plate/history-plate.css);
 @import url(../blocks/history-plate/__image/history-plate__image.css);
 @import url(../blocks/history-plate/__container/history-plate__container.css);
+@import url(../blocks/history-plate/__container/_story/history-plate__container_story_short.css);
 @import url(../blocks/history-plate/__quotes/history-plate__quotes.css);
 @import url(../blocks/history-plate/__title/history-plate__title.css);
 @import url(../blocks/history-plate/__text/history-plate__text.css);
@@ -223,24 +227,23 @@
 @import url(../blocks/history-plate/__image/_place/history-plate__image_place_short-story.css);
 @import url(../blocks/history-plate/__heading/history-plate__heading.css);
 @import url(../blocks/history-plate/__button/history-plate__button.css);
+@import url(../blocks/history-plate/_gap/history-plate_gap_short-story.css);
 
-/* HISTORY-PLATE */
-@import url(../blocks/history-plate/__audio/history-plate__audio.css);
-
-
+/* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
+
 @import url(../blocks/brand/brand.css);
 @import url(../blocks/brand/__container/brand__container.css);
 @import url(../blocks/brand/__logo/brand__logo.css);
 @import url(../blocks/brand/__logo/_2/brand__logo_2.css);
 @import url(../blocks/brand/__text/brand__text.css);
+
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__list/links__list.css);
 @import url(../blocks/links/__list/_item/links__list_item.css);
 @import url(../blocks/links/__list/_link/links__list_link.css);
-@import url(../blocks/heading/__footer/heading__footer.css);
-@import url(../blocks/support/support.css);
+
 @import url(../blocks/support/__beeline/support__beeline.css);
 @import url(../blocks/support/__fond/support__fond.css);
 @import url(../blocks/social/social.css);
@@ -249,6 +252,7 @@
 @import url(../blocks/contacts/__telephone/contacts__telephone.css);
 @import url(../blocks/contacts/__telephone/_num/contacts__telephone_num.css);
 @import url(../blocks/contacts/__address/contacts__address.css);
+
 @import url(../blocks/praktikum/praktikum.css);
 @import url(../blocks/praktikum/__logo/praktikum__logo.css);
 @import url(../blocks/praktikum/__text/praktikum__text.css);

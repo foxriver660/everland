@@ -1,15 +1,16 @@
 .news-cell__heading {
   margin: 0;
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 130%;
-font-feature-settings: 'pnum' on, 'lnum' on;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
-@media screen  and (max-width:1279px) {
+
+@media screen and (max-width:1439px) {
   .news-cell__heading {
     font-weight: 500;
-font-size: 14px;
-line-height: 120%;
+    font-size: 14px;
+    line-height: 120%;
   }
 }

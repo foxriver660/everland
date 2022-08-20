@@ -1,18 +1,19 @@
 .history-plate__container {
-    display: grid;
+  display: grid;
   grid-template-columns: 60px 977px;
-  column-gap: 19px;
-  row-gap: 20px;
-
+  gap: 20px 19px;
 }
+
 @media screen and (max-width: 1439px) {
   .history-plate__container {
     grid-template-columns: 1fr;
+    grid-template-rows: 34px 92px min-content 20px 44px;
+    gap:0;
   }
 }
+
 @media screen and (max-width: 767px) {
   .history-plate__container {
-   
-  row-gap: 16px;
+    row-gap: 16px;
   }
 }

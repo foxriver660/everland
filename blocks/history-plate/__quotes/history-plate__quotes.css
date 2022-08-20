@@ -2,20 +2,29 @@
   grid-row: 1/4;
   width: 60px;
   height: 60px;
- 
+  box-sizing: border-box;
+  background-image: url(../../../images/Icon_quote.svg);
+  background-repeat: no-repeat;
+  background-size: 36px, auto, cover;
+  background-position: top 18px left 12px;
+
 }
 
 @media screen and (max-width: 1439px) {
   .history-plate__quotes {
     width: 28px;
     height: 28px;
-    
+    background-size: 28px, auto, cover;
+    background-position: center;
+    padding: 0 0 0;
+    grid-area: 1/1/1/1;
+
   }
 }
 @media screen and (max-width: 767px) {
   .history-plate__quotes {
     width: 24px;
     height: 24px;
-    
+
   }
 }
