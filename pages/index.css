@@ -177,10 +177,18 @@
 
 /* MAIN-WORK */
 @import url(../blocks/main-work/main-work.css);
+@import url(../blocks/heading/heading.css);
+
+@import url(../blocks/heading/_type/heading_type_section.css);
+@import url(../blocks/heading/_type/heading_type_section-margin.css);
+@import url(../blocks/heading/_type/heading_type_card.css);
+@import url(../blocks/heading/_margin/heading_margin_small.css);
+@import url(../blocks/heading/_margin/heading_margin_middle.css);
 
 /* ACCORDION */
 @import url(../blocks/accordions/accordions.css);
 @import url(../blocks/accordion/accordion.css);
+@import url(../blocks/accordions/__column/accordions__column.css);
 @import url(../blocks/accordion/__title/accordion__title.css);
 @import url(../blocks/accordion/__input/accordion__input.css);
 @import url(../blocks/accordion/__text/accordion__text.css);
@@ -197,8 +205,8 @@
 
 /* SPECIAL-PROJECTS */
 @import url(../blocks/special-projects/special-projects.css);
-
-/* PROJECT CARD */
+@import url(../blocks/project-card/__container/project-card__container.css);
+@import url(../blocks/project-card/__slide/project-card__slide.css);
 @import url(../blocks/project-card/project-card.css);
 @import url(../blocks/project-card/__content/project-card__content.css);
 @import url(../blocks/project-card/__text/project-card__text.css);
