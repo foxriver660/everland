@@ -1,4 +1,5 @@
 .project-card__content {
+  position: relative;
   display: grid;
   grid-template-columns: 603px 393px;
   grid-template-rows: 42px 351px;
@@ -10,15 +11,19 @@
 @media screen and (max-width: 1439px) {
   .project-card__content {
     grid-template-columns: 339px 284px;
-    grid-template-rows: 31px 253px;
+    grid-template-rows: 31px 96px 113px 44px;
     column-gap: 30px;
     min-height: 284px;
   }
 }
 @media screen and (max-width: 767px) {
   .project-card__content {
+    display: flex;
+    flex-direction: column;
+    
+    min-height: 448px;
     width: calc(100% - 25px * 2);
-    grid-template-columns: 250px;
-    grid-template-rows: 41px 200px 204px;
+ 
+    
   }
 }
