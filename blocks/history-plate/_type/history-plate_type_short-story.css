@@ -1,8 +1,10 @@
-/* .history-plate_type_short-story {
-} */
+.history-plate_type_short-story {
+  min-height: 285px;
+}
 
 @media screen and (max-width: 1439px) {
   .history-plate_type_short-story {
+    min-height:unset;
     gap: 20px;
   }
 }
