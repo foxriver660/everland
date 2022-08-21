@@ -349,7 +349,7 @@
           </details>
           <details class="accordion">
             <summary class="accordion__title heading heading_type_card">
-              Инклюзивность  
+              Инклюзивность
             </summary>
             <p class="accordion__text">
               За время существования проекта с 2016 года социальная
@@ -600,11 +600,10 @@
       <button class="button button__section button__section_place_history">
         Все истории
       </button>
-
       <article class="history-plate">
-        <img class="history-plate__image" src="./images/Avatar 3.jpg" alt="" />
+        <img class="history-plate__image" src="./images/Avatar 3.jpg" alt="Фото Максима Гильфанова" />
         <div class="history-plate__container">
-          <img class="history-plate__quotes" src="./images/Icon_quote.svg" alt="" />
+          <div class="history-plate__quotes"></div>
           <h4 class="history-plate__title">
             Мне интересно слушать интервью с людьми. Это мотивация и
             вдохновение, которых так не хватает
@@ -613,12 +612,17 @@
             Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и
             курсы по веб-дизайну не решили проблему с трудоустройством
           </p>
-          <button class="button button_type_history">История Максима</button>
+          <button class="button button_type_history">История Максима<svg class="button__arrow" viewBox="0 0 16 16"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="currentColor" />
+            </svg></button>
         </div>
       </article>
+
       <article class="history-plate">
         <div class="history-plate__container">
-          <img class="history-plate__quotes" src="./images/Icon_quote.svg" alt="" />
+          <div class="history-plate__quotes"></div>
           <h4 class="history-plate__title">
             Платформа дала надежду: кто-то заинтересован в трудоустройстве
             инвалидов
@@ -628,31 +632,39 @@
             неудачно сделал сальто и повредил позвоночник. С тех пор ему
             тяжело передвигаться на большие расстояния
           </p>
-          <button class="button button_type_history">История Максима</button>
+          <button class="button button_type_history">История Максима<svg class="button__arrow" viewBox="0 0 16 16"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="currentColor" />
+            </svg></button>
         </div>
-        <img class="history-plate__image" src="./images/Avatar-2.jpg" alt="" />
+        <img class="history-plate__image" src="./images/Avatar-2.jpg" alt="Фото Максима Чернышова" />
       </article>
-      <article class="history-plate">
+
+      <article class="history-plate history-plate_type_short-story">
+
         <div class="history-plate__short-story">
-          <img class="history-plate__image history-plate__image_place_short-story" src="./images/Avatar (1).jpg"
-            alt="" />
-          <h4 class="history-plate__heading">Айслу Асан</h4>
-          <h4 class="history-plate__title">Когда хочется жить</h4>
-          <button class="button history-plate__button">
-            История Айслу<img class="history-plate__audio" src="./images/Icon_paly.svg" alt="" />
-          </button>
+          <img class="history-plate__image" src="./images/Avatar (1).jpg"
+            alt="Фото Айслу Асан" />
+          <div class="history-plate__container history-plate__container_story_short">
+            <h4 class="history-plate__heading">Айслу Асан</h4>
+            <h4 class="history-plate__title">Когда хочется жить</h4>
+            <button class="button history-plate__button">История Айслу</button>
+          </div>
         </div>
+
         <div class="history-plate__short-story">
-          <img class="history-plate__image history-plate__image_place_short-story" src="./images/Avatar (2).jpg"
-            alt="" />
-          <h4 class="history-plate__heading">Артём Плаксин</h4>
-          <h4 class="history-plate__title">
-            Не&nbsp;видеть и&nbsp;смотреть&nbsp;в будущее
-          </h4>
-          <button class="button history-plate__button">
-            История Артёма<img class="history-plate__audio" src="./images/Icon_paly.svg" alt="" />
-          </button>
+          <img class="history-plate__image" src="./images/Avatar (2).jpg"
+            alt="Фото Артема Плаксина" />
+          <div class="history-plate__container history-plate__container_story_short">
+            <h4 class="history-plate__heading">Артём Плаксин</h4>
+            <h4 class="history-plate__title">
+              Не&nbsp;видеть и смотреть&nbsp;в будущее
+            </h4>
+            <button class="button history-plate__button">История Артёма</button>
+          </div>
         </div>
+
       </article>
     </section>
     <!-- AGENCY -->
@@ -754,7 +766,6 @@
                 <input class="form__hide-radio" id="radio-amount-1" type="radio" name="amount" value="1" />
                 <label class="form__pseudo-radio" for="radio-amount-1">250 &#8381;</label>
               </li>
-
               <li class="form__radio form__radio_type_amount">
                 <input class="form__hide-radio" id="radio-amount-2" type="radio" name="amount" value="2" checked />
                 <label class="form__pseudo-radio" for="radio-amount-2">500 &#8381;</label>

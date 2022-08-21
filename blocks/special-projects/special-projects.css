@@ -3,18 +3,18 @@
     width: 100%;
     min-height: 453px;
     margin: 0 auto;
-    padding-bottom: 150px;
-  
+    padding-bottom: 50px;
+
   }
   @media screen and (max-width: 1439px) {
     .special-projects {
       max-width: 688px;
-      padding-bottom: 100px;
+      padding-bottom: 50px;
     }
   }
   @media screen and (max-width: 767px) {
     .special-projects {
       max-width: 300px;
-      padding-bottom: 64px;
+      padding-bottom: 32px;
     }
   }

@@ -1,0 +1,14 @@
+/* .history-plate_type_short-story {
+} */
+
+@media screen and (max-width: 1439px) {
+  .history-plate_type_short-story {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history-plate_type_short-story {
+    gap: 16px;
+  }
+}
