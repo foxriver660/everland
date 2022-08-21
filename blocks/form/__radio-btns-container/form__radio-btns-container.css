@@ -9,7 +9,7 @@
   list-style: none;
 }
 .form__radio-btns-container:last-child{
-  justify-content: center;
+  justify-content: flex-end;
   gap: 18px
 }
 @media screen and (max-width: 1279px) {
@@ -30,6 +30,7 @@
   .form__radio-btns-container:last-child{
     justify-content:center;
     flex-direction: column;
-    gap: 16px
+    gap: 16px;
+    margin: 16px auto 10px;
   }
 }

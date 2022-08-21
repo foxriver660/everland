@@ -1,6 +1,6 @@
 .donat__item {
   list-style-type: none;
-  
+  padding-right: 29px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -8,10 +8,20 @@
 font-size: 20px;
 line-height: 130%;
 font-feature-settings: 'pnum' on, 'lnum' on;
-z-index: 0;
+
+}
+
+@media screen  and (max-width: 1439px) {
+  .donat__item:last-child {
+  display: none;
+}
 }
 @media screen and (max-width: 764px) {
   .donat__item {
     font-size: 14px;
+    padding-right: 4px;
+  }
+  .donat__item:nth-child(6n+1) {
+    display: none;
   }
 }

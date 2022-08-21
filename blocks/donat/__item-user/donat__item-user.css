@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
  
-  max-width: 68%;
+  max-width: 65%;
   height: 26px;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -20,5 +20,5 @@
 }
 @media screen and (max-width: 435px) {
   .donat__item-user{
-    max-width: 78%;}
+    max-width: 70%;}
 }
