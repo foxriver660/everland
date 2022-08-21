@@ -40,5 +40,8 @@
   .accordion__title::after {
     top: 12px;
   }
+  .accordion__title:first-child .accordion__title::after {
+    top: center;
+  }
 
 }
