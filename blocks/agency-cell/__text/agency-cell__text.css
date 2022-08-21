@@ -1,0 +1,21 @@
+.agency-cell__text {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency-cell__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency-cell__text {
+    max-width: 440px;
+  }
+}

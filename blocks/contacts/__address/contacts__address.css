@@ -1,0 +1,16 @@
+.contacts__address {
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+@media screen and (max-width: 767px) {
+.contacts__address {
+    margin: 0 16px 0 0;   
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 12px;
+    line-height: 14.4px;
+    width: 300px;
+}
+}

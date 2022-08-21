@@ -1,0 +1,18 @@
+.support__beeline{
+    width: 100px;
+    display:flex;
+    background-image: url('../../../images/bilain_1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
+}
+
+@media screen and (max-width: 1439px) {
+    .support__beeline {
+        width: 55px;
+        background-image:url('../../../images/bilain_1tabl.jpg');
+    }
+  }
