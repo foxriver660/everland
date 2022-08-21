@@ -1,0 +1,9 @@
+.heading_margin_middle {
+    max-width: 603px;
+    padding-bottom: 20px;
+  }
+  @media screen and (max-width: 1439px) {
+    .heading_margin_middle {
+      padding-bottom: 10px;
+    }
+  }

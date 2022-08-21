@@ -1,9 +1,11 @@
 .accordion {
   position: relative;
   max-width: 664px;
+  min-height: 68px;
   border: 2px solid #dadada;
   border-radius: 30px;
   width: 100%;
+  align-self: flex-start;
 }
 
 .accordion:hover .accordion__title::after {
@@ -25,27 +27,37 @@
 @media screen and (max-width:1439px) {
   .accordion[open] .accordion__title {
     font-size: 26px;
-    padding: 30.5px 20px 20.5px;
+    padding: 28.5px 18px 20.5px;
   }
   .accordion[open] .accordion__title::after {
     content: "";
-    top: 30px;
+    top: 28px;
   }
   .accordion:hover .accordion__title::after {
     background-size: 15px 15px;
   }
+  .accordion {
+    max-width: 688px;
+    border-radius: 20px;
 }
+}
+
 @media screen and (max-width: 767px) {
   .accordion {
+    box-sizing: border-box;
+    min-height: 56px;
     border-radius: 15px;
+    max-height: 186px;
   }
+
   .accordion[open] .accordion__title {
-    padding: 17px 16px 17px;
+    padding: 20px 16px 12px;
     font-size: 18px;
   }
   .accordion[open] .accordion__title::after {
     content: "";
-    top: 16px;
+    top: 15px;
     right: 15px;
   }
 }
+

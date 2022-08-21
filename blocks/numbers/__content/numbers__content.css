@@ -1,12 +1,26 @@
 .numbers__content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height:368px;
+  align-items: center;
+  gap: 135px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .numbers__content {
+    max-width: 688px;
+    min-height: 197px;
+  }
 }
 @media screen and (max-width: 767px) {
-    .numbers__content {
-        flex-direction: column-reverse;
-        gap: 24px;
-    }
+  .numbers__content {
+    flex-direction: column-reverse;
+    max-width: 300px;
+    min-height: 508px;
+    /* grid-template-columns: 300px;
+    grid-template-rows: 308px 200px; */
+    gap: 24px;
+  }
 }

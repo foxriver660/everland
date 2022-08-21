@@ -7,13 +7,13 @@
   letter-spacing: -0.01em;
 }
 
-@media screen and (max-width: 1279px) {
-  .support__title{ 
+@media screen and (max-width: 1439px) {
+  .support__title{
     font-size: 36px;
   text-align: center;}
 }
 @media screen and (max-width: 764px) {
-  .support__title{ 
+  .support__title{
     font-size: 26px;
   }
 }
