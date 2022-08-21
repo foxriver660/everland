@@ -1,3 +1,15 @@
 .footer {
     width: 1440px;
 }
+
+@media screen and (max-width: 1439px) {
+    .footer {
+      max-width: 692px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer {
+      max-width: 320px;
+    }
+  }
