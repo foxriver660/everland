@@ -25,6 +25,6 @@
   .history-plate__quotes {
     width: 24px;
     height: 24px;
-
+    background-size: 24px, auto, cover;
   }
 }

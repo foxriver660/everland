@@ -13,13 +13,26 @@
     margin: 0 0 32px;
     gap: 32px;
   }
+
+  .history-plate:nth-of-type(2) {
+    margin: 0 0 40px;
+  }
+
+  .history-plate:last-of-type {
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .history-plate {
+    margin: 0 0 32px;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .history-plate:nth-of-type(2) {
+    margin: 0 0 32px;
     flex-direction: column-reverse;
-    gap: 10px;
-    margin-bottom: 32px;
   }
 
   .history-plate:last-of-type {

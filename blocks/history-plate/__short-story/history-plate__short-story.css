@@ -2,8 +2,8 @@
   padding: 30px 30px 26px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 224px minmax(100px,566px);
-  gap:20px;
+  grid-template-columns: 224px minmax(100px, 566px);
+  gap: 20px;
   border-radius: 30px;
   background: #EAE6FF;
   justify-items: start;
@@ -12,16 +12,23 @@
 
 @media screen and (max-width: 1439px) {
   .history-plate__short-story {
-    grid-template-columns: 120px minmax(100px,366px);
-    padding: 25px 20px;
+    grid-template-columns: 120px minmax(100px, 366px);
+    padding: 20px;
     border-radius: 20px;
-    gap:16px;
+    gap: 16px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .history-plate__short-story {
-   justify-content: center;
-   column-gap: 16px;
-   row-gap: 4px;
+    grid-template-columns: 80px minmax(100px, 366px);
+    padding: 16px;
+    /* justify-content: center; */
+    /* column-gap: 16px; */
+    /* row-gap: 4px; */
   }
 }
+
+/* * {
+  border: 1px red solid;
+ } */

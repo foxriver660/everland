@@ -15,6 +15,6 @@
 
 @media screen and (max-width: 767px) {
   .history-plate__container_story_short {
-    row-gap: 16px;
+    grid-template-rows: 17px max-content 24px;
   }
 }

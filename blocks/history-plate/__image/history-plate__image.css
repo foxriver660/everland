@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 767px) {
   .history-plate__image {
-    order: 1;
     min-width: 80px;
     max-width: 80px;
     align-self: flex-start;
