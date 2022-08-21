@@ -114,6 +114,7 @@
 /* SUPPORT */
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__title/support__title.css);
+@import url(../blocks/support/__main-container/support__main-container.css);
 @import url(../blocks/support/__container/support__container.css);
 
 /* DONAT */
@@ -154,6 +155,7 @@
 @import url(../blocks/form/__btn-rewind/form__btn-rewind.css);
 @import url(../blocks/form/__hide-radio/form__hide-radio.css);
 @import url(../blocks/form/__pseudo-radio/form__pseudo-radio.css);
+@import url(../blocks/form/__checkbox-link/form__checkbox-link.css);
 
 /* NEWS */
 @import url(../blocks/news/news.css);

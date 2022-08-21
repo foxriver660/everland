@@ -1,6 +1,7 @@
 .support__container {
      display: flex;
-  gap: 4.7vw
+  gap: 117px
+  
 }
 
 @media screen and (max-width: 1439px) {
