@@ -1,5 +1,5 @@
 .footer__container {
-    margin: 80px 146px 150px 77px;
+    margin: 80px 146px 50px 77px;
     display: grid;
     grid-template-columns: 540px 655px;
     column-gap: 60px;
