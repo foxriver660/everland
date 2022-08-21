@@ -1,5 +1,7 @@
 .praktikum__logo{
     display: flex;
+    width: 161.38px;
+    height: 27.97px;
 }
 
 @media screen and (max-width: 767px) {

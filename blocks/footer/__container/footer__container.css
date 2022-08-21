@@ -1,9 +1,9 @@
 .footer__container {
-    margin: 80px 146px 84px 40px;
+    margin: 80px 146px 150px 77px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 540px 655px;
     column-gap: 60px;
-    row-gap: 56px;
+    row-gap: 50px;
 }
 
 @media screen and (max-width: 1439px) {

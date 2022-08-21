@@ -5,6 +5,8 @@
     font-size: 18px;
     line-height: 130%;
     color: rgba(38, 38, 38, 0.5);
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin: 0 0 0 22px;
 }
 
 @media screen and (max-width: 767px) {

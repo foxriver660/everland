@@ -2,6 +2,12 @@
     max-width: 166px;
     list-style-type: none;
     padding: 0 0 10px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 .links__list_item:last-of-type {

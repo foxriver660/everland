@@ -1,5 +1,11 @@
 .brand__text{
-    margin: 20.89px 0 0 0;
+    margin: 20.89px 40px 34px 0;
+    font-size: 18px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
