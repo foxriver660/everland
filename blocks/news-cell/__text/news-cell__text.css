@@ -6,18 +6,23 @@
   font-size: 20px;
   line-height: 130%;
   font-feature-settings: 'pnum' on, 'lnum' on;
+  box-sizing: content-box;
+  letter-spacing: -0.001em;
 }
 
 @media screen and (max-width:1439px) {
   .news-cell__text {
     font-size: 16px;
-    line-height: 120%;
+    line-height: 19px;
   }
 }
 
 @media screen and (max-width:767px) {
   .news-cell__text {
     font-size: 14px;
+    line-height: 17px;
     flex: 0;
+    margin: 0 0 10px;
+    letter-spacing: -0.005em;
   }
 }
