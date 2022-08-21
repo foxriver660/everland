@@ -3,3 +3,12 @@
     top: 10%;
     left: 22%;
 }
+
+@media screen and (max-width: 1439px) {
+    .brand__logo_2 {
+        margin-left: 3.07px;
+        width: 6.61px;
+        top: 55%;
+        left: 7%;
+    }
+}

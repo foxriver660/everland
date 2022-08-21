@@ -14,6 +14,17 @@
     padding: 0;
 }
 
+
+@media screen and (max-width: 1439px) {
+    .links__list_item {
+        font-size: 16px;
+        line-height: 19px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #333333;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
 .links__list_item {
     margin: 0 18px 0 0;   

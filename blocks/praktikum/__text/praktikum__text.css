@@ -11,12 +11,15 @@
 @media screen and (max-width: 1439px) {
 .praktikum__text  {
     width: 280px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 0 10.63px;
     }
 }
 
 @media screen and (max-width: 767px) {
 .praktikum__text {  
-    font-weight: 500; 
     font-size: 12px;
     line-height: 14.4px;
     padding: 0;

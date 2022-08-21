@@ -7,11 +7,20 @@
     margin: 0 0 4px 0;
 }
 
+
+@media screen and (max-width: 1439px) {
+.footer__address  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    }
+}
+
+
+
 @media screen and (max-width: 767px) {
 .footer__address {
     margin: 0 16px 0 0;   
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500; 
     font-size: 12px;
     line-height: 14.4px;

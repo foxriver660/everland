@@ -4,6 +4,16 @@
     height: 27.97px;
 }
 
+@media screen and (max-width: 1439px) {
+.praktikum__logo {  
+    width: 115.4px;
+}
+}
+
+
+
+
+
 @media screen and (max-width: 767px) {
 .praktikum__logo {  
     width: 100px;

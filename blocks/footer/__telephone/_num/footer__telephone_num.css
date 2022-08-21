@@ -11,6 +11,9 @@
 @media screen and (max-width: 1439px) {
 .footer__telephone_num {
     margin: 0 0 16px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 }
 }
 

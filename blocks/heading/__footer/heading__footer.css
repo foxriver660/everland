@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 1439px) {
     .heading__footer {
-        width: 187px;
+        max-width: 187px;
+        font-size: 20px;
     }
 }
 

@@ -5,3 +5,9 @@
 }
 
 
+@media screen and (max-width: 1439px) {
+    .links {
+        max-width: 336px;
+        margin: 0;
+    }
+}

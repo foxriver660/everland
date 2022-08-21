@@ -2,3 +2,10 @@
     display: flex;
     margin-left: 5.89px;
 }
+
+@media screen and (max-width: 1439px) {
+    .brand__logo {
+        margin-left: 3.07px;
+        width: 98.18px;
+    }
+}

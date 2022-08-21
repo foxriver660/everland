@@ -1,4 +1,5 @@
 .brand__text{
+    font-family: 'Raleway';
     margin: 20.89px 40px 34px 0;
     font-size: 18px;
     line-height: 130%;
@@ -7,6 +8,21 @@
     font-style: normal;
     font-weight: 400;
 }
+
+
+@media screen and (max-width: 1439px) {
+.brand__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin: 16.21px 0 56px 0;
+    padding: 0;
+    width: 294px;
+    }
+}
+
+
+
 
 @media screen and (max-width: 767px) {
 .brand__text {

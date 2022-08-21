@@ -8,3 +8,10 @@
 .links__list:last-of-type{
     margin: 0;
 }
+
+
+@media screen and (max-width: 1439px) {
+    .links__list {
+        margin: 0 53px 0 0;
+}
+}

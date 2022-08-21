@@ -2,6 +2,14 @@
     display: flex;
 }
 
+
+@media screen and (max-width: 1439px) {
+.praktikum {
+    width: 406px;
+    }
+}
+
+
 @media screen and (max-width: 767px) {
 .praktikum {  
     flex-direction: column;

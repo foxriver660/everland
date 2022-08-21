@@ -9,6 +9,9 @@
 @media screen and (max-width: 1439px) {
 .footer__container  {
     margin: 50px 40px 53px 40px;
+    grid-template-columns: 311px 336px;
+    column-gap: 40px;
+    grid-template-rows: 21% 11% 12%;
     }
 }
 
