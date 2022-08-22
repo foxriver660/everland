@@ -10,20 +10,17 @@
   user-select: none;
   height: 48px;
   box-sizing: border-box;
- }
+}
 
-
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1439px) {
   .form__pseudo-radio {
     font-size: 16px;
     height: 44px;
-      }
-     
+  }
 }
+
 @media screen and (max-width: 764px) {
   .form__pseudo-radio {
     font-size: 14px;
-    
-      }
-     
+  }
 }

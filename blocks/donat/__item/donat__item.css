@@ -5,22 +5,29 @@
   justify-content: space-between;
   align-items: flex-start;
   font-weight: 400;
-font-size: 20px;
-line-height: 130%;
-font-feature-settings: 'pnum' on, 'lnum' on;
-
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
-@media screen  and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
+  .donat__item {
+    font-size: 16px;
+    line-height: 120%;
+    padding-right: 10px;
+  }
+
   .donat__item:last-child {
-  display: none;
+    display: none;
+  }
 }
-}
+
 @media screen and (max-width: 764px) {
   .donat__item {
     font-size: 14px;
-    padding-right: 4px;
+    padding-right: 0px;
   }
+
   .donat__item:nth-child(6n+1) {
     display: none;
   }

@@ -1,0 +1,14 @@
+/* .form__pseudo-radio_height_48px {
+} */
+
+@media screen and (max-width: 1439px) {
+  .form__pseudo-radio_height_48px {
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .form__pseudo-radio_height_48px {
+    height: 44px;
+  }
+}
