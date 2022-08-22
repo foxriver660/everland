@@ -14,7 +14,7 @@
   font-family: inherit;
 }
 
-@media screen and (max-width: 1264px) {
+@media screen and (max-width: 1439px) {
   .form__user-input {
     min-width: 260px;
     width: 100%;

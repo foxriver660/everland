@@ -162,6 +162,7 @@
 @import url(../blocks/form/__btn-rewind/form__btn-rewind.css);
 @import url(../blocks/form/__hide-radio/form__hide-radio.css);
 @import url(../blocks/form/__pseudo-radio/form__pseudo-radio.css);
+@import url(../blocks/form/__pseudo-radio/_height/form__pseudo-radio_height_48px.css);
 @import url(../blocks/form/__checkbox-link/form__checkbox-link.css);
 
 /* NEWS */

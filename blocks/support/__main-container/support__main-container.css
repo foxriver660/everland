@@ -1,25 +1,26 @@
 .support__main-container {
-  padding: 100px 104px 100px 40px;
-  
+  max-width: 1440px;
+  padding: 100px 40px;
   display: flex;
   flex-direction: column;
   gap: 50px;
   box-sizing: border-box;
-  max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-
 }
 
 @media screen and (max-width: 1439px) {
   .support__main-container {
-    padding: 44px 23px 56px 40px;
+    max-width: 768px;
+    padding: 44px 40px 56px;
+    gap: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .support__main-container {
-    padding: 31px 10px 32px;
+    max-width: 320px;
+    padding: 31px 10px 30px;
     gap: 24px;
   }
 }

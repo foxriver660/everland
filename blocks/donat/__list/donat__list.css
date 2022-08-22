@@ -13,18 +13,26 @@
   line-height: 130%;
   font-feature-settings: "pnum" on, "lnum" on;
   position: relative;
+}
+
+/* .donat__list::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(231, 240, 255, 1) 100%)
+} */
+
+@media screen and (max-width: 1439px) {
+  .donat__list {
+    max-width: 349px;
+    gap: 25px;
   }
-  .donat__list::before {
-    content:"";
-    display:block;
-    height:100%;
-    width: 100%;
-    position:absolute;
-        background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(231, 240, 255, 1) 100%)
-  }
+}
 
 @media screen and (max-width: 767px) {
   .donat__list {
-    gap: 16px;
+    gap: 18px;
   }
 }

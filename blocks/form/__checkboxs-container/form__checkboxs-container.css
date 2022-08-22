@@ -4,6 +4,13 @@
   align-items: flex-start;
   gap: 18px;
 }
+
+@media screen and (max-width: 1439px) {
+  .form__checkboxs-container {
+    gap: 14px;
+  }
+}
+
 @media screen and (max-width: 764px) {
   .form__checkboxs-container {
     gap: 12px;
