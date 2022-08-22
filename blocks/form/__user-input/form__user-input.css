@@ -1,4 +1,5 @@
 .form__user-input {
+  outline: none;
   max-width: 455px;
   font-style: normal;
   font-weight: 400;
@@ -14,7 +15,11 @@
   font-family: inherit;
 }
 
-@media screen and (max-width: 1439px) {
+.form__user-input:last-child::placeholder {
+  text-align: center;
+}
+
+@media screen and (max-width: 1264px) {
   .form__user-input {
     min-width: 260px;
     width: 100%;
@@ -30,4 +35,8 @@
     min-width: 260px;
     width: 100%;
   }
+}
+
+.form__user-input:focus {
+  border-color: #00275C;
 }
