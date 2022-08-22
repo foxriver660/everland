@@ -1,8 +1,21 @@
 .footer__sponsors {
-  margin: 0 0 17px;
+  margin: 20px 0 17px 0;
+  padding: 0;
   list-style: none;
   display: flex;
   column-gap: 50px;
-  padding: 20px 0 0 0;
   height: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__sponsors {
+    margin: 20px 0 1px 0;
+    column-gap: 21px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__sponsors {
+    margin: 19px 0 8px 0;
+  }
 }

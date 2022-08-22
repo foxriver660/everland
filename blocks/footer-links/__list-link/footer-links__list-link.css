@@ -16,5 +16,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .footer-links__list-link {}
+  .footer-links__list-link {
+    font-size: 14px;
+  }
 }

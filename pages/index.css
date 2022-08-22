@@ -241,6 +241,7 @@
 @import url(../blocks/footer/__sponsors-beeline/footer__sponsors-beeline.css);
 @import url(../blocks/footer/__sponsors-fond/footer__sponsors-fond.css);
 
+@import url(../blocks/footer/__sm-container/footer__sm-container.css);
 @import url(../blocks/footer/__sm-icons/footer__sm-icons.css);
 @import url(../blocks/footer/__sm-icons-telegram/footer__sm-icons-telegram.css);
 @import url(../blocks/footer/__sm-icons-vk/footer__sm-icons-vk.css);

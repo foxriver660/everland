@@ -3,5 +3,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .footer__copyright {}
+  .footer__copyright {
+    max-width: 300px;
+  }
 }

@@ -4,10 +4,19 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1439px) {
+  .footer__praktikum {
+    grid-area: 4 / 1 / 4 / 2 span;
+    gap: 11px;
+    justify-content:flex-start;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer__praktikum {
     flex-direction: column;
     align-items: flex-start;
-    width: fit-content;
+    grid-area: 7 / 1 / 7 / 1;
+    gap: 7px;
   }
 }

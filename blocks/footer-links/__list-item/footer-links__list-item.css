@@ -5,21 +5,10 @@
   list-style-type: none;
 }
 
-.footer-links__list-item:last-of-type {
-  padding: 0;
-}
-
 @media screen and (max-width: 767px) {
   .footer-links__list-item {
-    margin: 0 18px 0 0;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    margin: 0;
     font-size: 14px;
+    max-width: unset;
   }
-
-  .footer-links__list-item:last-of-type {
-    width: 140px;
-  }
-
 }

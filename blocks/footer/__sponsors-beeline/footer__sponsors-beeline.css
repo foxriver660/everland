@@ -10,10 +10,19 @@
 
 @media screen and (max-width: 1439px) {
   .footer__sponsors-beeline {
+    margin: 0 0 0 15px;
     min-height: 40px;
     width: 56px;
     background-image: url(../../../images/beeline_2.jpg);
     background-size: 56px, 40px, cover;
-    padding: 0 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__sponsors-beeline {
+    margin: 0 0 0 10px;
+    min-height: 34px;
+    width: 47px;
+    background-size: 47px, 34px, cover;
   }
 }

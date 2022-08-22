@@ -11,18 +11,12 @@
   .footer-brand__text {
     font-weight: 500;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 120%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer-brand__text {
-    margin: 16px 0 0 0;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
     font-size: 12px;
-    line-height: 14.4px;
-    width: 300px;
   }
 }
