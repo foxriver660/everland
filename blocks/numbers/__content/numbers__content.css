@@ -19,8 +19,6 @@
     flex-direction: column-reverse;
     max-width: 300px;
     min-height: 508px;
-    /* grid-template-columns: 300px;
-    grid-template-rows: 308px 200px; */
     gap: 24px;
   }
 }
