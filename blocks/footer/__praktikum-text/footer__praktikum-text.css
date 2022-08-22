@@ -1,6 +1,6 @@
-.footer__address {
+.footer__praktikum-text {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   font-weight: 400;
   font-size: 18px;
   line-height: 130%;
@@ -8,18 +8,16 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .footer__address {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 120%;
+  .footer__praktikum-text {
+    width: 280px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .footer__address {
-    margin: 0 16px 0 0;
+  .footer__praktikum-text {
+    font-weight: 500;
     font-size: 12px;
-    line-height: 14px;
-    width: 300px;
+    line-height: 14.4px;
+    padding: 0;
   }
 }

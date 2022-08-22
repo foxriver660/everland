@@ -1,6 +1,5 @@
-.footer__address {
+.footer__telephone-num {
   margin: 0;
-  padding: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 130%;
@@ -8,18 +7,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .footer__address {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 120%;
+  .footer__telephone-num {
+    margin: 0 0 16px 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .footer__address {
+  .footer__telephone-num {
     margin: 0 16px 0 0;
-    font-size: 12px;
-    line-height: 14px;
-    width: 300px;
   }
 }

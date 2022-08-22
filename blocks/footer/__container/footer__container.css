@@ -1,22 +1,22 @@
 .footer__container {
-    margin: 80px 146px 84px 40px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 60px;
-    row-gap: 56px;
+  padding: 80px 40px 130px;
+  display: grid;
+  grid-template-columns: 539px 761px;
+  gap: 37px 60px;
 }
 
 @media screen and (max-width: 1439px) {
-.footer__container  {
-    margin: 50px 40px 53px 40px;
-    }
+  .footer__container {
+    padding: 50px 40px 52px;
+    grid-template-columns: 294px 336px;
+    gap: 28px 60px;
+  }
 }
 
 
 @media screen and (max-width: 767px) {
-.footer__container {
+  .footer__container {
     margin: 32px 10px 113px 10px;
     grid-template-columns: repeat(1, 1fr);
-    }
+  }
 }
-  

@@ -1,0 +1,21 @@
+.heading_type_footer {
+  font-size: 34px;
+  line-height: 120%;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading_type_footer {
+    width: 187px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_type_footer {
+    font-size: 16px;
+  }
+}

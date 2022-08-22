@@ -1,6 +1,8 @@
 .footer__sponsors {
-    display: flex;
-    column-gap: 50px;
-    padding: 21px 0 0 0;
-    height: 50px;
+  margin: 0 0 17px;
+  list-style: none;
+  display: flex;
+  column-gap: 50px;
+  padding: 20px 0 0 0;
+  height: 50px;
 }

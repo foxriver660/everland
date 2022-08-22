@@ -1,0 +1,19 @@
+.footer__sponsors-beeline {
+  min-height: 50px;
+  width: 100px;
+  display: flex;
+  background-image: url(../../../images/beeline_1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__sponsors-beeline {
+    min-height: 40px;
+    width: 56px;
+    background-image: url(../../../images/beeline_2.jpg);
+    background-size: 56px, 40px, cover;
+    padding: 0 0 0 15px;
+  }
+}

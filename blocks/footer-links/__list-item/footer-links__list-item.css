@@ -1,0 +1,25 @@
+.footer-links__list-item {
+  margin: 0;
+  padding: 0;
+  max-width: 166px;
+  list-style-type: none;
+}
+
+.footer-links__list-item:last-of-type {
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-links__list-item {
+    margin: 0 18px 0 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .footer-links__list-item:last-of-type {
+    width: 140px;
+  }
+
+}

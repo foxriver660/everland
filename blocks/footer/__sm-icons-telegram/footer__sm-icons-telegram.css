@@ -1,0 +1,10 @@
+.footer__sm-icons-telegram {
+  width: 64px;
+  min-height: 62px;
+  list-style: none;
+  display:flex;
+  background-image: url(../../../images/telegram.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
