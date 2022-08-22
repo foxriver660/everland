@@ -1,9 +1,0 @@
-.praktikum__logo{
-    display: flex;
-}
-
-@media screen and (max-width: 767px) {
-.praktikum__logo {  
-    width: 100px;
-}
-}

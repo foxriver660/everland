@@ -1,0 +1,26 @@
+.footer__sponsors-fond {
+  min-height: 50px;
+  width: 100px;
+  display: flex;
+  background-image: url(../../../../images/prfond.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__sponsors-fond {
+    margin: 5px 0 0;
+    width: 89px;
+    min-height: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__sponsors-fond {
+    margin: 5px 0 0;
+    min-height: 25px;
+    width: 73px;
+    background-size: 73px, 25px, cover;
+  }
+}

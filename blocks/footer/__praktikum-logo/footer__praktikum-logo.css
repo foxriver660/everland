@@ -1,0 +1,25 @@
+.footer__praktikum-logo {
+  width: 162px;
+  min-height: 28px;
+  list-style: none;
+  display: flex;
+  background-image: url(../../../images/footer_yaPraktikum_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__praktikum-logo {
+    width: 115px;
+    min-height: 20px;
+    background-size: 115px, 20px, cover;
+    margin: 8px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__praktikum-logo {
+    margin: 12px 0 0;
+  }
+}

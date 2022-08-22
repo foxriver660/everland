@@ -1,0 +1,19 @@
+.footer__sm-icons {
+  margin: 11px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__sm-icons {
+    column-gap: 4px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__sm-icons {
+    margin: 6px 0 10px 0;
+  }
+}

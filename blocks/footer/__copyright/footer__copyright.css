@@ -1,0 +1,9 @@
+.footer__copyright {
+  max-width: 629px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    max-width: 300px;
+  }
+}

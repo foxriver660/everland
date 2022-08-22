@@ -15,14 +15,14 @@
   position: relative;
 }
 
-/* .donat__list::before {
+.donat__list::before {
   content: "";
   display: block;
   height: 100%;
   width: 100%;
   position: absolute;
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(231, 240, 255, 1) 100%)
-} */
+}
 
 @media screen and (max-width: 1439px) {
   .donat__list {

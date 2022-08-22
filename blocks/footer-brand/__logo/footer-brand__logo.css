@@ -1,0 +1,21 @@
+.footer-brand__logo {
+  min-width: 263px;
+  min-height: 46px;
+  background-image: url(../../../images/footer_everland_logo.svg);
+  background-size: 263px, 46px, cover;
+  background-repeat: no-repeat;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer-brand__logo {
+    margin: 0 0 16px;
+    min-width: 137px;
+    min-height: 24px;
+    background-size: 137px, 24px, cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-brand__logo {}
+}

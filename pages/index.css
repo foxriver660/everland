@@ -48,13 +48,13 @@
 
 /*HEADING*/
 @import url(../blocks/heading/heading.css);
-@import url(../blocks/heading/__footer/heading__footer.css); /* TODO refactor name & location to heading_type_footer */
 @import url(../blocks/heading/__subtitle/heading__subtitle.css);
 @import url(../blocks/heading/_type/heading_type_page.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
 @import url(../blocks/heading/_type/heading_type_section.css);
 @import url(../blocks/heading/_type/heading_type_section-margin.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
+@import url(../blocks/heading/_type/heading_type_footer.css);
 @import url(../blocks/heading/_color/heading_color_blue.css);
 @import url(../blocks/heading/_justify/heading_justify_center.css);
 @import url(../blocks/heading/_padding/heading_padding_agency.css);
@@ -238,29 +238,45 @@
 /* FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__sponsors/footer__sponsors.css);
+@import url(../blocks/footer/__sponsors-beeline/footer__sponsors-beeline.css);
+@import url(../blocks/footer/__sponsors-fond/footer__sponsors-fond.css);
 
-@import url(../blocks/brand/brand.css);
-@import url(../blocks/brand/__container/brand__container.css);
-@import url(../blocks/brand/__logo/brand__logo.css);
-@import url(../blocks/brand/__logo/_2/brand__logo_2.css);
-@import url(../blocks/brand/__text/brand__text.css);
+@import url(../blocks/footer/__sm-container/footer__sm-container.css);
+@import url(../blocks/footer/__sm-icons/footer__sm-icons.css);
+@import url(../blocks/footer/__sm-icons-telegram/footer__sm-icons-telegram.css);
+@import url(../blocks/footer/__sm-icons-vk/footer__sm-icons-vk.css);
 
-@import url(../blocks/links/links.css);
-@import url(../blocks/links/__list/links__list.css);
-@import url(../blocks/links/__list/_item/links__list_item.css);
-@import url(../blocks/links/__list/_link/links__list_link.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__telephone/footer__telephone.css);
+@import url(../blocks/footer/__telephone-num/footer__telephone-num.css);
+@import url(../blocks/footer/__address/footer__address.css);
 
-@import url(../blocks/support/__beeline/support__beeline.css);
-@import url(../blocks/support/__fond/support__fond.css);
-@import url(../blocks/social/social.css);
-@import url(../blocks/copywright/copywright.css);
-@import url(../blocks/contacts/contacts.css);
-@import url(../blocks/contacts/__telephone/contacts__telephone.css);
-@import url(../blocks/contacts/__telephone/_num/contacts__telephone_num.css);
-@import url(../blocks/contacts/__address/contacts__address.css);
+@import url(../blocks/footer/__praktikum/footer__praktikum.css);
+@import url(../blocks/footer/__praktikum-logo/footer__praktikum-logo.css);
+@import url(../blocks/footer/__praktikum-text/footer__praktikum-text.css);
 
-@import url(../blocks/praktikum/praktikum.css);
-@import url(../blocks/praktikum/__logo/praktikum__logo.css);
-@import url(../blocks/praktikum/__text/praktikum__text.css);
+@import url(../blocks/footer-brand/footer-brand.css);
+@import url(../blocks/footer-brand/__container/footer-brand__container.css);
+@import url(../blocks/footer-brand/__logo/footer-brand__logo.css);
+@import url(../blocks/footer-brand/__text/footer-brand__text.css);
+
+@import url(../blocks/footer-links/footer-links.css);
+@import url(../blocks/footer-links/__list/footer-links__list.css);
+@import url(../blocks/footer-links/__list-link/footer-links__list-link.css);
+@import url(../blocks/footer-links/__list-item/footer-links__list-item.css);
+
+@import url(../blocks/footer-support/__beeline/footer-support__beeline.css);
+@import url(../blocks/footer-support/__fond/footer-support__fond.css);
+
+@import url(../blocks/footer-social/footer-social.css);
+
+@import url(../blocks/footer-contacts/footer-contacts.css);
+@import url(../blocks/footer-contacts/__telephone/footer-contacts__telephone.css);
+@import url(../blocks/footer-contacts/__telephone/_num/footer-contacts__telephone_num.css);
+@import url(../blocks/footer-contacts/__address/footer-contacts__address.css);
+
 
 
