@@ -156,6 +156,9 @@
 @import url(../blocks/form/__hide-radio/form__hide-radio.css);
 @import url(../blocks/form/__pseudo-radio/form__pseudo-radio.css);
 @import url(../blocks/form/__checkbox-link/form__checkbox-link.css);
+@import url(../blocks/form/__popup/form__popup.css);
+@import url(../blocks/form/__popup-container/form__popup-container.css);
+@import url(../blocks/form/__popup/_opened/form__popup_opened.css);
 
 /* NEWS */
 @import url(../blocks/news/news.css);

@@ -746,7 +746,7 @@
       <div class="support__main-container">
       <h2 class="support__title">Поддержите нас</h2>
       <div class="support__container">
-        <form name="payment-form" class="form">
+        <form name="payment-form" class="form js-form-amount">
           <!-- ВЕРХНИЕ ДВЕ КНОПКИ -->
           <fieldset class="form__fieldset-container form__fieldset-container_el_period">
             <div class="form__radio form__radio_type_period">
@@ -779,9 +779,9 @@
                 <input class="form__hide-radio" id="radio-amount-4" type="radio" name="amount" value="4" />
                 <label class="form__pseudo-radio" for="radio-amount-4">1000&#8381;</label>
               </li>
-              <li class="form__radio form__radio_type_amount">
+              <li class="form__radio form__radio_type_amount js-amount-btn">
                 <input class="form__hide-radio" id="radio-amount-5" type="radio" name="amount" value="5" />
-                <label class="form__pseudo-radio" for="radio-amount-5">Другая сумма</label>
+                <label class="form__pseudo-radio js-amount" for="radio-amount-5">Другая сумма</label>
               </li>
             </ul>
             <p class="form__amount-description">
@@ -837,7 +837,40 @@
           <button type="submit" class="button button__submit">
             Поддержать
           </button>
-        </form>
+          <div class="form__popup">
+            <div class="form__popup-container">
+              
+                <fieldset class="form__fieldset-container">
+                  <input
+                    name="user-amount"
+                    type="number"
+                    class="form__user-input js-form__user-input_type_amount"
+                    placeholder="Укажите сумму"
+                    value=""
+                    step="1" min="10"
+                  />
+                 </fieldset>
+                <button type="submit" class="button button__submit">Сохранить</button>
+              
+            </div>
+          </div> 
+              </form>
+              <!-- <div class="form__popup form__popup_opened">
+                <div class="form__popup-container">
+                  <form name="another-amount" class="form-amount">
+                    <fieldset class="form__fieldset-container">
+                      <input
+                        name="user-amount"
+                        type="number"
+                        class="form__user-input js-form__user-input_type_amount"
+                        placeholder="Сумма пожертвования"
+                        value=""
+                      />
+                     </fieldset>
+                    <button type="submit" class="button button__submit">Сохранить</button>
+                  </form>
+                </div>
+              </div> -->
         <!-- СЛЕДУЮЩИЙ РАЗДЕЛ -->
         <div class="donat">
           <h4 class="donat__title">
@@ -970,6 +1003,7 @@
   </footer>
   <script src="pages/dropdown-menu.js"></script>
   <script src="pages/slide-cards.js"></script>
+  <script src="./pages/popup-support.js"></script>
 </body>
 </html>
 
