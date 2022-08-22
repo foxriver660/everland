@@ -243,36 +243,28 @@
 @import url(../blocks/footer/__sponsors/footer__sponsors.css);
 @import url(../blocks/footer/__sponsors-beeline/footer__sponsors-beeline.css);
 @import url(../blocks/footer/__sponsors-fond/footer__sponsors-fond.css);
-
 @import url(../blocks/footer/__sm-container/footer__sm-container.css);
 @import url(../blocks/footer/__sm-icons/footer__sm-icons.css);
 @import url(../blocks/footer/__sm-icons-telegram/footer__sm-icons-telegram.css);
 @import url(../blocks/footer/__sm-icons-vk/footer__sm-icons-vk.css);
-
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__telephone/footer__telephone.css);
 @import url(../blocks/footer/__telephone-num/footer__telephone-num.css);
 @import url(../blocks/footer/__address/footer__address.css);
-
 @import url(../blocks/footer/__praktikum/footer__praktikum.css);
 @import url(../blocks/footer/__praktikum-logo/footer__praktikum-logo.css);
 @import url(../blocks/footer/__praktikum-text/footer__praktikum-text.css);
-
 @import url(../blocks/footer-brand/footer-brand.css);
 @import url(../blocks/footer-brand/__container/footer-brand__container.css);
 @import url(../blocks/footer-brand/__logo/footer-brand__logo.css);
 @import url(../blocks/footer-brand/__text/footer-brand__text.css);
-
 @import url(../blocks/footer-links/footer-links.css);
 @import url(../blocks/footer-links/__list/footer-links__list.css);
 @import url(../blocks/footer-links/__list-link/footer-links__list-link.css);
 @import url(../blocks/footer-links/__list-item/footer-links__list-item.css);
-
 @import url(../blocks/footer-support/__beeline/footer-support__beeline.css);
 @import url(../blocks/footer-support/__fond/footer-support__fond.css);
-
 @import url(../blocks/footer-social/footer-social.css);
-
 @import url(../blocks/footer-contacts/footer-contacts.css);
 @import url(../blocks/footer-contacts/__telephone/footer-contacts__telephone.css);
 @import url(../blocks/footer-contacts/__telephone/_num/footer-contacts__telephone_num.css);

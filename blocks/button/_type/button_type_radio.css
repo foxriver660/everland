@@ -29,6 +29,11 @@
   color: #00275C;
 }
 
+.button_type_radio label:active {
+  background: #00275C;
+  color: #FFFFFF;
+}
+
 .button_type_radio input[type=radio]:disabled+label {
   background: #F5F5F5;
   ;
