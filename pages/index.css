@@ -121,6 +121,7 @@
 /* SUPPORT */
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__title/support__title.css);
+@import url(../blocks/support/__main-container/support__main-container.css);
 @import url(../blocks/support/__container/support__container.css);
 
 /* DONAT */
@@ -161,6 +162,8 @@
 @import url(../blocks/form/__btn-rewind/form__btn-rewind.css);
 @import url(../blocks/form/__hide-radio/form__hide-radio.css);
 @import url(../blocks/form/__pseudo-radio/form__pseudo-radio.css);
+@import url(../blocks/form/__pseudo-radio/_height/form__pseudo-radio_height_48px.css);
+@import url(../blocks/form/__checkbox-link/form__checkbox-link.css);
 
 /* NEWS */
 @import url(../blocks/news/news.css);
@@ -243,8 +246,7 @@
 @import url(../blocks/links/__list/links__list.css);
 @import url(../blocks/links/__list/_item/links__list_item.css);
 @import url(../blocks/links/__list/_link/links__list_link.css);
-@import url(../blocks/heading/__footer/heading__footer.css);
-@import url(../blocks/support/support.css);
+
 @import url(../blocks/support/__beeline/support__beeline.css);
 @import url(../blocks/support/__fond/support__fond.css);
 @import url(../blocks/social/social.css);
@@ -253,6 +255,7 @@
 @import url(../blocks/contacts/__telephone/contacts__telephone.css);
 @import url(../blocks/contacts/__telephone/_num/contacts__telephone_num.css);
 @import url(../blocks/contacts/__address/contacts__address.css);
+
 @import url(../blocks/praktikum/praktikum.css);
 @import url(../blocks/praktikum/__logo/praktikum__logo.css);
 @import url(../blocks/praktikum/__text/praktikum__text.css);

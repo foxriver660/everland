@@ -4,15 +4,14 @@
   background-position: center;
   width: 10px;
   height: 10px;
-  padding-left: 20px;
+  padding: 0 0 0 20px;
 }
 
 @media screen and (max-width: 764px) {
   .form__question {
-    width: 8.4px;
-  height: 8.4px;
-  padding-left: 8px;
-  background-size: 8.4px 8.4px;
-      }
-     
+    width: 9px;
+    height: 9px;
+    padding-left: 12px;
+    background-size: 9px 9px;
+  }
 }

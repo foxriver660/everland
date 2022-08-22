@@ -1,24 +1,23 @@
 .donat__item-user {
   margin: 0;
   padding: 0;
- 
-  max-width: 68%;
+  max-width: 65%;
   height: 26px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
+
 .donat__item-user::after {
   content: "...........................................................................";
   margin-left: 10px;
   margin-right: 10px;
-  
+
 }
-@media screen and (max-width: 764px) {
-  .donat__item-user{
-    max-width: 76%;}
+
+@media screen and (max-width: 767px) {
+  .donat__item-user {
+    max-width: 72%;
+  }
 }
-@media screen and (max-width: 435px) {
-  .donat__item-user{
-    max-width: 78%;}
-}
+
