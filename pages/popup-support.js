@@ -21,8 +21,10 @@ const changeAmount = function (evt) {
 formAmount.addEventListener("submit", changeAmount);
 // СКРОЛЛ С ВЕРХНЕГО БЛОКА
 function chooseAmount() {
-    for (let i=0;i<radioTopBtns.length; i++) {
+    for (let i=0;i<=radioTopBtns.length; i++) {
     if (radioTopBtns[i].checked) {
+      radioBottomBtns.forEach((item) => item.removeAttribute("checked"))
+      closePopup(amountPopup)
       radioBottomBtns[i].setAttribute("checked", "checked");
     }
     if(radioBottomBtns[4].checked) {
