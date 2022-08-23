@@ -1,23 +1,17 @@
 .button__submit {
-  padding: 0;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
+  transform: translateX(-21px);
+  margin: 0 auto;
   max-width: 194px;
   width: 100%;
   min-height: 48px;
   border: 0;
-  border-radius: 9px;
-  cursor: pointer;
-  font-family: inherit;
   color: white;
   background-color: #0c4ba0;
-  margin: 0 auto;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1439px) {
   .button__submit {
+    transform: translateX(0);
     max-width: 200px;
     min-height: 44px;
   }

@@ -1,26 +1,4 @@
 .support {
-  padding: 100px 104px 100px 40px;
-  
   background-color: #E7F0FF;
- z-index: 0;
-  
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  box-sizing: border-box;
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
- 
-}
-@media screen and (max-width: 1279px) {
-  .support {
-    padding: 44px 23px 56px 40px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .support {
-    padding: 31px 10px 32px;
-    gap: 24px;
-  }
+  position: relative;
 }

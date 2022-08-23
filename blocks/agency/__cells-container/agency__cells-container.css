@@ -1,0 +1,20 @@
+.agency__cells-container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__cells-container {
+    justify-content: center;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__cells-container {
+    flex-direction: column;
+    padding-bottom: 24px;
+    gap: 30px;
+  }
+}

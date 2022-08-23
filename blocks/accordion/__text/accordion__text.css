@@ -1,0 +1,23 @@
+.accordion__text {
+  max-width: 670px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333333;
+  margin: 0 20px 20px;
+}
+@media screen and (max-width: 1439px) {
+  .accordion__text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .accordion__text {
+    min-height: 102px;
+    padding: 0 16px 16px;
+    margin:0;
+  
+  }
+}
+

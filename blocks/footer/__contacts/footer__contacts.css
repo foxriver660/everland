@@ -1,0 +1,21 @@
+.footer__contacts {
+  display: grid;
+  grid-template-columns: 151px 313px;
+  grid-template-rows: 1fr;
+  column-gap: 53px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__contacts {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

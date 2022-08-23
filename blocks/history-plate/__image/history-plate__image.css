@@ -1,0 +1,22 @@
+.history-plate__image {
+  max-width: 224px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1439px) {
+  .history-plate__image {
+    min-width: 120px;
+    max-width: 204px;
+    max-height: 204px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history-plate__image {
+    min-width: 80px;
+    max-width: 80px;
+    align-self: flex-start;
+  }
+}

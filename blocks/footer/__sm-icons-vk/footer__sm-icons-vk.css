@@ -1,0 +1,17 @@
+.footer__sm-icons-vk {
+  width: 64px;
+  min-height: 62px;
+  list-style: none;
+  display: flex;
+  background-image: url(../../../images/vk.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__sm-icons-vk {
+    width: 40px;
+    min-height: 40px;
+  }
+}

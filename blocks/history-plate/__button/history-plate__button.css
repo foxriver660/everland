@@ -1,0 +1,36 @@
+.history-plate__button {
+  padding: 0 50px 0 0;
+  height: 40px;
+  width: max-content;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  background: transparent;
+  text-align: start;
+  border: none;
+  background-image: url(../../../images/Icon_paly.svg);
+  background-repeat: no-repeat;
+  background-size: 40px, cover;
+  background-position: right 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .history-plate__button {
+    padding: 0 38px 0 0;
+    height: 28px;
+    font-size: 16px;
+    line-height: 120%;
+    background-size: 28px, cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .history-plate__button {
+    padding: 0 34px 0 0;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    background-size: 24px, cover;
+  }
+}

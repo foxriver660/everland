@@ -1,8 +1,15 @@
 .form__fieldset-container_el_payment {
-  margin: 0 0 25px 0;
+  margin: 0 0 26px 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .form__fieldset-container_el_payment {
+    margin: 0 0 31px 0;
+  }
+}
+
 @media screen and (max-width: 764px) {
   .form__fieldset-container_el_payment {
-    margin: 0 0 3px 0;
+    margin: 0;
   }
 }

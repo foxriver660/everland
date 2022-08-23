@@ -1,0 +1,20 @@
+.numbers__image {
+  width: 555px;
+  height: 368px;
+  background: url(../../../images/numbers-image.jpg) no-repeat center / cover;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .numbers__image {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .numbers__image {
+    display: block;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+  }
+}

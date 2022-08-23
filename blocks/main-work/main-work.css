@@ -1,0 +1,20 @@
+.main-work {
+  max-width: 1360px;
+  width: 100%;
+  padding: 150px 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .main-work {
+    max-width: 688px;
+    padding: 100px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main-work {
+    max-width: 300px;
+    padding: 64px 0;
+  }
+}

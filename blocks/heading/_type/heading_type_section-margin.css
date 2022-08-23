@@ -1,0 +1,9 @@
+.heading_type_section-margin {
+  max-width: 603px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1439px) {
+  .heading_type_section-margin {
+    padding-bottom: 10px;
+  }
+}

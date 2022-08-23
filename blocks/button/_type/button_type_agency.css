@@ -1,0 +1,19 @@
+.button_type_agency {
+  margin: 0 auto;
+  min-width: 204px;
+  background-color: #fff;
+  color: #0C4BA0;
+  border: 1px solid #0C4BA0;
+}
+
+@media screen and (max-width:1267px) {
+  .button_type_agency {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .button_type_agency {
+    width: 100%
+  }
+}

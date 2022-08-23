@@ -1,5 +1,4 @@
 .form__radio-btns-container {
-  
   padding: 0;
   margin: 16px 0;
   display: flex;
@@ -8,15 +7,19 @@
   gap: 12px 5px;
   list-style: none;
 }
-.form__radio-btns-container:last-child{
-  justify-content: center;
+
+.form__radio-btns-container:last-child {
+  justify-content: flex-end;
   gap: 18px
 }
-@media screen and (max-width: 1279px) {
+
+@media screen and (max-width: 1439px) {
   .form__radio-btns-container {
+    margin: 24px 0 19px;
     gap: 16px 16px;
   }
-  .form__radio-btns-container:last-child{
+
+  .form__radio-btns-container:last-child {
     justify-content: flex-start;
     gap: 16px
   }
@@ -27,8 +30,11 @@
     margin: 20px auto 16px;
     justify-content: center;
   }
-  .form__radio-btns-container:last-child{
-    justify-content:center;
-    gap: 16px
+
+  .form__radio-btns-container:last-child {
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    margin: 16px auto 10px;
   }
 }

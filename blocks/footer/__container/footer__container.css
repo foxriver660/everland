@@ -1,0 +1,22 @@
+.footer__container {
+  padding: 80px 40px 130px;
+  display: grid;
+  grid-template-columns: 539px 761px;
+  gap: 37px 60px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__container {
+    padding: 50px 40px 52px;
+    grid-template-columns: 294px 336px;
+    gap: 28px 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    padding: 32px 10px 52px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}

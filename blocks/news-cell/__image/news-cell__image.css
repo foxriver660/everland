@@ -1,0 +1,21 @@
+.news-cell__image {
+  border-radius: 30px;
+  object-fit: cover;
+  margin: 0 0 10px;
+  max-width: 380px;
+  width: 100%;
+}
+
+@media screen and (max-width:1439px) {
+  .news-cell__image {
+    max-height: 212px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news-cell__image {
+    max-height: 192px;
+
+  }
+}

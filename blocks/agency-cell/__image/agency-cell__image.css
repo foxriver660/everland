@@ -1,0 +1,19 @@
+.agency-cell__image {
+  width: 100%;
+  max-width: 440px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency-cell__image {
+    max-height: 334px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency-cell__image {
+    max-height: 300px;
+  }
+}
