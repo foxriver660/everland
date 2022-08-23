@@ -64,7 +64,7 @@
 
 /*AREAS-OF-WORK*/
 @import url(../blocks/areas-of-work/areas-of-work.css);
-@import url(../blocks/areas-of-work/areas-of-work__card-list/areas-of-work__card-list.css);
+@import url(../blocks/areas-of-work/areas-of-work__list/areas-of-work__list.css);
 
 /*SOCIAL-PROJECT*/
 @import url(../blocks/social-project/social-project.css);
@@ -96,7 +96,6 @@
 @import url(../blocks/header/__submenu-item-link/header__submenu-item-link.css);
 @import url(../blocks/header/__menu-button-wrapper/header__menu-button-wrapper.css);
 @import url(../blocks/header/__submenu-button/header__submenu-button.css);
-@import url(../blocks/header/__menu-opened/header__menu-opened);
 @import url(../blocks/header/__submenu-button_active/header__submenu-button_active.css);
 
 /*NAVIGATION*/
@@ -216,6 +215,7 @@
 @import url(../blocks/project-card/__caption/project-card__caption.css);
 @import url(../blocks/project-card/__paragraph/project-card__paragraph.css);
 @import url(../blocks/project-card/__image/project-card__image.css);
+@import url(../blocks/fade/fade.css);
 
 /* SLIDER */
 @import url(../blocks/slider/slider.css);
