@@ -1,12 +1,12 @@
 .accordion__title {
   display: block;
   cursor: pointer;
-  padding: 27.5px 0 27.5px 18px;
+  padding: 27px 0 27px 18px;
 }
 
 .accordion__title::after {
   position: absolute;
-  top: 25.5px;
+  top: 25px;
   right: 18px;
   content: "";
   background: url(../../../images/blue-plus.svg) no-repeat center / contain;
@@ -20,9 +20,10 @@
 @media screen and (max-width: 1439px) {
   .accordion__title {
     font-size: 26px;
-    padding: 18.5px 0 18.5px 18px;
+    padding: 18px 0 18px 18px;
 
   }
+
   .accordion__title::after {
     width: 32px;
     height: 32px;
@@ -31,15 +32,18 @@
     right: 16px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .accordion__title {
     font-size: 18px;
     padding: 15px 0 15px 14px;
     max-width: 212px;
   }
+
   .accordion__title::after {
     top: 12px;
   }
+
   .accordion__title:first-child .accordion__title::after {
     top: center;
   }

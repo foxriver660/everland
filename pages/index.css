@@ -43,7 +43,7 @@
 @import url(../blocks/card/_color/card_color_orange.css);
 @import url(../blocks/card/_color/card_color_white.css);
 @import url(../blocks/card/_order/card_order_lagging.css);
-@import url(../blocks/card/_order/card_order_last.css);
+@import url(../blocks/card/_order/card_order_third.css);
 @import url(../blocks/card/_order/card_order_outrunning.css);
 
 /*HEADING*/

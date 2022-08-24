@@ -19,7 +19,6 @@
 
 @media screen and (max-width: 767px) {
   .button__section {
-    grid-row: 3;
     width: 100%;
     max-width: 100%;
   }
