@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Everland</title>
-    <link rel="stylesheet" href="pages/index.css" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Everland</title>
+  <link rel="stylesheet" href="pages/index.css" />
+</head>
 
 <body class="page">
   <!-- HEADER -->
@@ -169,25 +170,30 @@
     <section class="donation-buttons">
       <div class="donation-buttons__container">
         <ul class="donation-buttons__list">
-          <li class="button button_type_radio">
-            <input class="js-radio-top-amount" id="radio-250" type="radio" name="sum-amount">
-            <label for="radio-250">250₽</label>
+          <li class="button">
+            <input class="donation-buttons__hide-radio js-radio-top-amount" id="radio-250" type="radio"
+              name="sum-amount">
+            <label class="donation-buttons__pseudo-radio" for="radio-250">250₽</label>
           </li>
-          <li class="button button_type_radio">
-            <input class="js-radio-top-amount" id="radio-500" type="radio" name="sum-amount">
-            <label for="radio-500">500₽</label>
+          <li class="button">
+            <input class="donation-buttons__hide-radio js-radio-top-amount" id="radio-500" type="radio"
+              name="sum-amount">
+            <label class="donation-buttons__pseudo-radio" for="radio-500">500₽</label>
           </li>
-          <li class="button button_type_radio">
-            <input class="js-radio-top-amount" id="radio-750" type="radio" name="sum-amount">
-            <label for="radio-750">750₽</label>
+          <li class="button">
+            <input class="donation-buttons__hide-radio js-radio-top-amount" id="radio-750" type="radio"
+              name="sum-amount">
+            <label class="donation-buttons__pseudo-radio" for="radio-750">750₽</label>
           </li>
-          <li class="button button_type_radio">
-            <input class="js-radio-top-amount" id="radio-1000" type="radio" name="sum-amount">
-            <label for="radio-1000">1000₽</label>
+          <li class="button">
+            <input class="donation-buttons__hide-radio js-radio-top-amount" id="radio-1000" type="radio"
+              name="sum-amount">
+            <label class="donation-buttons__pseudo-radio" for="radio-1000">1000₽</label>
           </li>
-          <li class="button button_type_other-sum button_type_radio ">
-            <input class="js-radio-top-amount" id="radio-other-amount" type="radio" name="sum-amount">
-            <label for="radio-other-amount">Другая сумма</label>
+          <li class="button button_type_other-sum">
+            <input class="donation-buttons__hide-radio js-radio-top-amount" id="radio-other-amount" type="radio"
+              name="sum-amount">
+            <label class="donation-buttons__pseudo-radio" for="radio-other-amount">Другая сумма</label>
           </li>
           <li class="button button_place_donations-butons"><a href="#form"
               class="button button_type_support js-support-btn">Поддержать</a></li>
@@ -432,784 +438,564 @@
       </div>
     </section>
 
-      <!-- SPECIAL_PROJECTS -->
-      <section class="special-projects" id="special-projects">
-        <div class="project-card">
-          <div class="project-card__container">
-            <div class="project-card__slide">
-              <div class="project-card__content">
-                <p class="project-card__caption">Наши спецпроекты</p>
-                <img
-                  class="project-card__image"
-                  src="./images/projectCard-image.jpg"
-                  alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой"
-                />
-                <div class="project-card__text">
-                  <h2
-                    class="heading heading_type_section heading_margin_middle"
-                  >
-                    Фотопроект «Семья как семья»
-                  </h2>
-                  <p class="project-card__paragraph">
-                    Фотопроект Алексея Горшенина включает в себя восемь историй
-                    людей и семей, где один или оба супруга имеют инвалидность
-                  </p>
-                  <button class="button button_type_watch" type="button">
-                    Посмотреть
-                  </button>
-                </div>
+    <!-- SPECIAL_PROJECTS -->
+    <section class="special-projects" id="special-projects">
+      <div class="project-card">
+        <div class="project-card__container">
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption">Наши спецпроекты</p>
+              <img class="project-card__image" src="./images/projectCard-image.jpg"
+                alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой" />
+              <div class="project-card__text">
+                <h2 class="heading heading_type_section heading_margin_middle">
+                  Фотопроект «Семья как семья»
+                </h2>
+                <p class="project-card__paragraph">
+                  Фотопроект Алексея Горшенина включает в себя восемь историй
+                  людей и семей, где один или оба супруга имеют инвалидность
+                </p>
+                <button class="button button_type_watch" type="button">
+                  Посмотреть
+                </button>
               </div>
             </div>
+          </div>
 
-            <div class="project-card__slide">
-              <div class="project-card__content">
-                <p class="project-card__caption">Наши спецпроекты</p>
-                <img
-                  class="project-card__image"
-                  src="./images/projectCard-image.jpg"
-                  alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой"
-                />
-                <div class="project-card__text">
-                  <h2
-                    class="heading heading_type_section heading_margin_middle"
-                  >
-                    Фотопроект «Семья как семья»
-                  </h2>
-                  <p class="project-card__paragraph">
-                    Фотопроект Алексея Горшенина включает в себя восемь историй
-                    людей и семей, где один или оба супруга имеют инвалидность
-                  </p>
-                  <button class="button button_type_watch" type="button">
-                    Посмотреть
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="project-card__slide">
-              <div class="project-card__content">
-                <p class="project-card__caption">Наши спецпроекты</p>
-                <img
-                  class="project-card__image"
-                  src="./images/projectCard-image.jpg"
-                  alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой"
-                />
-                <div class="project-card__text">
-                  <h2
-                    class="heading heading_type_section heading_margin_middle"
-                  >
-                    Фотопроект «Семья как семья»
-                  </h2>
-                  <p class="project-card__paragraph">
-                    Фотопроект Алексея Горшенина включает в себя восемь историй
-                    людей и семей, где один или оба супруга имеют инвалидность
-                  </p>
-                  <button class="button button_type_watch" type="button">
-                    Посмотреть
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="project-card__slide">
-              <div class="project-card__content">
-                <p class="project-card__caption">Наши спецпроекты</p>
-                <img
-                  class="project-card__image"
-                  src="./images/projectCard-image.jpg"
-                  alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой"
-                />
-                <div class="project-card__text">
-                  <h2
-                    class="heading heading_type_section heading_margin_middle"
-                  >
-                    Фотопроект «Семья как семья»
-                  </h2>
-                  <p class="project-card__paragraph">
-                    Фотопроект Алексея Горшенина включает в себя восемь историй
-                    людей и семей, где один или оба супруга имеют инвалидность
-                  </p>
-                  <button class="button button_type_watch" type="button">
-                    Посмотреть
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="project-card__slide">
-              <div class="project-card__content">
-                <p class="project-card__caption">Наши спецпроекты</p>
-                <img
-                  class="project-card__image"
-                  src="./images/projectCard-image.jpg"
-                  alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой"
-                />
-                <div class="project-card__text">
-                  <h2
-                    class="heading heading_type_section heading_margin_middle"
-                  >
-                    Фотопроект «Семья как семья»
-                  </h2>
-                  <p class="project-card__paragraph">
-                    Фотопроект Алексея Горшенина включает в себя восемь историй
-                    людей и семей, где один или оба супруга имеют инвалидность
-                  </p>
-                  <button class="button button_type_watch" type="button">
-                    Посмотреть
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="project-card__slide">
-              <div class="project-card__content">
-                <p class="project-card__caption">Наши спецпроекты</p>
-                <img
-                  class="project-card__image"
-                  src="./images/projectCard-image.jpg"
-                  alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой"
-                />
-                <div class="project-card__text">
-                  <h2
-                    class="heading heading_type_section heading_margin_middle"
-                  >
-                    Фотопроект «Семья как семья»
-                  </h2>
-                  <p class="project-card__paragraph">
-                    Фотопроект Алексея Горшенина включает в себя восемь историй
-                    людей и семей, где один или оба супруга имеют инвалидность
-                  </p>
-                  <button class="button button_type_watch" type="button">
-                    Посмотреть
-                  </button>
-                </div>
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption">Наши спецпроекты</p>
+              <img class="project-card__image" src="./images/projectCard-image.jpg"
+                alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой" />
+              <div class="project-card__text">
+                <h2 class="heading heading_type_section heading_margin_middle">
+                  Фотопроект «Семья как семья»
+                </h2>
+                <p class="project-card__paragraph">
+                  Фотопроект Алексея Горшенина включает в себя восемь историй
+                  людей и семей, где один или оба супруга имеют инвалидность
+                </p>
+                <button class="button button_type_watch" type="button">
+                  Посмотреть
+                </button>
               </div>
             </div>
           </div>
-          <button
-            class="button button_type_slider-left"
-            id="slider-left"
-            type="button"
-          ></button>
-          <button
-            class="button button_type_slider-right"
-            id="slider-right"
-            type="button"
-          ></button>
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption">Наши спецпроекты</p>
+              <img class="project-card__image" src="./images/projectCard-image.jpg"
+                alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой" />
+              <div class="project-card__text">
+                <h2 class="heading heading_type_section heading_margin_middle">
+                  Фотопроект «Семья как семья»
+                </h2>
+                <p class="project-card__paragraph">
+                  Фотопроект Алексея Горшенина включает в себя восемь историй
+                  людей и семей, где один или оба супруга имеют инвалидность
+                </p>
+                <button class="button button_type_watch" type="button">
+                  Посмотреть
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption">Наши спецпроекты</p>
+              <img class="project-card__image" src="./images/projectCard-image.jpg"
+                alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой" />
+              <div class="project-card__text">
+                <h2 class="heading heading_type_section heading_margin_middle">
+                  Фотопроект «Семья как семья»
+                </h2>
+                <p class="project-card__paragraph">
+                  Фотопроект Алексея Горшенина включает в себя восемь историй
+                  людей и семей, где один или оба супруга имеют инвалидность
+                </p>
+                <button class="button button_type_watch" type="button">
+                  Посмотреть
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption">Наши спецпроекты</p>
+              <img class="project-card__image" src="./images/projectCard-image.jpg"
+                alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой" />
+              <div class="project-card__text">
+                <h2 class="heading heading_type_section heading_margin_middle">
+                  Фотопроект «Семья как семья»
+                </h2>
+                <p class="project-card__paragraph">
+                  Фотопроект Алексея Горшенина включает в себя восемь историй
+                  людей и семей, где один или оба супруга имеют инвалидность
+                </p>
+                <button class="button button_type_watch" type="button">
+                  Посмотреть
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption">Наши спецпроекты</p>
+              <img class="project-card__image" src="./images/projectCard-image.jpg"
+                alt="мужчина с протезом делает фотографии на фоне гор рядом с собакой" />
+              <div class="project-card__text">
+                <h2 class="heading heading_type_section heading_margin_middle">
+                  Фотопроект «Семья как семья»
+                </h2>
+                <p class="project-card__paragraph">
+                  Фотопроект Алексея Горшенина включает в себя восемь историй
+                  людей и семей, где один или оба супруга имеют инвалидность
+                </p>
+                <button class="button button_type_watch" type="button">
+                  Посмотреть
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-      <!-- HISTORY -->
-      <section class="history" id="history">
-        <h2 class="heading heading_type_section">Истории</h2>
-        <button class="button button_place_history" type="button">
-          Все истории
-        </button>
-        <article class="history-plate">
-          <img
-            class="history-plate__image"
-            src="./images/Avatar__3.jpg"
-            alt="Фото Максима Гильфанова"
-          />
-          <div class="history-plate__container">
-            <div class="history-plate__quotes"></div>
-            <h4 class="history-plate__title">
-              Мне интересно слушать интервью с людьми. Это мотивация и
-              вдохновение, которых так не хватает
-            </h4>
-            <p class="history-plate__text">
-              Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и
-              курсы по веб-дизайну не решили проблему с трудоустройством
-            </p>
-            <button class="button button_type_history" type="button">
-              История Максима<svg
-                class="button__arrow"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-          </div>
-        </article>
-        <article class="history-plate">
-          <div class="history-plate__container">
-            <div class="history-plate__quotes"></div>
-            <h4 class="history-plate__title">
-              Платформа дала надежду: кто-то заинтересован в трудоустройстве
-              инвалидов
-            </h4>
-            <p class="history-plate__text">
-              Максиму Чернышову из Набережных Челнов 32 года. В детстве он
-              неудачно сделал сальто и повредил позвоночник. С тех пор ему
-              тяжело передвигаться на большие расстояния
-            </p>
-            <button class="button button_type_history" type="button">
-              История Максима<svg
-                class="button__arrow"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-          </div>
-          <img
-            class="history-plate__image"
-            src="./images/Avatar-2.jpg"
-            alt="Фото Максима Чернышова"
-          />
-        </article>
-        <article class="history-plate history-plate_type_short-story">
-          <div class="history-plate__short-story">
-            <img
-              class="history-plate__image"
-              src="./images/Avatar__1.jpg"
-              alt="Фото Айслу Асан"
-            />
-            <div
-              class="history-plate__container history-plate__container_story_short"
-            >
-              <h4 class="history-plate__heading">Айслу Асан</h4>
-              <h4 class="history-plate__title">Когда хочется жить</h4>
-              <button class="button history-plate__button" type="button">
-                История Айслу
-              </button>
-            </div>
-          </div>
-          <div class="history-plate__short-story">
-            <img
-              class="history-plate__image"
-              src="./images/Avatar__2.jpg"
-              alt="Фото Артема Плаксина"
-            />
-            <div
-              class="history-plate__container history-plate__container_story_short"
-            >
-              <h4 class="history-plate__heading">Артём Плаксин</h4>
-              <h4 class="history-plate__title">
-                Не&nbsp;видеть и смотреть&nbsp;в будущее
-              </h4>
-              <button class="button history-plate__button" type="button">
-                История Артёма
-              </button>
-            </div>
-          </div>
-        </article>
-      </section>
-      <!-- AGENCY -->
-      <section class="agency" id="agency">
-        <div class="agency__container">
-          <h2
-            class="heading heading_type_section heading_padding_agency heading_width_505px"
-          >
-            Лучшие проекты агентства
-          </h2>
-          <h3 class="agency__subtitle">
-            Мы выполняем работы в области веб-разработки, дизайна, права, видео,
-            анимации и контента
-          </h3>
-          <div class="agency__cells-container">
-            <article class="agency-cell">
-              <img
-                class="agency-cell__image"
-                src="./images/Image_5.jpg"
-                alt="Изображения вебстраниц с применением скриптов-рекомендаций для бизнеса (DisQuestion)"
-              />
-              <p class="agency-cell__text">
-                Скрипты-рекомендации для бизнеса (DisQuestion)
-              </p>
-            </article>
-            <article class="agency-cell">
-              <img
-                class="agency-cell__image"
-                src="./images/Image_6.jpg"
-                alt="Изображения интерфейса проекта «Онконавигатор»"
-              />
-              <p class="agency-cell__text">Проект «Онконавигатор»</p>
-            </article>
-            <article class="agency-cell">
-              <img
-                class="agency-cell__image"
-                src="./images/Image_7.jpg"
-                alt="Изображения вебстраницы проекта «Миграции: приоткрывая личное»"
-              />
-              <p class="agency-cell__text">
-                Проект «Миграции: приоткрывая личное»
-              </p>
-            </article>
-          </div>
-          <button class="button button_type_agency" type="button">
-            Посмотреть все
+        <button class="button button_type_slider-left" id="slider-left" type="button"></button>
+        <button class="button button_type_slider-right" id="slider-right" type="button"></button>
+      </div>
+    </section>
+    <!-- HISTORY -->
+    <section class="history" id="history">
+      <h2 class="heading heading_type_section">Истории</h2>
+      <button class="button button_place_history" type="button">
+        Все истории
+      </button>
+      <article class="history-plate">
+        <img class="history-plate__image" src="./images/Avatar__3.jpg" alt="Фото Максима Гильфанова" />
+        <div class="history-plate__container">
+          <div class="history-plate__quotes"></div>
+          <h4 class="history-plate__title">
+            Мне интересно слушать интервью с людьми. Это мотивация и
+            вдохновение, которых так не хватает
+          </h4>
+          <p class="history-plate__text">
+            Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и
+            курсы по веб-дизайну не решили проблему с трудоустройством
+          </p>
+          <button class="button button_type_history" type="button">
+            История Максима<svg class="button__arrow" viewBox="0 0 16 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="currentColor" />
+            </svg>
           </button>
         </div>
-      </section>
-      <!-- NEWS -->
-      <section class="news" id="news">
-        <h2 class="heading heading_type_section">Новости</h2>
-        <button class="button button_type_news" type="button">
-          Все новости
-        </button>
-        <div class="news__container">
-          <article class="news-cell">
-            <p class="news-cell__heading">Тема</p>
-            <img
-              class="news-cell__image"
-              src="./images/news-image2.jpg"
-              alt="Изображения благотворительной открытки PepsiCo"
-            />
-            <h3 class="news-cell__title">Ура! Новое партнерство — с PepsiCo</h3>
-            <p class="news-cell__text">
-              Everland совместно с PepsiCo приняли участие в акции
-              «Благотворительность вместо сувениров»
+      </article>
+      <article class="history-plate">
+        <div class="history-plate__container">
+          <div class="history-plate__quotes"></div>
+          <h4 class="history-plate__title">
+            Платформа дала надежду: кто-то заинтересован в трудоустройстве
+            инвалидов
+          </h4>
+          <p class="history-plate__text">
+            Максиму Чернышову из Набережных Челнов 32 года. В детстве он
+            неудачно сделал сальто и повредил позвоночник. С тех пор ему
+            тяжело передвигаться на большие расстояния
+          </p>
+          <button class="button button_type_history" type="button">
+            История Максима<svg class="button__arrow" viewBox="0 0 16 16" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="currentColor" />
+            </svg>
+          </button>
+        </div>
+        <img class="history-plate__image" src="./images/Avatar-2.jpg" alt="Фото Максима Чернышова" />
+      </article>
+      <article class="history-plate history-plate_type_short-story">
+        <div class="history-plate__short-story">
+          <img class="history-plate__image" src="./images/Avatar__1.jpg" alt="Фото Айслу Асан" />
+          <div class="history-plate__container history-plate__container_story_short">
+            <h4 class="history-plate__heading">Айслу Асан</h4>
+            <h4 class="history-plate__title">Когда хочется жить</h4>
+            <button class="button history-plate__button" type="button">
+              История Айслу
+            </button>
+          </div>
+        </div>
+        <div class="history-plate__short-story">
+          <img class="history-plate__image" src="./images/Avatar__2.jpg" alt="Фото Артема Плаксина" />
+          <div class="history-plate__container history-plate__container_story_short">
+            <h4 class="history-plate__heading">Артём Плаксин</h4>
+            <h4 class="history-plate__title">
+              Не&nbsp;видеть и смотреть&nbsp;в будущее
+            </h4>
+            <button class="button history-plate__button" type="button">
+              История Артёма
+            </button>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- AGENCY -->
+    <section class="agency" id="agency">
+      <div class="agency__container">
+        <h2 class="heading heading_type_section heading_padding_agency heading_width_505px">
+          Лучшие проекты агентства
+        </h2>
+        <h3 class="agency__subtitle">
+          Мы выполняем работы в области веб-разработки, дизайна, права, видео,
+          анимации и контента
+        </h3>
+        <div class="agency__cells-container">
+          <article class="agency-cell">
+            <img class="agency-cell__image" src="./images/Image_5.jpg"
+              alt="Изображения вебстраниц с применением скриптов-рекомендаций для бизнеса (DisQuestion)" />
+            <p class="agency-cell__text">
+              Скрипты-рекомендации для бизнеса (DisQuestion)
             </p>
-            <p class="news-cell__time">20 сентября 2021</p>
           </article>
-          <article class="news-cell card card_color_green">
-            <p class="news-cell__heading">Тема</p>
-            <h3 class="news-cell__title">
-              Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
-              строить эффективные программы»
-            </h3>
-            <p class="news-cell__text">
-              Эксперты с инвалидностью, представители бизнеса и некоммерческих
-              организаций поговорили о том, что такое инклюзия, рассмотрели
-              подходы к трудоустройству людей с инвалидностью, обсудили
-              проблемы, к которым нужно быть готовым, и поделились успешными
-              кейсами
-            </p>
-            <p class="news-cell__time">20 сентября 2021</p>
+          <article class="agency-cell">
+            <img class="agency-cell__image" src="./images/Image_6.jpg"
+              alt="Изображения интерфейса проекта «Онконавигатор»" />
+            <p class="agency-cell__text">Проект «Онконавигатор»</p>
           </article>
-          <article class="news-cell">
-            <p class="news-cell__heading">Тема</p>
-            <h3 class="news-cell__title">
-              Тестируем супермаркеты на доступность
-            </h3>
-            <p class="news-cell__text">
-              Everland совместно с торговой сетью «Перекресток» провели аудит
-              продуктовых магазинов на доступность для людей с разными видами
-              инвалидности
+          <article class="agency-cell">
+            <img class="agency-cell__image" src="./images/Image_7.jpg"
+              alt="Изображения вебстраницы проекта «Миграции: приоткрывая личное»" />
+            <p class="agency-cell__text">
+              Проект «Миграции: приоткрывая личное»
             </p>
-            <img
-              class="news-cell__image"
-              src="./images/news-image.jpg"
-              alt="Фотография из магазина перекресток, на которой сотрудник магазина помогает покупателю с инвалидностью"
-            />
-            <p class="news-cell__time">20 сентября 2021</p>
           </article>
         </div>
-      </section>
-      <!-- SUPPORT -->
-      <section class="support">
-        <div class="support__main-container">
-          <h2 class="support__title">Поддержите нас</h2>
-          <div class="support__container">
-            <form name="payment-form" class="form js-form-amount">
-              <!-- ВЕРХНИЕ ДВЕ КНОПКИ -->
-              <fieldset
-                class="form__fieldset-container form__fieldset-container_el_period"
-              >
-                <div class="form__radio form__radio_type_period">
-                  <input
-                    class="form__hide-radio"
-                    id="radio-period-1"
-                    type="radio"
-                    name="period"
-                    value="1"
-                    checked
-                  /><label class="form__pseudo-radio" for="radio-period-1"
-                    >Ежемесячно<a href="#" class="form__question"></a
-                  ></label>
-                </div>
-                <div class="form__radio form__radio_type_period">
-                  <input
-                    class="form__hide-radio"
-                    id="radio-period-2"
-                    type="radio"
-                    name="period"
-                    value="2"
-                  /><label class="form__pseudo-radio" for="radio-period-2"
-                    >Разово</label
-                  >
-                </div>
-              </fieldset>
-              <!-- РАЗМЕР ПОЖЕРТВОВАНИЯ -->
-              <fieldset
-                class="form__fieldset-container form__fieldset-container_el_amount"
-              >
-                <h3 class="form__subtitle">Размер пожертвования</h3>
-                <ul class="form__radio-btns-container">
-                  <li class="form__radio form__radio_type_amount">
-                    <input
-                      class="form__hide-radio js-radio-bottom-amount"
-                      id="radio-amount-1"
-                      type="radio"
-                      name="amount"
-                      value="1"
-                    />
-                    <label class="form__pseudo-radio" for="radio-amount-1"
-                      >250&#8381;</label
-                    >
-                  </li>
-                  <li class="form__radio form__radio_type_amount">
-                    <input
-                      class="form__hide-radio js-radio-bottom-amount"
-                      id="radio-amount-2"
-                      type="radio"
-                      name="amount"
-                      value="2"
-                      checked
-                    />
-                    <label class="form__pseudo-radio" for="radio-amount-2"
-                      >500&#8381;</label
-                    >
-                  </li>
-                  <li class="form__radio form__radio_type_amount">
-                    <input
-                      class="form__hide-radio js-radio-bottom-amount"
-                      id="radio-amount-3"
-                      type="radio"
-                      name="amount"
-                      value="3"
-                    />
-                    <label class="form__pseudo-radio" for="radio-amount-3"
-                      >750&#8381;</label
-                    >
-                  </li>
-                  <li class="form__radio form__radio_type_amount">
-                    <input
-                      class="form__hide-radio js-radio-bottom-amount"
-                      id="radio-amount-4"
-                      type="radio"
-                      name="amount"
-                      value="4"
-                    />
-                    <label class="form__pseudo-radio" for="radio-amount-4"
-                      >1000&#8381;</label
-                    >
-                  </li>
-                  <li class="form__radio form__radio_type_amount js-amount-btn">
-                    <input
-                      class="form__hide-radio js-radio-bottom-amount"
-                      id="radio-amount-5"
-                      type="radio"
-                      name="amount"
-                      value="5"
-                    />
-                    <label
-                      class="form__pseudo-radio js-amount"
-                      for="radio-amount-5"
-                      >Другая сумма</label
-                    >
-                  </li>
-                </ul>
-                <p class="form__amount-description">
-                  Регулярные пожертвования очень важны для Everland. Это то, что
-                  помогает нашим программам работать бесперебойно, что открывает
-                  новые востребованные проекты, что максимально эффективно
-                  решает социальную задачу. Если вы захотите поддерживать наши
-                  программы постоянно, то каждый месяц с вашей карты будет
-                  списываться указанная вами сумма.
-                </p>
-              </fieldset>
-              <!-- СПОСОБ ОПЛАТЫ ЛИШНИЕ КЛАССЫ У ЛЕЙБЛ-->
-              <fieldset
-                class="form__fieldset-container form__fieldset-container_el_payment"
-              >
-                <h3 class="form__subtitle">Способ оплаты</h3>
-                <ul class="form__radio-btns-container">
-                  <li
-                    class="form__radio form__radio_type_payment form__radio_el_cards"
-                  >
-                    <input
-                      class="form__hide-radio"
-                      id="radio-payment-1"
-                      type="radio"
-                      name="payment"
-                      value="1"
-                      checked
-                    />
-                    <label
-                      for="radio-payment-1"
-                      class="form__pseudo-radio form__pseudo-radio_height_48px"
-                    ></label>
-                  </li>
-                  <li
-                    class="form__radio form__radio_type_payment form__radio_el_ymoney"
-                  >
-                    <input
-                      class="form__hide-radio "
-                      id="radio-payment-2"
-                      type="radio"
-                      name="payment"
-                      value="2"
-                    />
-                    <label
-                      for="radio-payment-2"
-                      class="form__pseudo-radio form__pseudo-radio_height_48px"
-                    ></label>
-                  </li>
-                  <li
-                    class="form__radio form__radio_type_payment form__radio_el_webmoney"
-                  >
-                    <input
-                      class="form__hide-radio"
-                      id="radio-payment-3"
-                      type="radio"
-                      name="payment"
-                      value="3"
-                    />
-                    <label
-                      for="radio-payment-3"
-                      class="form__pseudo-radio form__pseudo-radio_height_48px"
-                    ></label>
-                  </li>
-                  <li>
-                    <button class="form__btn-rewind" type="button"></button>
-                  </li>
-                </ul>
-              </fieldset>
-              <!-- ДАННЫЕ ПОЛЬЗОВАТЕЛЯ -->
-              <fieldset
-                class="form__fieldset-container form__fieldset-container_el_profile"
-              >
-                <h3 class="form__subtitle">Ваши данные</h3>
-                <input
-                  name="user-name"
-                  type="text"
-                  class="form__user-input form__user-input_type_name"
-                  placeholder="Иван Иванов"
-                  value=""
-                />
-                <input
-                  name="user-mail"
-                  type="email"
-                  class="form__user-input form__user-input_type_mail"
-                  placeholder="myemail@example.com"
-                  value=""
-                />
-                <!-- ЧЕБОКСЫ -->
-                <div class="form__checkboxs-container">
-                  <label for="offer">
-                    <input
-                      type="checkbox"
-                      name="option"
-                      id="offer"
-                      class="form__checkbox"
-                      value="bold-heading"
-                    />
-                    <span class="form__checkbox form__checkbox_visible"></span>
-                    <span class="form__checkbox-text"
-                      >Соглашаюсь с
-                      <a class="form__checkbox-link" href="#">офертой</a></span
-                    >
-                  </label>
-                  <label for="personal">
-                    <input
-                      type="checkbox"
-                      name="option"
-                      id="personal"
-                      class="form__checkbox"
-                      value="bold-heading"
-                    /><span class="form__checkbox form__checkbox_visible">
-                    </span>
-                    <span class="form__checkbox-text"
-                      >Соглашаюсь на
-                      <a class="form__checkbox-link" href="#"
-                        >обработку моих персональных данных</a
-                      ></span
-                    >
-                  </label>
-                </div>
-              </fieldset>
-              <button type="submit" class="button button_type_submit">
-                Поддержать
-              </button>
-              <div class="form__popup">
-                <div class="form__popup-container">
-                  <fieldset class="form__fieldset-container">
-                    <input
-                      name="user-amount"
-                      type="number"
-                      class="form__user-input form__user-input_type_amount"
-                      placeholder="Укажите сумму"
-                      value=""
-                      step="1"
-                      min="10"
-                    />
-                  </fieldset>
-                  <button type="submit" class="button button_type_submit">
-                    Сохранить
-                  </button>
-                </div>
+        <button class="button button_type_agency" type="button">
+          Посмотреть все
+        </button>
+      </div>
+    </section>
+    <!-- NEWS -->
+    <section class="news" id="news">
+      <h2 class="heading heading_type_section">Новости</h2>
+      <button class="button button_type_news" type="button">
+        Все новости
+      </button>
+      <div class="news__container">
+        <article class="news-cell">
+          <p class="news-cell__heading">Тема</p>
+          <img class="news-cell__image" src="./images/news-image2.jpg"
+            alt="Изображения благотворительной открытки PepsiCo" />
+          <h3 class="news-cell__title">Ура! Новое партнерство — с PepsiCo</h3>
+          <p class="news-cell__text">
+            Everland совместно с PepsiCo приняли участие в акции
+            «Благотворительность вместо сувениров»
+          </p>
+          <p class="news-cell__time">20 сентября 2021</p>
+        </article>
+        <article class="news-cell card card_color_green">
+          <p class="news-cell__heading">Тема</p>
+          <h3 class="news-cell__title">
+            Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как
+            строить эффективные программы»
+          </h3>
+          <p class="news-cell__text">
+            Эксперты с инвалидностью, представители бизнеса и некоммерческих
+            организаций поговорили о том, что такое инклюзия, рассмотрели
+            подходы к трудоустройству людей с инвалидностью, обсудили
+            проблемы, к которым нужно быть готовым, и поделились успешными
+            кейсами
+          </p>
+          <p class="news-cell__time">20 сентября 2021</p>
+        </article>
+        <article class="news-cell">
+          <p class="news-cell__heading">Тема</p>
+          <h3 class="news-cell__title">
+            Тестируем супермаркеты на доступность
+          </h3>
+          <p class="news-cell__text">
+            Everland совместно с торговой сетью «Перекресток» провели аудит
+            продуктовых магазинов на доступность для людей с разными видами
+            инвалидности
+          </p>
+          <img class="news-cell__image" src="./images/news-image.jpg"
+            alt="Фотография из магазина перекресток, на которой сотрудник магазина помогает покупателю с инвалидностью" />
+          <p class="news-cell__time">20 сентября 2021</p>
+        </article>
+      </div>
+    </section>
+    <!-- SUPPORT -->
+    <section class="support">
+      <div class="support__main-container">
+        <h2 class="support__title">Поддержите нас</h2>
+        <div class="support__container">
+          <form name="payment-form" class="form js-form-amount">
+            <!-- ВЕРХНИЕ ДВЕ КНОПКИ -->
+            <fieldset class="form__fieldset-container form__fieldset-container_el_period">
+              <div class="form__radio form__radio_type_period">
+                <input class="form__hide-radio" id="radio-period-1" type="radio" name="period" value="1"
+                  checked /><label class="form__pseudo-radio" for="radio-period-1">Ежемесячно<a href="#"
+                    class="form__question"></a></label>
               </div>
-            </form>
-            <!-- СЛЕДУЮЩИЙ РАЗДЕЛ -->
-            <div class="donat">
-              <h4 class="donat__title">
-                Everland создается силами многих. Мы&nbsp;благодарны каждому за
-                поддержку!
-              </h4>
-              <ul class="donat__list">
-                <li class="donat__item">
-                  <p class="donat__item-user">Аноним</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">500 &#8381;</p>
-                    <p class="donat__time">2 часа назад</p>
-                  </div>
+              <div class="form__radio form__radio_type_period">
+                <input class="form__hide-radio" id="radio-period-2" type="radio" name="period" value="2" /><label
+                  class="form__pseudo-radio" for="radio-period-2">Разово</label>
+              </div>
+            </fieldset>
+            <!-- РАЗМЕР ПОЖЕРТВОВАНИЯ -->
+            <fieldset class="form__fieldset-container form__fieldset-container_el_amount">
+              <h3 class="form__subtitle">Размер пожертвования</h3>
+              <ul class="form__radio-btns-container">
+                <li class="form__radio form__radio_type_amount">
+                  <input class="form__hide-radio js-radio-bottom-amount" id="radio-amount-1" type="radio" name="amount"
+                    value="1" />
+                  <label class="form__pseudo-radio" for="radio-amount-1">250&#8381;</label>
                 </li>
-                <li class="donat__item">
-                  <p class="donat__item-user">Татьяна</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">600 &#8381;</p>
-                    <p class="donat__time">3 часа назад</p>
-                  </div>
+                <li class="form__radio form__radio_type_amount">
+                  <input class="form__hide-radio js-radio-bottom-amount" id="radio-amount-2" type="radio" name="amount"
+                    value="2" checked />
+                  <label class="form__pseudo-radio" for="radio-amount-2">500&#8381;</label>
                 </li>
-                <li class="donat__item">
-                  <p class="donat__item-user">Аноним</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">300 &#8381;</p>
-                    <p class="donat__time">4 часа назад</p>
-                  </div>
+                <li class="form__radio form__radio_type_amount">
+                  <input class="form__hide-radio js-radio-bottom-amount" id="radio-amount-3" type="radio" name="amount"
+                    value="3" />
+                  <label class="form__pseudo-radio" for="radio-amount-3">750&#8381;</label>
                 </li>
-                <li class="donat__item">
-                  <p class="donat__item-user">Аноним</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">200 &#8381;</p>
-                    <p class="donat__time">4 часа назад</p>
-                  </div>
+                <li class="form__radio form__radio_type_amount">
+                  <input class="form__hide-radio js-radio-bottom-amount" id="radio-amount-4" type="radio" name="amount"
+                    value="4" />
+                  <label class="form__pseudo-radio" for="radio-amount-4">1000&#8381;</label>
                 </li>
-                <li class="donat__item">
-                  <p class="donat__item-user">Аноним</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">100 &#8381;</p>
-                    <p class="donat__time">4 часа назад</p>
-                  </div>
-                </li>
-                <li class="donat__item">
-                  <p class="donat__item-user">Наталья</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">600 &#8381;</p>
-                    <p class="donat__time">4 часа назад</p>
-                  </div>
-                </li>
-                <li class="donat__item">
-                  <p class="donat__item-user">Аноним</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">500 &#8381;</p>
-                    <p class="donat__time">4 часа назад</p>
-                  </div>
-                </li>
-                <li class="donat__item">
-                  <p class="donat__item-user">Аноним</p>
-                  <div class="donat__container">
-                    <p class="donat__amount">500 &#8381;</p>
-                    <p class="donat__time">2 часа назад</p>
-                  </div>
+                <li class="form__radio form__radio_type_amount js-amount-btn">
+                  <input class="form__hide-radio js-radio-bottom-amount" id="radio-amount-5" type="radio" name="amount"
+                    value="5" />
+                  <label class="form__pseudo-radio js-amount" for="radio-amount-5">Другая сумма</label>
                 </li>
               </ul>
+              <p class="form__amount-description">
+                Регулярные пожертвования очень важны для Everland. Это то, что
+                помогает нашим программам работать бесперебойно, что открывает
+                новые востребованные проекты, что максимально эффективно
+                решает социальную задачу. Если вы захотите поддерживать наши
+                программы постоянно, то каждый месяц с вашей карты будет
+                списываться указанная вами сумма.
+              </p>
+            </fieldset>
+            <!-- СПОСОБ ОПЛАТЫ ЛИШНИЕ КЛАССЫ У ЛЕЙБЛ-->
+            <fieldset class="form__fieldset-container form__fieldset-container_el_payment">
+              <h3 class="form__subtitle">Способ оплаты</h3>
+              <ul class="form__radio-btns-container">
+                <li class="form__radio form__radio_type_payment form__radio_el_cards">
+                  <input class="form__hide-radio" id="radio-payment-1" type="radio" name="payment" value="1" checked />
+                  <label for="radio-payment-1" class="form__pseudo-radio form__pseudo-radio_height_48px"></label>
+                </li>
+                <li class="form__radio form__radio_type_payment form__radio_el_ymoney">
+                  <input class="form__hide-radio " id="radio-payment-2" type="radio" name="payment" value="2" />
+                  <label for="radio-payment-2" class="form__pseudo-radio form__pseudo-radio_height_48px"></label>
+                </li>
+                <li class="form__radio form__radio_type_payment form__radio_el_webmoney">
+                  <input class="form__hide-radio" id="radio-payment-3" type="radio" name="payment" value="3" />
+                  <label for="radio-payment-3" class="form__pseudo-radio form__pseudo-radio_height_48px"></label>
+                </li>
+                <li>
+                  <button class="form__btn-rewind" type="button"></button>
+                </li>
+              </ul>
+            </fieldset>
+            <!-- ДАННЫЕ ПОЛЬЗОВАТЕЛЯ -->
+            <fieldset class="form__fieldset-container form__fieldset-container_el_profile">
+              <h3 class="form__subtitle">Ваши данные</h3>
+              <input name="user-name" type="text" class="form__user-input form__user-input_type_name"
+                placeholder="Иван Иванов" value="" />
+              <input name="user-mail" type="email" class="form__user-input form__user-input_type_mail"
+                placeholder="myemail@example.com" value="" />
+              <!-- ЧЕБОКСЫ -->
+              <div class="form__checkboxs-container">
+                <label for="offer">
+                  <input type="checkbox" name="option" id="offer" class="form__checkbox" value="bold-heading" />
+                  <span class="form__checkbox form__checkbox_visible"></span>
+                  <span class="form__checkbox-text">Соглашаюсь с
+                    <a class="form__checkbox-link" href="#">офертой</a></span>
+                </label>
+                <label for="personal">
+                  <input type="checkbox" name="option" id="personal" class="form__checkbox" value="bold-heading" /><span
+                    class="form__checkbox form__checkbox_visible">
+                  </span>
+                  <span class="form__checkbox-text">Соглашаюсь на
+                    <a class="form__checkbox-link" href="#">обработку моих персональных данных</a></span>
+                </label>
+              </div>
+            </fieldset>
+            <button type="submit" class="button button_type_submit">
+              Поддержать
+            </button>
+            <div class="form__popup">
+              <div class="form__popup-container">
+                <fieldset class="form__fieldset-container">
+                  <input name="user-amount" type="number" class="form__user-input form__user-input_type_amount"
+                    placeholder="Укажите сумму" value="" step="1" min="10" />
+                </fieldset>
+                <button type="submit" class="button button_type_submit">
+                  Сохранить
+                </button>
+              </div>
             </div>
+          </form>
+          <!-- СЛЕДУЮЩИЙ РАЗДЕЛ -->
+          <div class="donat">
+            <h4 class="donat__title">
+              Everland создается силами многих. Мы&nbsp;благодарны каждому за
+              поддержку!
+            </h4>
+            <ul class="donat__list">
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Татьяна</p>
+                <div class="donat__container">
+                  <p class="donat__amount">600 &#8381;</p>
+                  <p class="donat__time">3 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">300 &#8381;</p>
+                  <p class="donat__time">4 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">200 &#8381;</p>
+                  <p class="donat__time">4 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">100 &#8381;</p>
+                  <p class="donat__time">4 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Наталья</p>
+                <div class="donat__container">
+                  <p class="donat__amount">600 &#8381;</p>
+                  <p class="donat__time">4 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">4 часа назад</p>
+                </div>
+              </li>
+              <li class="donat__item">
+                <p class="donat__item-user">Аноним</p>
+                <div class="donat__container">
+                  <p class="donat__amount">500 &#8381;</p>
+                  <p class="donat__time">2 часа назад</p>
+                </div>
+              </li>
+            </ul>
           </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer-brand">
-          <div class="footer-brand__logo"></div>
-          <p class="footer-brand__text">
-            Платформа Everland — инклюзивный социальный предпринимательский
-            проект.
-          </p>
-          <p class="footer-brand__text">
-            Реализуется ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей»
-          </p>
-        </div>
-        <div class="footer-links">
-          <ul class="footer-links__list">
-            <li class="footer-links__list-item">
-              <a class="footer-links__list-link" href="#">О&nbsp;проекте</a>
-            </li>
-            <li class="footer-links__list-item">
-              <a class="footer-links__list-link" href="#">Услуги</a>
-            </li>
-            <li class="footer-links__list-item">
-              <a class="footer-links__list-link" href="#"
-                >Людям с&nbsp;инвалидностью</a
-              >
-            </li>
-          </ul>
-          <ul class="footer-links__list">
-            <li class="footer-links__list-item">
-              <a class="footer-links__list-link" href="#">Программы</a>
-            </li>
-            <li class="footer-links__list-item">
-              <a class="footer-links__list-link" href="#">Платформа</a>
-            </li>
-            <li class="footer-links__list-item">
-              <a class="footer-links__list-link" href="#">Мы&nbsp;благодарим</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__sponsors-container">
-          <h4 class="heading heading_type_footer">При поддержке</h4>
-          <ul class="footer__sponsors">
-            <li>
-              <a class="footer__sponsors-beeline" href="#" target="_blank"></a>
-            </li>
-            <li>
-              <a class="footer__sponsors-fond" href="#" target="_blank"></a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__sm-container">
-          <h4 class="heading heading_type_footer">
-            Подписывайтесь на нас в соцсетях
-          </h4>
-          <ul class="footer__sm-icons">
-            <li>
-              <a href="#" class="footer__sm-icons-telegram" target="_blank"></a>
-            </li>
-            <li>
-              <a href="#" class="footer__sm-icons-vk" target="_blank"></a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__contacts">
-          <ul class="footer__telephone">
-            <li class="footer__telephone-num">+7 (495) 646 04 28</li>
-            <li class="footer__telephone-num">+7 (985) 473 08 93</li>
-          </ul>
-          <div class="footer__address">
-            Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.
-          </div>
-        </div>
-        <div class="footer__copyright">
-          <p class="footer__copyright-text">
-            © ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
-          </p>
-          <p class="footer__copyright-text">
-            Если не указано иначе, все материалы сайта доступны по лицензии
-            Creative Commons CC-BY-SA 3.0
-          </p>
-        </div>
-        <div class="footer__praktikum">
-          <a class="footer__praktikum-logo" href="#" target="_blank"></a>
-          <p class="footer__praktikum-text">
-            сделано при участии Яндекс Практикума
-          </p>
         </div>
       </div>
-    </footer>
-    <script src="./scripts/dropdown-menu.js"></script>
-    <script src="./scripts/popup-support.js"></script>
-    <script src="./scripts/slide-cards.js"></script>
-  </body>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer-brand">
+        <div class="footer-brand__logo"></div>
+        <p class="footer-brand__text">
+          Платформа Everland — инклюзивный социальный предпринимательский
+          проект.
+        </p>
+        <p class="footer-brand__text">
+          Реализуется ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей»
+        </p>
+      </div>
+      <div class="footer-links">
+        <ul class="footer-links__list">
+          <li class="footer-links__list-item">
+            <a class="footer-links__list-link" href="#">О&nbsp;проекте</a>
+          </li>
+          <li class="footer-links__list-item">
+            <a class="footer-links__list-link" href="#">Услуги</a>
+          </li>
+          <li class="footer-links__list-item">
+            <a class="footer-links__list-link" href="#">Людям с&nbsp;инвалидностью</a>
+          </li>
+        </ul>
+        <ul class="footer-links__list">
+          <li class="footer-links__list-item">
+            <a class="footer-links__list-link" href="#">Программы</a>
+          </li>
+          <li class="footer-links__list-item">
+            <a class="footer-links__list-link" href="#">Платформа</a>
+          </li>
+          <li class="footer-links__list-item">
+            <a class="footer-links__list-link" href="#">Мы&nbsp;благодарим</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__sponsors-container">
+        <h4 class="heading heading_type_footer">При поддержке</h4>
+        <ul class="footer__sponsors">
+          <li>
+            <a class="footer__sponsor footer__sponsor_type_beeline" href="#" target="_blank"></a>
+          </li>
+          <li>
+            <a class="footer__sponsor footer__sponsor_type_fond" href="#" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__sm-container">
+        <h4 class="heading heading_type_footer">
+          Подписывайтесь на нас в соцсетях
+        </h4>
+        <ul class="footer__sm-icons">
+          <li>
+            <a href="#" class="footer__sm-icon footer__sm-icon_type_telegram" target="_blank"></a>
+          </li>
+          <li>
+            <a href="#" class="footer__sm-icon footer__sm-icon_type_vk" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__contacts">
+        <ul class="footer__telephone">
+          <li class="footer__telephone-num">+7 (495) 646 04 28</li>
+          <li class="footer__telephone-num">+7 (985) 473 08 93</li>
+        </ul>
+        <div class="footer__address">
+          Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          © ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
+        </p>
+        <p class="footer__copyright-text">
+          Если не указано иначе, все материалы сайта доступны по лицензии
+          Creative Commons CC-BY-SA 3.0
+        </p>
+      </div>
+      <div class="footer__praktikum">
+        <a class="footer__praktikum-logo" href="#" target="_blank"></a>
+        <p class="footer__praktikum-text">
+          сделано при участии Яндекс Практикума
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./scripts/dropdown-menu.js"></script>
+  <script src="./scripts/popup-support.js"></script>
+  <script src="./scripts/slide-cards.js"></script>
+</body>
+
 </html>
