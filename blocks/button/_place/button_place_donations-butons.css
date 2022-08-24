@@ -1,9 +1,9 @@
-.button_order_last {
+.button_place_donations-butons {
   border: none;
   grid-area: 1 / 7 / 1 / 7;
 }
 @media screen and (max-width: 767px) {
-  .button_order_last {
+  .button_place_donations-butons {
     grid-area: 5 / 1 / 5 / span 2;
   }
 }

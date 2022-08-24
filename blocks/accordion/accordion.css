@@ -7,17 +7,20 @@
   width: 100%;
   align-self: flex-start;
 }
+
 .accordion:hover .accordion__title::after {
   content: "";
   background: url(../../images/white-plus.svg) no-repeat center;
   background-color: rgba(12, 75, 160, 1);
 }
+
 .accordion[open] .accordion__title::after {
   content: "";
   top: 20px;
   background: url(../../images/white-cross.svg) no-repeat center;
   background-color: rgba(12, 75, 160, 1);
 }
+
 .accordion[open] .accordion__title {
   content: "";
   font-size: 36px;
@@ -28,13 +31,15 @@
     font-size: 26px;
     padding: 29px 18px 21px;
   }
+
   .accordion[open] .accordion__title::after {
-    content: "";
     top: 28px;
   }
+
   .accordion:hover .accordion__title::after {
     background-size: 15px 15px;
   }
+
   .accordion {
     max-width: 688px;
     border-radius: 20px;
@@ -53,8 +58,8 @@
     padding: 20px 16px 12px;
     font-size: 18px;
   }
+
   .accordion[open] .accordion__title::after {
-    content: "";
     top: 15px;
     right: 15px;
   }
