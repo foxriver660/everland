@@ -6,6 +6,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__arrow/button__arrow.css);
 @import url(../blocks/button/_place/button_place_history.css);
+@import url(../blocks/button/_place/button_place_donations-butons.css);
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/_type/button_type_amount.css);
 @import url(../blocks/button/_type/button_type_other-sum.css);
@@ -27,7 +28,6 @@
 @import url(../blocks/button/_color/button_color_white-blue.css);
 @import url(../blocks/button/_order/button_order_third.css);
 @import url(../blocks/button/_order/button_order_fourth.css);
-@import url(../blocks/button/_order/button_order_last.css);
 @import url(../blocks/button/_width/button_width_180px.css);
 
 /*CARD*/

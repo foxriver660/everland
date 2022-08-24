@@ -1,11 +1,11 @@
 .form__fieldset-container_el_profile {
   display: flex;
   flex-direction: column;
-  margin: 0 0 24px;
+  margin: 0 0 22px;
 }
 
 @media screen and (max-width: 764px) {
   .form__fieldset-container_el_profile {
-    margin-bottom: 26px;
+    margin: 0 0 26px;
   }
 }
