@@ -19,5 +19,6 @@
     min-width: 80px;
     max-width: 80px;
     align-self: flex-start;
+    align-self: center;
   }
 }
