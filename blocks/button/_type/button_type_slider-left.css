@@ -1,5 +1,5 @@
 .button_type_slider-left {
-  border:none;
+  border: none;
   width: 35px;
   height: 35px;
   background: url(../../../images/slider-right.svg) no-repeat center;
@@ -11,23 +11,23 @@
   left: 641px;
 }
 .button_type_slider-left:hover {
-  background-color: #0C4BA0;
+  background-color: #0c4ba0;
 }
 .button_type_slider-left:active {
-  background-color: #00275C;
+  background-color: #00275c;
 }
 @media screen and (max-width: 1439px) {
   .button_type_slider-left {
-      width: 24px;
-      height: 24px;
-      background-size: 7px 7px;
-      border-radius: 6px;
-      left: 316px;
+    width: 24px;
+    height: 24px;
+    background-size: 7px 7px;
+    border-radius: 6px;
+    left: 316px;
   }
 }
 @media screen and (max-width: 767px) {
   .button_type_slider-left {
-      left: 220px;
-      bottom: 448px;
+    left: 220px;
+    bottom: 448px;
   }
 }

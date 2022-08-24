@@ -1,6 +1,5 @@
 .form__popup_opened {
   opacity: 1;
   visibility: visible;
-  transition: all .5s ease-in-out;
- 
+  transition: all 0.5s ease-in-out;
 }

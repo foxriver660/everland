@@ -1,11 +1,5 @@
-.heading_width_505px {}
-
 @media screen and (max-width: 1439px) {
   .heading_width_505px {
     max-width: 505px;
   }
-}
-
-@media screen and (max-width: 767px) {
-  .heading_width_505px {}
 }

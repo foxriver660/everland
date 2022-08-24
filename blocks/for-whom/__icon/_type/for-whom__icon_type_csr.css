@@ -1,3 +1,5 @@
 .for-whom__icon_type_csr {
   background-image: url(../../../../images/csr.svg);
+  background-color: #DAEFD5;
+  color: #319B17;
 }

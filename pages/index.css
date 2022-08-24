@@ -5,13 +5,11 @@
 /*BUTTON*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__arrow/button__arrow.css);
-@import url(../blocks/button/__submit/button__submit.css); /* TODO try to combine with button_type_support */
-@import url(../blocks/button/__section/button__section.css);
-@import url(../blocks/button/__section/_place/button__section_place_history.css);
-@import url(../blocks/button/__section/_place/button__section_place_news.css);
+@import url(../blocks/button/_place/button_place_history.css);
 @import url(../blocks/button/_type/button_type_more.css);
 @import url(../blocks/button/_type/button_type_amount.css);
 @import url(../blocks/button/_type/button_type_other-sum.css);
+@import url(../blocks/button/_type/button_type_submit.css);
 @import url(../blocks/button/_type/button_type_support.css);
 @import url(../blocks/button/_type/button_type_radio.css);
 @import url(../blocks/button/_type/button_type_left-arrow.css);
@@ -48,14 +46,13 @@
 
 /*HEADING*/
 @import url(../blocks/heading/heading.css);
-@import url(../blocks/heading/__subtitle/heading__subtitle.css);
 @import url(../blocks/heading/_type/heading_type_page.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
 @import url(../blocks/heading/_type/heading_type_section.css);
 @import url(../blocks/heading/_type/heading_type_section-margin.css);
 @import url(../blocks/heading/_type/heading_type_card.css);
 @import url(../blocks/heading/_type/heading_type_footer.css);
-@import url(../blocks/heading/_color/heading_color_blue.css);
+@import url(../blocks/heading/__span-accent/heading__span-accent.css);
 @import url(../blocks/heading/_justify/heading_justify_center.css);
 @import url(../blocks/heading/_padding/heading_padding_agency.css);
 @import url(../blocks/heading/_margin/heading_margin_small.css);
@@ -185,6 +182,7 @@
 @import url(../blocks/agency-cell/agency-cell.css);
 @import url(../blocks/agency-cell/__image/agency-cell__image.css);
 @import url(../blocks/agency-cell/__text/agency-cell__text.css);
+@import url(../blocks/agency/__subtitle/agency__subtitle.css);
 
 /* MAIN-WORK */
 @import url(../blocks/main-work/main-work.css);
