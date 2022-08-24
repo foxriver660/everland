@@ -4,11 +4,11 @@
 
 @media screen and (max-width: 1439px) {
   .form__user-input_type_mail {
-    margin: 0 0 23px 0;
+    margin: 0 0 24px 0;
   }
 }
 
-/* @media screen and (max-width: 764px) {
+/* @media screen and (max-width: 767px) {
   .form__user-input_type_mail {
     margin: 0 0 24px 0;
   }

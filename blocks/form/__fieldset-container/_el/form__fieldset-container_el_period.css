@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   .form__fieldset-container_el_period {
     margin: 0 0 32px 0;
   }

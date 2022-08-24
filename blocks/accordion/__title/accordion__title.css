@@ -20,7 +20,7 @@
 @media screen and (max-width: 1439px) {
   .accordion__title {
     font-size: 26px;
-    padding: 19px 0 19px 18px;
+    padding: 18px 0 19px 18px;
   }
 
   .accordion__title::after {

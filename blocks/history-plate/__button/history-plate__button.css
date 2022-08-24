@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1439px) {
   .history-plate__button {
-    padding: 0 38px 0 0;
+    padding: 5px 38px 0 0;
     height: 28px;
     font-size: 16px;
     line-height: 120%;
