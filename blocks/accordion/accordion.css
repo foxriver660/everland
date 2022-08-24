@@ -55,7 +55,7 @@
   }
 
   .accordion[open] .accordion__title {
-    padding: 20px 16px 12px;
+    padding: 20px 16px 25px;
     font-size: 18px;
   }
 
