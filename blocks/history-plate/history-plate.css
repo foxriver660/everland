@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 767px) {
   .history-plate {
-    margin: 0 0 32px;
+    margin: 0 0 30px;
     flex-direction: column;
     gap: 13px;
   }

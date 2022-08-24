@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .hagency__subtitle {
+  .agency__subtitle {
     padding: 0 0 24px 0;
     font-size: 16px;
     max-width: 300px;

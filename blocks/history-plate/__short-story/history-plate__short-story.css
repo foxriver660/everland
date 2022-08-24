@@ -23,6 +23,5 @@
   .history-plate__short-story {
     grid-template-columns: 80px minmax(100px, 366px);
     padding: 16px;
-    
   }
 }

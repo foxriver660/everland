@@ -4,11 +4,23 @@
   background-image: url(../../../images/header_menu-button.svg);
   background-position: center;
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-size: 29px, 24px, contain;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 1439px) {
   .header__menu-button-image {
     width: 25px;
     height: 24px;
+    background-size: 25px, 24px, contain;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-button-image {
+    width: 24px;
+    height: 20px;
+    background-size: 22px, 20px, contain;
   }
 }
