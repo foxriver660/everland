@@ -1,4 +1,4 @@
-.social-project__img_order_second {
+.social-project__img_overlap_lower {
   top: 0;
   right: 0;
   z-index: 1;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .social-project__img_order_second {
+  .social-project__img_overlap_lower {
     top: 14px;
     right: 0;
     width: 184px;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .social-project__img_order_second {
+  .social-project__img_overlap_lower {
     top: 245px;
     width: 190px;
     height: 144px;

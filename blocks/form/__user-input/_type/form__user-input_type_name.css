@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   .form__user-input_type_name {
     margin: 25px 0 16px;
   }

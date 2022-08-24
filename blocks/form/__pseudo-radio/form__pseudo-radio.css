@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   .form__pseudo-radio {
     font-size: 14px;
   }

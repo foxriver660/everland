@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   .form__radio_type_payment {
     min-width: 260px;
     max-width: 100%;

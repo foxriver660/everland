@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   .form__fieldset-container_el_payment {
     margin: 0;
   }

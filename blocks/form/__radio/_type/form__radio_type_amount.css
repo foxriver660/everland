@@ -10,7 +10,7 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 767px) {
   .form__radio_type_amount {
     max-width: 122px;
   }
