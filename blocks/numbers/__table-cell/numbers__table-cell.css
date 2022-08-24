@@ -4,13 +4,13 @@
 }
 @media screen and (max-width: 1439px) {
   .numbers__table-cell {
-  max-width: 333px;
-  min-height: 79px;
+    max-width: 333px;
+    min-height: 79px;
   }
 }
 @media screen and (max-width: 767px) {
   .numbers__table-cell {
-  max-width: 300px;
+    max-width: 300px;
   }
   .numbers__table-cell:nth-of-type(2) {
     order: 2;

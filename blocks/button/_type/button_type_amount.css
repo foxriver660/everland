@@ -1,16 +1,10 @@
-/* .button_type_radio input[type=radio] {
-	position: absolute;
-	z-index: -1;
-	opacity: 0;
-} */
-
 .button_type_amount {
   position: relative;
   display: inline-block;
   cursor: pointer;
   padding: 0;
-  background: #FFFFFF;
-  background: red;;
+  background: #ffffff;
+  background: red;
   border-radius: 10px;
   min-width: 159px;
   height: 48px;
@@ -20,25 +14,6 @@
   line-height: 120%;
   color: #333333;
   border: none;
-  font-family: 'Raleway';
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-family: "Raleway";
+  font-feature-settings: "pnum" on, "lnum" on;
 }
-
-/* .button_type_amount:hover {
-  color: #00275C;
-}
-
-@media screen and (max-width: 1439px) {
-  .button_type_amount label {
-    font-size: 16px;
-    height: 44px;
-    min-width: 75px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .button_type_amount label {
-    font-size: 14px;
-    min-width: 122px;
-  }
-} */

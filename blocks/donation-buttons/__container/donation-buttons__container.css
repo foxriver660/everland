@@ -1,9 +1,9 @@
 .donation-buttons__container {
   margin: 0 auto;
   padding: 58px 54px 58px 30px;
-  box-sizing:border-box;
+  box-sizing: border-box;
   max-width: 1360px;
-  background: #E7F0FF;
+  background: #e7f0ff;
   border-radius: 10px;
 }
 

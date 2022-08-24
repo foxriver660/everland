@@ -12,7 +12,6 @@
   content: "...........................................................................";
   margin-left: 10px;
   margin-right: 10px;
-
 }
 
 @media screen and (max-width: 767px) {
@@ -20,4 +19,3 @@
     max-width: 72%;
   }
 }
-

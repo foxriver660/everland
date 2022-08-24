@@ -2,10 +2,10 @@
   display: none;
 }
 
-.form__hide-radio:checked +.form__pseudo-radio  {
-  border-color: #0C4BA0;
+.form__hide-radio:checked + .form__pseudo-radio {
+  border-color: #0c4ba0;
 }
-.form__hide-radio:disabled + .form__pseudo-radio  {
-  border-color: #C4C4C4;
-  color: #C4C4C4;
+.form__hide-radio:disabled + .form__pseudo-radio {
+  border-color: #c4c4c4;
+  color: #c4c4c4;
 }

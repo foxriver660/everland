@@ -1,9 +1,6 @@
 .form__radio_el_ymoney {
   background-image: url(../../../../images//io\ 1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-}
+  }
 @media screen and (max-width: 1439px) {
   .form__radio_el_ymoney {
     margin: 0;

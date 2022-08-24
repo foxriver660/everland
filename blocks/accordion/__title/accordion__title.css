@@ -1,12 +1,12 @@
 .accordion__title {
   display: block;
   cursor: pointer;
-  padding: 27px 0 27px 18px;
+  padding: 28px 0 28px 18px;
 }
 
 .accordion__title::after {
   position: absolute;
-  top: 25px;
+  top: 26px;
   right: 18px;
   content: "";
   background: url(../../../images/blue-plus.svg) no-repeat center / contain;
@@ -20,8 +20,7 @@
 @media screen and (max-width: 1439px) {
   .accordion__title {
     font-size: 26px;
-    padding: 18px 0 18px 18px;
-
+    padding: 19px 0 19px 18px;
   }
 
   .accordion__title::after {
@@ -47,5 +46,4 @@
   .accordion__title:first-child .accordion__title::after {
     top: center;
   }
-
 }
