@@ -10,7 +10,7 @@
 
 .form__radio-btns-container:last-child {
   justify-content: flex-end;
-  gap: 18px
+  gap: 18px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -21,7 +21,7 @@
 
   .form__radio-btns-container:last-child {
     justify-content: flex-start;
-    gap: 16px
+    gap: 16px;
   }
 }
 

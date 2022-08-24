@@ -3,8 +3,8 @@
   padding: 9px;
   width: 35px;
   height: 35px;
-  background-color: #0C4BA0;
-  color: #FFFFFF;
+  background-color: #0c4ba0;
+  color: #ffffff;
   background-position: center;
   border: none;
   display: flex;
@@ -23,5 +23,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  .button_type_right-arrow {}
+  .button_type_right-arrow {
+  }
 }

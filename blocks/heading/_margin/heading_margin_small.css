@@ -1,14 +1,13 @@
 .heading_margin_small {
-   padding: 0 0 5px 0;
-
+  padding: 0 0 5px 0;
 }
 @media screen and (max-width: 1439px) {
-   .heading_margin_small {
-      padding-bottom: 10px;
-   }
+  .heading_margin_small {
+    padding-bottom: 10px;
+  }
 }
 @media screen and (max-width: 767px) {
-   .heading_margin_small {
-      padding-bottom: 5px;
-   }
+  .heading_margin_small {
+    padding-bottom: 5px;
+  }
 }

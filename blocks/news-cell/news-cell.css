@@ -3,11 +3,11 @@
   box-sizing: border-box;
   padding: 30px;
   border-radius: 30px;
-  border: 1px solid #DADADA;
+  border: 1px solid #dadada;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  min-height: 800px
+  min-height: 800px;
 }
 
 @media screen and (max-width: 1439px) {
@@ -21,7 +21,6 @@
   .news-cell:last-of-type {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 767px) {

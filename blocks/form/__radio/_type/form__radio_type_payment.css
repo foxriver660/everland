@@ -1,22 +1,20 @@
 .form__radio_type_payment {
   width: 100%;
   width: 186px;
-
-  }
+}
 
 @media screen and (max-width: 1439px) {
-  .form__radio_type_payment{
-        width: 190px;}
-        .form__radio_type_payment  > .form__radio_visible{
-          height: 48px;
-        }
+  .form__radio_type_payment {
+    width: 190px;
   }
-
+  .form__radio_type_payment > .form__radio_visible {
+    height: 48px;
+  }
+}
 
 @media screen and (max-width: 764px) {
   .form__radio_type_payment {
     min-width: 260px;
-    max-width: 100%
+    max-width: 100%;
   }
-
 }
