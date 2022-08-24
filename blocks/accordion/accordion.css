@@ -7,9 +7,8 @@
   width: 100%;
   align-self: flex-start;
 }
-
 .accordion:hover .accordion__title::after {
-  content:"";
+  content: "";
   background: url(../../images/white-plus.svg) no-repeat center;
   background-color: rgba(12, 75, 160, 1);
 }
@@ -20,14 +19,14 @@
   background-color: rgba(12, 75, 160, 1);
 }
 .accordion[open] .accordion__title {
-  content:"";
+  content: "";
   font-size: 36px;
-  padding: 21.5px 20px 11.5px;
+  padding: 22px 20px 12px;
 }
-@media screen and (max-width:1439px) {
+@media screen and (max-width: 1439px) {
   .accordion[open] .accordion__title {
     font-size: 26px;
-    padding: 28.5px 18px 20.5px;
+    padding: 29px 18px 21px;
   }
   .accordion[open] .accordion__title::after {
     content: "";
@@ -39,7 +38,7 @@
   .accordion {
     max-width: 688px;
     border-radius: 20px;
-}
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -60,4 +59,3 @@
     right: 15px;
   }
 }
-

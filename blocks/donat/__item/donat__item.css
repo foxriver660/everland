@@ -7,7 +7,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
 }
 
 @media screen and (max-width: 1439px) {
@@ -28,7 +28,7 @@
     padding-right: 0px;
   }
 
-  .donat__item:nth-child(6n+1) {
+  .donat__item:nth-child(6n + 1) {
     display: none;
   }
 }

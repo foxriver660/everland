@@ -1,27 +1,27 @@
-.heading__subtitle {
+.agency__subtitle {
   margin: 0;
   padding: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
   line-height: 120%;
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
   max-width: 955px;
   padding: 0 0 50px 0;
 }
 
 @media screen and (max-width: 1439px) {
-  .heading__subtitle {
+  .agency__subtitle {
     padding: 0 0 22px 0;
     font-size: 20px;
-    width: 688px;
+    max-width: 505px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .heading__subtitle {
+  .hagency__subtitle {
     padding: 0 0 24px 0;
     font-size: 16px;
-    width: 300px;
+    max-width: 300px;
   }
 }

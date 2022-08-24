@@ -1,9 +1,6 @@
 .form__radio_el_cards {
   background-image: url(../../../../images/Group\ 43.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-
-  }
+    }
 
   @media screen and (max-width: 1439px) {
     .form__radio_el_cards {

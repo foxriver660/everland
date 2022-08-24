@@ -1,4 +1,4 @@
-.button__submit {
+.button_type_submit {
   transform: translateX(-21px);
   margin: 0 auto;
   max-width: 194px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .button__submit {
+  .button_type_submit {
     transform: translateX(0);
     max-width: 200px;
     min-height: 44px;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 764px) {
-  .button__submit {
+  .button_type_submit {
     min-width: 260px;
     width: 100%;
     font-size: 14px;

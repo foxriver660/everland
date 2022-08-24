@@ -1,7 +1,7 @@
 .slider__track {
-display: flex;
-flex-direction: row;
-transition: .2s;
-width: 100%;
-position: relative;
+  display: flex;
+  flex-direction: row;
+  transition: 0.2s;
+  width: 100%;
+  position: relative;
 }

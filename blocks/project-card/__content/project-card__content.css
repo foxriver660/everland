@@ -20,10 +20,8 @@
   .project-card__content {
     display: flex;
     flex-direction: column;
-    
+
     min-height: 448px;
     width: calc(100% - 25px * 2);
- 
-    
   }
 }

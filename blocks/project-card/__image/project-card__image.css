@@ -2,7 +2,7 @@
   border-radius: 30px;
   width: 555px;
   height: 393px;
-  grid-row: span 4; 
+  grid-row: span 4;
 }
 @media screen and (max-width: 1439px) {
   .project-card__image {
@@ -13,12 +13,11 @@
   }
 }
 @media screen and (max-width: 767px) {
-    .project-card__image {
-      object-fit: cover;
-      width: 254px;
-      height: 180px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-   
-    }
+  .project-card__image {
+    object-fit: cover;
+    width: 254px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 20px;
   }
+}
