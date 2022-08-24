@@ -1,0 +1,9 @@
+.footer__sponsor {
+  min-height: 50px;
+  width: 100px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+

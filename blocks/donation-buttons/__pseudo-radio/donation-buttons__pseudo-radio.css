@@ -1,11 +1,12 @@
-.form__pseudo-radio {
+.donation-buttons__pseudo-radio {
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   padding: 0px;
   line-height: 34px;
-  border: 1px solid #dadada;
+  border: 1px solid #FFFFFF;
+  background: #FFFFFF;
   border-radius: 10px;
   user-select: none;
   height: 48px;
@@ -14,14 +15,14 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .form__pseudo-radio {
+  .donation-buttons__pseudo-radio {
     font-size: 16px;
     height: 44px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .form__pseudo-radio {
+  .donation-buttons__pseudo-radio {
     font-size: 14px;
   }
 }

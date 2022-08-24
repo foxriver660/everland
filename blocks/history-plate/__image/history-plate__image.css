@@ -19,6 +19,13 @@
     min-width: 80px;
     max-width: 80px;
     align-self: flex-start;
+  }
+
+  .history-plate__image:nth-of-type(3) {
+    align-self: center;
+  }
+
+  .history-plate__image:nth-of-type(4) {
     align-self: center;
   }
 }

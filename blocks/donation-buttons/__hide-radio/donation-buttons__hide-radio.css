@@ -1,0 +1,19 @@
+.donation-buttons__hide-radio {
+  display: none;
+  box-sizing: border-box;
+}
+
+.donation-buttons__hide-radio:checked+.donation-buttons__pseudo-radio {
+  border-color: #0c4ba0;
+}
+
+.donation-buttons__hide-radio:disabled+.donation-buttons__pseudo-radio {
+  border-color: #c4c4c4;
+  color: #c4c4c4;
+}
+
+.donation-buttons__hide-radio:active+.donation-buttons__pseudo-radio {
+
+  color: #FFFFFF;
+  background: #00275C;
+}
