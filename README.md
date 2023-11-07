@@ -3,13 +3,13 @@
   
 Website. 
   
-<font color="#47E10C">*This website was created for a charitable organization*</font>
+***This website was created for a charitable organization***
 
 * The file structure is built in accordance with the **BEM methodology** using the organization scheme of the file structure of the Nested project.
 * Used CSS Flexbox to create flexible layouts. With the help of this technology, the created website has an adaptive design.
 * **@media** queries used
 * Site interactivity on **vanilla js** (burger menu, sliders, select dropdown list)
-* team development
+* Team development
 
 # Used technologies
 
